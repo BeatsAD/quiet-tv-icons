@@ -1,14 +1,22 @@
 # Quiet TV 在线图标库
 
-Quiet TV 定制应用图标。当前 61 款苹果风横向纯图标，每款提供 720×405 正式图与 320×180 缩略图，RGBA 8-bit PNG，保留 Alpha。
+Quiet TV 定制应用图标。当前 61 款苹果风纯图标，每款提供长方形、圆角方形和圆形，共 183 个形状版本。全部为 RGBA 8-bit PNG，外轮廓以外透明。
 
-[在线浏览与按需下载](https://beatsad.github.io/quiet-tv-icons/)
+| 形状 | 正式图 | 缩略图 |
+| --- | --- | --- |
+| 长方形 | 720×405 | 320×180 |
+| 圆角方形 | 512×512 | 256×256 |
+| 圆形 | 512×512 | 256×256 |
 
-客户端先读取小型签名目录，只请求可见缩略图和选中的正式图。已应用图标独立保存，离线可用。目录使用 RSA SHA-256 签名，图片按大小及 SHA-256 校验。应用名称和品牌标识用于识别对应应用，不代表官方出品或背书。
+圆角方形和圆形共用各自主题的同一张方形母稿，统一主体比例、视觉中心和圆形安全区，保留原标识、配色及苹果风格。圆角方形使用统一的连续曲线轮廓，圆形使用标准圆轮廓；均在导出时完成抗锯齿。PNG 无损压缩，不进行调色板减色。
+
+[在线浏览与按需下载](https://beatsad.github.io/quiet-tv-icons/)  [圆角方形](https://beatsad.github.io/quiet-tv-icons/?shape=square)  [圆形](https://beatsad.github.io/quiet-tv-icons/?shape=circle)
+
+网页可切换形状、搜索和逐个下载；网页图片从同一份 `catalog.json` 获取，避免下载链接与客户端目录分离。客户端先读取小型签名目录，只请求可见缩略图和选中的正式图，不预先下载全部形状。已应用图标独立保存，离线可用。目录使用 RSA SHA-256 签名，图片按大小及 SHA-256 校验。应用名称和品牌标识用于识别对应应用，不代表官方出品或背书。
 
 下载顺序与 Quiet TV 在线更新一致：ghfast.top、gh-proxy.com、v4.gh-proxy.org，然后 GitHub Pages、GitHub Raw。第三方镜像可能不可用，客户端会依次回退并验证内容。
 
-`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。图片路径 `images/apple/v1/` 不覆盖；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
+`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。当前目录 revision 为 3，应用匹配规则 revision 仍为 1；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
 
 验证：`python3 tools/validate.py verify --root .`。CI 验证通过后才部署 GitHub Pages。
 
