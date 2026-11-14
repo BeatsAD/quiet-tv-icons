@@ -34,6 +34,23 @@ def envelope(root, name='latest.signed.json'):
     return json.loads(payload)
 
 
+def validate_matches(rules, themes):
+    if rules.get('version') != 1 or type(rules.get('revision')) is not int or rules['revision'] < 1 or not isinstance(rules.get('items'), list):
+        raise ValueError('Invalid matching rules version')
+    seen = set()
+    for row in rules['items']:
+        identity = row['id']
+        if identity not in themes or identity in seen or type(row.get('autoMatch')) is not bool:
+            raise ValueError('Invalid matching identity or confirmation state')
+        seen.add(identity)
+        if not isinstance(row.get('aliases'), list) or not row['aliases'] or any(not isinstance(name, str) or not name.strip() or len(name) > 100 for name in row['aliases']):
+            raise ValueError('Invalid matching aliases')
+        if not isinstance(row.get('packages'), list) or any(not isinstance(pkg, str) or not re.fullmatch(r'[A-Za-z0-9_]+(?:\.[A-Za-z0-9_]+)+', pkg) for pkg in row['packages']):
+            raise ValueError('Invalid matching packages')
+    if seen != themes:
+        raise ValueError('Matching rules must cover every catalog theme')
+
+
 def validate(root, name='latest.signed.json', artwork=True):
     catalog = envelope(root, name)
     if catalog['version'] != 2 or type(catalog['revision']) is not int or catalog['revision'] < 1 or len(catalog['items']) > 1024:
@@ -64,6 +81,8 @@ def validate(root, name='latest.signed.json', artwork=True):
                     if len(data) != asset['bytes'] or hashlib.sha256(data).hexdigest() != asset['sha256'] or data[:16] != b'\x89PNG\r\n\x1a\n\0\0\0\rIHDR' or struct.unpack('>IIBBBBB', data[16:29]) != (width, height, 8, 6, 0, 0, 0):
                         raise ValueError(f"Icon content differs: {asset['path']}")
                 count += 1
+    if 'matches' in catalog:
+        validate_matches(catalog['matches'], {item['id'] for item in catalog['items']})
     if artwork and (root / 'catalog.json').exists() and json.loads((root / 'catalog.json').read_bytes()) != catalog:
         raise ValueError('Gallery catalog differs from signed catalog')
     return len(seen), count
@@ -94,22 +113,38 @@ def build(args):
             variant[field] = {**{key: value[key] for key in ('width', 'height', 'bytes', 'sha256')}, 'path': path}
         items.append(dict(id=item['id'], name=item['name'], nameEn=item.get('nameEn', item['id'].replace('-', ' ').title()),
                           style='apple', source='Quiet TV custom icon design', variants=[variant]))
-    payload = encoded(dict(version=2, revision=args.revision, items=items))
-    signature = subprocess.run(['openssl', 'dgst', '-sha256', '-sign', str(args.key)], input=payload, check=True, capture_output=True).stdout
+    publish(dict(version=2, revision=args.revision, items=items), args)
+
+
+def publish(catalog, args):
+    destination = args.output
+    destination.mkdir(parents=True, exist_ok=True)
+    catalog = dict(catalog, revision=args.revision, matches=json.loads(args.matches.read_bytes()))
+    validate_matches(catalog['matches'], {item['id'] for item in catalog['items']})
+    payload = encoded(catalog)
     public = subprocess.run(['openssl', 'pkey', '-in', str(args.key), '-pubout', '-outform', 'DER'], check=True, capture_output=True).stdout
-    signed = encoded(dict(keyId=KEY_ID, payload=base64.b64encode(payload).decode(), signature=base64.b64encode(signature).decode())) + b'\n'
+    if (destination / 'public-key.der').exists() and (destination / 'public-key.der').read_bytes() != public:
+        raise ValueError('Existing icon signing key must not change')
     if (destination / 'latest.signed.json').exists():
         previous = envelope(destination)
         if previous['revision'] > args.revision or previous['revision'] == args.revision and encoded(previous) != payload:
             raise ValueError('Catalog revision must increase for changes')
+        if previous.get('matches', {}).get('revision', 0) > catalog['matches']['revision']:
+            raise ValueError('Matching rules revision must not decrease')
+        if 'matches' in previous and previous['matches']['revision'] == catalog['matches']['revision'] and previous['matches'] != catalog['matches']:
+            raise ValueError('Matching rules revision must increase for changes')
+    signature = subprocess.run(['openssl', 'dgst', '-sha256', '-sign', str(args.key)], input=payload, check=True, capture_output=True).stdout
+    signed = encoded(dict(keyId=KEY_ID, payload=base64.b64encode(payload).decode(), signature=base64.b64encode(signature).decode())) + b'\n'
+    if len(signed) > 256 * 1024:
+        raise ValueError('Icon directory exceeds 256 KiB')
     (destination / 'latest.signed.json').write_bytes(signed)
     (destination / 'public-key.der').write_bytes(public)
     (destination / 'catalog.json').write_bytes(payload + b'\n')
+    print(f'Validated online catalog: {validate(destination)}')
     if args.bootstrap:
         args.bootstrap.mkdir(parents=True, exist_ok=True)
         (args.bootstrap / 'online.json').write_bytes(signed)
         (args.bootstrap / 'public-key.der').write_bytes(public)
-    print(f'Validated online catalog: {validate(destination)}')
 
 
 def main():
@@ -118,16 +153,27 @@ def main():
     pack = sub.add_parser('build')
     pack.add_argument('--export', type=Path, required=True)
     pack.add_argument('--key', type=Path, required=True)
+    pack.add_argument('--matches', type=Path, required=True)
     pack.add_argument('--revision', type=int, required=True)
     pack.add_argument('--output', type=Path, required=True)
     pack.add_argument('--bootstrap', type=Path)
+    sign = sub.add_parser('sign', help='Publish metadata changes while reusing versioned artwork')
+    sign.add_argument('--catalog', type=Path, required=True)
+    sign.add_argument('--key', type=Path, required=True)
+    sign.add_argument('--matches', type=Path, required=True)
+    sign.add_argument('--revision', type=int, required=True)
+    sign.add_argument('--output', type=Path, required=True)
+    sign.add_argument('--bootstrap', type=Path)
     check = sub.add_parser('verify')
     check.add_argument('--root', type=Path, required=True)
     args = parser.parse_args()
-    if args.command == 'build':
+    if args.command in ('build', 'sign'):
         if args.revision < 1:
             raise ValueError('Revision must be positive')
-        build(args)
+        if args.command == 'build':
+            build(args)
+        else:
+            publish(json.loads(args.catalog.read_bytes()), args)
     else:
         print(f'Validated online catalog: {validate(args.root)}')
 

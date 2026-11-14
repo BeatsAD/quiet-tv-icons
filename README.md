@@ -11,3 +11,7 @@ Quiet TV 定制应用图标。当前 61 款苹果风横向纯图标，每款提�
 `latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。图片路径 `images/apple/v1/` 不覆盖；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
 
 验证：`python3 tools/validate.py verify --root .`。CI 验证通过后才部署 GitHub Pages。
+
+签名目录内的 `matches` 同步提供主题别名、核实包名和 `autoMatch` 确认状态，规则 revision 随规则内容变化递增，目录 revision 随任何发布变化递增。新主题必须一同登记匹配规则；身份待核对的项目使用 `autoMatch=false`，客户端不自动勾选。旧客户端可以读取同一目录并忽略新增字段，支持在线匹配规则的客户端优先使用已验签规则。
+
+仅修改规则时使用 `tools/validate.py sign --catalog catalog.json --matches <规则JSON> --key <仓库外私钥> --revision <新目录版本> --output .`，继续复用不可变图片路径。图片、别名和包名记录应逐项核对，不将待核对身份改为自动确认。
