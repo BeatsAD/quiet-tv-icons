@@ -1,22 +1,22 @@
 # Quiet TV 在线图标库
 
-Quiet TV 定制应用图标。当前 65 款苹果风纯图标，每款提供长方形、圆角方形和圆形，共 195 个形状版本。全部为 RGBA 8-bit PNG，外轮廓以外透明。
+Quiet TV 定制应用图标。覆盖 65 款应用和通用入口，提供苹果风格、拟物风格两套图标。每套 65 款，每款提供圆角矩形、圆角方形和圆形，共 390 个形状版本及对应缩略图。全部为 RGBA 8-bit PNG，外轮廓以外透明。
 
 | 形状 | 正式图 | 缩略图 |
 | --- | --- | --- |
-| 长方形 | 720×405 | 320×180 |
+| 圆角矩形 | 720×405 | 320×180 |
 | 圆角方形 | 512×512 | 256×256 |
 | 圆形 | 512×512 | 256×256 |
 
-圆角方形和圆形共用各自主题的同一张方形母稿，统一主体比例、视觉中心和圆形安全区，保留原标识、配色及苹果风格。圆角方形使用统一的连续曲线轮廓，圆形使用标准圆轮廓；均在导出时完成抗锯齿。PNG 无损压缩，不进行调色板减色。
+每种风格的三种形状沿用同款已选设计，保留应用标识和配色。苹果风格的圆角方形和圆形共用方形母稿；拟物风格使用写实的皮革、金属、玻璃、木纹与陶瓷，圆角矩形延展背景，圆形缩放主体并留出安全区，避免裁掉镜头、提手和旋钮。圆角方形使用统一的连续曲线轮廓，圆形使用标准圆轮廓；均在导出时完成抗锯齿。先按上表导出实际像素尺寸，再进行 PNG 无损压缩，不进行调色板减色。
 
-[在线浏览与按需下载](https://beatsad.github.io/quiet-tv-icons/)  [圆角方形](https://beatsad.github.io/quiet-tv-icons/?shape=square)  [圆形](https://beatsad.github.io/quiet-tv-icons/?shape=circle)
+[在线浏览与按需下载](https://beatsad.github.io/quiet-tv-icons/)  [拟物风格](https://beatsad.github.io/quiet-tv-icons/?style=skeuo)  [圆角方形](https://beatsad.github.io/quiet-tv-icons/?shape=square)  [圆形](https://beatsad.github.io/quiet-tv-icons/?shape=circle)
 
-网页按图标风格分类，当前提供苹果风格；风格选项从目录中已有图标生成。可组合风格、形状、批次和搜索筛选，并逐个下载；链接中的 `style=apple` 与 `shape=square` 等参数可保留风格和形状选择。网页图片从同一份 `catalog.json` 获取，避免下载链接与客户端目录分离。客户端先读取小型签名目录，只请求可见缩略图和选中的正式图，不预先下载全部形状。已应用图标独立保存，离线可用。目录使用 RSA SHA-256 签名，图片按大小及 SHA-256 校验。应用名称和品牌标识用于识别对应应用，不代表官方出品或背书。
+网页按图标风格分类，当前提供苹果风格和拟物风格；风格选项从目录中已有图标生成。可组合风格、形状、批次和搜索筛选，并逐个下载；链接中的 `style=apple` 与 `shape=square` 等参数可保留风格和形状选择。网页图片从同一份 `catalog.json` 获取，避免下载链接与客户端目录分离。客户端先读取小型签名目录，只请求可见缩略图和选中的正式图，不预先下载全部形状。已应用图标独立保存，离线可用。目录使用 RSA SHA-256 签名，图片按大小及 SHA-256 校验。应用名称和品牌标识用于识别对应应用，不代表官方出品或背书。
 
 下载顺序与 Quiet TV 在线更新一致：ghfast.top、gh-proxy.com、v4.gh-proxy.org，然后 GitHub Pages、GitHub Raw。第三方镜像可能不可用，客户端会依次回退并验证内容。
 
-`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。当前目录 revision 为 4，应用匹配规则 revision 为 2；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
+`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物风格三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。当前目录 revision 为 6，应用匹配规则 revision 为 2；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
 
 验证：`python3 tools/validate.py verify --root .`。CI 验证通过后才部署 GitHub Pages。
 
