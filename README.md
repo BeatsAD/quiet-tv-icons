@@ -16,7 +16,7 @@ Quiet TV 定制应用图标。覆盖 68 款应用和通用入口，苹果风格�
 
 下载顺序与 Quiet TV 在线更新一致：ghfast.top、gh-proxy.com、v4.gh-proxy.org，然后 GitHub Pages、GitHub Raw。第三方镜像可能不可用，客户端会依次回退并验证内容。
 
-`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物风格三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。新增应用助手、通知、天光云影使用 `images/apple/v4/`。应用助手、通知、天光云影的拟物风格使用 `images/skeuo/v2/`。当前目录 revision 为 8，应用匹配规则 revision 为 3；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
+`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物风格三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。新增应用助手、通知、天光云影使用 `images/apple/v4/`。应用助手、通知、天光云影的拟物风格使用 `images/skeuo/v2/`。当前目录 revision 为 9，应用匹配规则 revision 为 3；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
 
 验证：`python3 tools/validate.py verify --root .`。CI 验证通过后才部署 GitHub Pages。
 
@@ -29,3 +29,5 @@ Quiet TV 定制应用图标。覆盖 68 款应用和通用入口，苹果风格�
 新增苹果风格包括应用助手（APK 安装）、通知和天光云影。天光云影参考[原作者电视端标识](https://github.com/yaoxieyoulei/mytv-android/blob/feature/ui/tv/src/main/res/mipmap-xxxhdpi/ic_launcher.png)的蓝底光球；原版包名 `top.yogiczy.slcs.tv` 已按[构建配置](https://github.com/yaoxieyoulei/mytv-android/blob/feature/ui/tv/build.gradle.kts)核实。伪装版本不按 `com.chinablue.tv` 自动匹配，以免影响同包名的其他应用。应用助手、通知为通用图标，仅登记名称别名，不推测包名。
 
 应用助手、通知、天光云影同时提供苹果风格和拟物风格，沿用同一应用标识与匹配规则。拟物风格新增纸纹、陶瓷、搪瓷、拉丝金属、玻璃及皮革材质；三种形状使用同款设计，圆形与圆角方形共用安全区构图。
+
+苹果风格已逐项检查全部 68 款圆角矩形，修正 15 款底板内缩及部分主体偏小的问题；Clash 的圆角方形、圆形同步校准。修正版使用 `images/apple/v5/`，共 17 张正式图及对应缩略图，保持标准像素尺寸、RGBA8 和无损压缩。历史图片路径与字节保留，匹配规则不变。电视已应用的旧图需在图库中重新选择并替换后更新。
