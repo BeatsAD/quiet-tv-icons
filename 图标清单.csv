@@ -398,3 +398,12 @@
 苹果风格,天光云影,圆角矩形,images/apple/v4/icons/tianguangyunying-rectangle.png,720×405,209314,images/apple/v4/thumbnails/tianguangyunying-rectangle.png,320×180,42579,参考原作者蓝底光球标识，结合细银边电视轮廓适配苹果风格。
 苹果风格,天光云影,圆角方形,images/apple/v4/icons/tianguangyunying-square.png,512×512,175138,images/apple/v4/thumbnails/tianguangyunying-square.png,256×256,46894,参考原作者蓝底光球标识，结合细银边电视轮廓适配苹果风格。
 苹果风格,天光云影,圆形,images/apple/v4/icons/tianguangyunying-circle.png,512×512,154341,images/apple/v4/thumbnails/tianguangyunying-circle.png,256×256,42636,参考原作者蓝底光球标识，结合细银边电视轮廓适配苹果风格。
+拟物风格,应用助手,圆角矩形,images/skeuo/v2/icons/app-assistant-rectangle.png,720×405,314880,images/skeuo/v2/thumbnails/app-assistant-rectangle.png,320×180,60480,拟物软件安装包、纸纹与蓝色搪瓷安装箭头。
+拟物风格,应用助手,圆角方形,images/skeuo/v2/icons/app-assistant-square.png,512×512,255093,images/skeuo/v2/thumbnails/app-assistant-square.png,256×256,60967,拟物软件安装包、纸纹与蓝色搪瓷安装箭头。
+拟物风格,应用助手,圆形,images/skeuo/v2/icons/app-assistant-circle.png,512×512,229029,images/skeuo/v2/thumbnails/app-assistant-circle.png,256×256,55699,拟物软件安装包、纸纹与蓝色搪瓷安装箭头。
+拟物风格,通知,圆角矩形,images/skeuo/v2/icons/notifications-rectangle.png,720×405,265200,images/skeuo/v2/thumbnails/notifications-rectangle.png,320×180,56920,拟物陶瓷金属铃铛与红色玻璃提醒点。
+拟物风格,通知,圆角方形,images/skeuo/v2/icons/notifications-square.png,512×512,225312,images/skeuo/v2/thumbnails/notifications-square.png,256×256,60798,拟物陶瓷金属铃铛与红色玻璃提醒点。
+拟物风格,通知,圆形,images/skeuo/v2/icons/notifications-circle.png,512×512,203600,images/skeuo/v2/thumbnails/notifications-circle.png,256×256,56317,拟物陶瓷金属铃铛与红色玻璃提醒点。
+拟物风格,天光云影,圆角矩形,images/skeuo/v2/icons/tianguangyunying-rectangle.png,720×405,284557,images/skeuo/v2/thumbnails/tianguangyunying-rectangle.png,320×180,62467,拟物蓝色搪瓷电视、金属玻璃与皮革提手，保留蓝底光球标识。
+拟物风格,天光云影,圆角方形,images/skeuo/v2/icons/tianguangyunying-square.png,512×512,238870,images/skeuo/v2/thumbnails/tianguangyunying-square.png,256×256,65330,拟物蓝色搪瓷电视、金属玻璃与皮革提手，保留蓝底光球标识。
+拟物风格,天光云影,圆形,images/skeuo/v2/icons/tianguangyunying-circle.png,512×512,218311,images/skeuo/v2/thumbnails/tianguangyunying-circle.png,256×256,60906,拟物蓝色搪瓷电视、金属玻璃与皮革提手，保留蓝底光球标识。
