@@ -65,13 +65,13 @@
 苹果风格,耐看直播,圆角矩形,images/apple/v1/icons/naikan-live.png,720×405,248309,images/apple/v1/thumbnails/naikan-live.png,320×180,50591,本轮已确认
 苹果风格,耐看直播,圆角方形,images/apple/v2/icons/naikan-live-square.png,512×512,182915,images/apple/v2/thumbnails/naikan-live-square.png,256×256,48429,本轮已确认
 苹果风格,耐看直播,圆形,images/apple/v2/icons/naikan-live-circle.png,512×512,163585,images/apple/v2/thumbnails/naikan-live-circle.png,256×256,43829,本轮已确认
-苹果风格,看客,圆角矩形,images/apple/v1/icons/kanke.png,720×405,190082,images/apple/v1/thumbnails/kanke.png,320×180,36452,沿用已选设计
+苹果风格,看客,圆角矩形,images/apple/v5/icons/kanke-rectangle.png,720×405,196141,images/apple/v5/thumbnails/kanke-rectangle.png,320×180,37255,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,看客,圆角方形,images/apple/v2/icons/kanke-square.png,512×512,166159,images/apple/v2/thumbnails/kanke-square.png,256×256,38818,沿用已选设计
 苹果风格,看客,圆形,images/apple/v2/icons/kanke-circle.png,512×512,146014,images/apple/v2/thumbnails/kanke-circle.png,256×256,35040,沿用已选设计
-苹果风格,千寻,圆角矩形,images/apple/v1/icons/qianxun.png,720×405,233519,images/apple/v1/thumbnails/qianxun.png,320×180,48248,沿用已选设计
+苹果风格,千寻,圆角矩形,images/apple/v5/icons/qianxun-rectangle.png,720×405,208587,images/apple/v5/thumbnails/qianxun-rectangle.png,320×180,41824,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,千寻,圆角方形,images/apple/v2/icons/qianxun-square.png,512×512,184984,images/apple/v2/thumbnails/qianxun-square.png,256×256,46400,沿用已选设计
 苹果风格,千寻,圆形,images/apple/v2/icons/qianxun-circle.png,512×512,166297,images/apple/v2/thumbnails/qianxun-circle.png,256×256,43119,沿用已选设计
-苹果风格,星海直播,圆角矩形,images/apple/v1/icons/xinghai-live.png,720×405,172158,images/apple/v1/thumbnails/xinghai-live.png,320×180,37380,沿用已选设计
+苹果风格,星海直播,圆角矩形,images/apple/v5/icons/xinghai-live-rectangle.png,720×405,203821,images/apple/v5/thumbnails/xinghai-live-rectangle.png,320×180,43466,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,星海直播,圆角方形,images/apple/v2/icons/xinghai-live-square.png,512×512,169467,images/apple/v2/thumbnails/xinghai-live-square.png,256×256,44361,沿用已选设计
 苹果风格,星海直播,圆形,images/apple/v2/icons/xinghai-live-circle.png,512×512,148992,images/apple/v2/thumbnails/xinghai-live-circle.png,256×256,40247,沿用已选设计
 苹果风格,哔哩哔哩,圆角矩形,images/apple/v1/icons/bilibili.png,720×405,223699,images/apple/v1/thumbnails/bilibili.png,320×180,47660,沿用已选设计
@@ -83,7 +83,7 @@
 苹果风格,云视听小电视,圆角矩形,images/apple/v1/icons/cloud-tv.png,720×405,228404,images/apple/v1/thumbnails/cloud-tv.png,320×180,47414,沿用已选设计
 苹果风格,云视听小电视,圆角方形,images/apple/v2/icons/cloud-tv-square.png,512×512,161180,images/apple/v2/thumbnails/cloud-tv-square.png,256×256,42686,沿用已选设计
 苹果风格,云视听小电视,圆形,images/apple/v2/icons/cloud-tv-circle.png,512×512,144538,images/apple/v2/thumbnails/cloud-tv-circle.png,256×256,39154,沿用已选设计
-苹果风格,MyTVB,圆角矩形,images/apple/v1/icons/mytvb.png,720×405,195907,images/apple/v1/thumbnails/mytvb.png,320×180,44654,沿用已选设计
+苹果风格,MyTVB,圆角矩形,images/apple/v5/icons/mytvb-rectangle.png,720×405,223719,images/apple/v5/thumbnails/mytvb-rectangle.png,320×180,47997,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,MyTVB,圆角方形,images/apple/v2/icons/mytvb-square.png,512×512,186754,images/apple/v2/thumbnails/mytvb-square.png,256×256,51598,沿用已选设计
 苹果风格,MyTVB,圆形,images/apple/v2/icons/mytvb-circle.png,512×512,166271,images/apple/v2/thumbnails/mytvb-circle.png,256×256,46956,沿用已选设计
 苹果风格,虎牙,圆角矩形,images/apple/v1/icons/huya.png,720×405,254569,images/apple/v1/thumbnails/huya.png,320×180,57402,沿用已选设计
@@ -92,31 +92,31 @@
 苹果风格,斗鱼,圆角矩形,images/apple/v1/icons/douyu.png,720×405,255625,images/apple/v1/thumbnails/douyu.png,320×180,57378,沿用已选设计
 苹果风格,斗鱼,圆角方形,images/apple/v2/icons/douyu-square.png,512×512,189948,images/apple/v2/thumbnails/douyu-square.png,256×256,51641,沿用已选设计
 苹果风格,斗鱼,圆形,images/apple/v2/icons/douyu-circle.png,512×512,169163,images/apple/v2/thumbnails/douyu-circle.png,256×256,47416,沿用已选设计
-苹果风格,SmartTube,圆角矩形,images/apple/v1/icons/smarttube.png,720×405,209906,images/apple/v1/thumbnails/smarttube.png,320×180,43846,沿用已选设计
+苹果风格,SmartTube,圆角矩形,images/apple/v5/icons/smarttube-rectangle.png,720×405,197136,images/apple/v5/thumbnails/smarttube-rectangle.png,320×180,37837,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,SmartTube,圆角方形,images/apple/v2/icons/smarttube-square.png,512×512,167094,images/apple/v2/thumbnails/smarttube-square.png,256×256,43570,沿用已选设计
 苹果风格,SmartTube,圆形,images/apple/v2/icons/smarttube-circle.png,512×512,146142,images/apple/v2/thumbnails/smarttube-circle.png,256×256,38652,沿用已选设计
 苹果风格,小草,圆角矩形,images/apple/v1/icons/xiaocao.png,720×405,235039,images/apple/v1/thumbnails/xiaocao.png,320×180,50474,沿用已选设计
 苹果风格,小草,圆角方形,images/apple/v2/icons/xiaocao-square.png,512×512,169033,images/apple/v2/thumbnails/xiaocao-square.png,256×256,43982,沿用已选设计
 苹果风格,小草,圆形,images/apple/v2/icons/xiaocao-circle.png,512×512,149035,images/apple/v2/thumbnails/xiaocao-circle.png,256×256,39866,沿用已选设计
-苹果风格,当贝播放器,圆角矩形,images/apple/v1/icons/dangbei-player.png,720×405,192428,images/apple/v1/thumbnails/dangbei-player.png,320×180,39384,沿用已选设计
+苹果风格,当贝播放器,圆角矩形,images/apple/v5/icons/dangbei-player-rectangle.png,720×405,193079,images/apple/v5/thumbnails/dangbei-player-rectangle.png,320×180,38155,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,当贝播放器,圆角方形,images/apple/v2/icons/dangbei-player-square.png,512×512,161709,images/apple/v2/thumbnails/dangbei-player-square.png,256×256,40823,沿用已选设计
 苹果风格,当贝播放器,圆形,images/apple/v2/icons/dangbei-player-circle.png,512×512,141419,images/apple/v2/thumbnails/dangbei-player-circle.png,256×256,37117,沿用已选设计
-苹果风格,当贝市场,圆角矩形,images/apple/v1/icons/dangbei-market.png,720×405,199686,images/apple/v1/thumbnails/dangbei-market.png,320×180,43066,沿用已选设计
+苹果风格,当贝市场,圆角矩形,images/apple/v5/icons/dangbei-market-rectangle.png,720×405,192788,images/apple/v5/thumbnails/dangbei-market-rectangle.png,320×180,39391,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,当贝市场,圆角方形,images/apple/v2/icons/dangbei-market-square.png,512×512,163047,images/apple/v2/thumbnails/dangbei-market-square.png,256×256,41738,沿用已选设计
 苹果风格,当贝市场,圆形,images/apple/v2/icons/dangbei-market-circle.png,512×512,143516,images/apple/v2/thumbnails/dangbei-market-circle.png,256×256,38069,沿用已选设计
 苹果风格,小鸡模拟器,圆角矩形,images/apple/v1/icons/chick-emulator.png,720×405,229081,images/apple/v1/thumbnails/chick-emulator.png,320×180,48433,沿用已选设计
 苹果风格,小鸡模拟器,圆角方形,images/apple/v2/icons/chick-emulator-square.png,512×512,165476,images/apple/v2/thumbnails/chick-emulator-square.png,256×256,41362,沿用已选设计
 苹果风格,小鸡模拟器,圆形,images/apple/v2/icons/chick-emulator-circle.png,512×512,146086,images/apple/v2/thumbnails/chick-emulator-circle.png,256×256,37469,沿用已选设计
-苹果风格,Clash,圆角矩形,images/apple/v1/icons/clash.png,720×405,202991,images/apple/v1/thumbnails/clash.png,320×180,39407,沿用已选设计
-苹果风格,Clash,圆角方形,images/apple/v2/icons/clash-square.png,512×512,153108,images/apple/v2/thumbnails/clash-square.png,256×256,37182,沿用已选设计
-苹果风格,Clash,圆形,images/apple/v2/icons/clash-circle.png,512×512,135692,images/apple/v2/thumbnails/clash-circle.png,256×256,34150,沿用已选设计
+苹果风格,Clash,圆角矩形,images/apple/v5/icons/clash-rectangle.png,720×405,191191,images/apple/v5/thumbnails/clash-rectangle.png,320×180,36586,沿用已选设计  已统一底板与视觉尺寸
+苹果风格,Clash,圆角方形,images/apple/v5/icons/clash-square.png,512×512,161820,images/apple/v5/thumbnails/clash-square.png,256×256,39643,沿用已选设计  已统一底板与视觉尺寸
+苹果风格,Clash,圆形,images/apple/v5/icons/clash-circle.png,512×512,144426,images/apple/v5/thumbnails/clash-circle.png,256×256,36220,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,抖音,圆角矩形,images/apple/v1/icons/douyin.png,720×405,220721,images/apple/v1/thumbnails/douyin.png,320×180,42723,沿用已选设计
 苹果风格,抖音,圆角方形,images/apple/v2/icons/douyin-square.png,512×512,164339,images/apple/v2/thumbnails/douyin-square.png,256×256,39416,沿用已选设计
 苹果风格,抖音,圆形,images/apple/v2/icons/douyin-circle.png,512×512,144667,images/apple/v2/thumbnails/douyin-circle.png,256×256,36076,沿用已选设计
 苹果风格,爱奇艺,圆角矩形,images/apple/v1/icons/iqiyi.png,720×405,252263,images/apple/v1/thumbnails/iqiyi.png,320×180,55235,沿用已选设计
 苹果风格,爱奇艺,圆角方形,images/apple/v2/icons/iqiyi-square.png,512×512,169465,images/apple/v2/thumbnails/iqiyi-square.png,256×256,45136,沿用已选设计
 苹果风格,爱奇艺,圆形,images/apple/v2/icons/iqiyi-circle.png,512×512,149508,images/apple/v2/thumbnails/iqiyi-circle.png,256×256,40745,沿用已选设计
-苹果风格,腾讯视频,圆角矩形,images/apple/v1/icons/tencent-video.png,720×405,227673,images/apple/v1/thumbnails/tencent-video.png,320×180,46088,沿用已选设计
+苹果风格,腾讯视频,圆角矩形,images/apple/v5/icons/tencent-video-rectangle.png,720×405,201295,images/apple/v5/thumbnails/tencent-video-rectangle.png,320×180,39926,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,腾讯视频,圆角方形,images/apple/v2/icons/tencent-video-square.png,512×512,162229,images/apple/v2/thumbnails/tencent-video-square.png,256×256,41516,沿用已选设计
 苹果风格,腾讯视频,圆形,images/apple/v2/icons/tencent-video-circle.png,512×512,145290,images/apple/v2/thumbnails/tencent-video-circle.png,256×256,37906,沿用已选设计
 苹果风格,芒果TV,圆角矩形,images/apple/v1/icons/mango-tv.png,720×405,221974,images/apple/v1/thumbnails/mango-tv.png,320×180,47025,沿用已选设计
@@ -125,7 +125,7 @@
 苹果风格,优酷TV,圆角矩形,images/apple/v1/icons/youku-tv.png,720×405,221386,images/apple/v1/thumbnails/youku-tv.png,320×180,45542,沿用已选设计
 苹果风格,优酷TV,圆角方形,images/apple/v2/icons/youku-tv-square.png,512×512,151425,images/apple/v2/thumbnails/youku-tv-square.png,256×256,37980,沿用已选设计
 苹果风格,优酷TV,圆形,images/apple/v2/icons/youku-tv-circle.png,512×512,135083,images/apple/v2/thumbnails/youku-tv-circle.png,256×256,34944,沿用已选设计
-苹果风格,咪咕视频TV,圆角矩形,images/apple/v1/icons/migu-tv.png,720×405,220475,images/apple/v1/thumbnails/migu-tv.png,320×180,43534,沿用已选设计
+苹果风格,咪咕视频TV,圆角矩形,images/apple/v5/icons/migu-tv-rectangle.png,720×405,196783,images/apple/v5/thumbnails/migu-tv-rectangle.png,320×180,38477,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,咪咕视频TV,圆角方形,images/apple/v2/icons/migu-tv-square.png,512×512,163900,images/apple/v2/thumbnails/migu-tv-square.png,256×256,39753,沿用已选设计
 苹果风格,咪咕视频TV,圆形,images/apple/v2/icons/migu-tv-circle.png,512×512,144397,images/apple/v2/thumbnails/migu-tv-circle.png,256×256,36617,沿用已选设计
 苹果风格,飞牛TV,圆角矩形,images/apple/v1/icons/fntv.png,720×405,226694,images/apple/v1/thumbnails/fntv.png,320×180,48616,沿用已选设计
@@ -143,28 +143,28 @@
 苹果风格,央视频TV,圆角矩形,images/apple/v1/icons/yangshipin-tv.png,720×405,217692,images/apple/v1/thumbnails/yangshipin-tv.png,320×180,44373,沿用已选设计
 苹果风格,央视频TV,圆角方形,images/apple/v2/icons/yangshipin-tv-square.png,512×512,168519,images/apple/v2/thumbnails/yangshipin-tv-square.png,256×256,42887,沿用已选设计
 苹果风格,央视频TV,圆形,images/apple/v2/icons/yangshipin-tv-circle.png,512×512,148546,images/apple/v2/thumbnails/yangshipin-tv-circle.png,256×256,39220,沿用已选设计
-苹果风格,Kodi,圆角矩形,images/apple/v1/icons/kodi.png,720×405,204769,images/apple/v1/thumbnails/kodi.png,320×180,39321,沿用已选设计
+苹果风格,Kodi,圆角矩形,images/apple/v5/icons/kodi-rectangle.png,720×405,191077,images/apple/v5/thumbnails/kodi-rectangle.png,320×180,35878,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,Kodi,圆角方形,images/apple/v2/icons/kodi-square.png,512×512,168719,images/apple/v2/thumbnails/kodi-square.png,256×256,43510,沿用已选设计
 苹果风格,Kodi,圆形,images/apple/v2/icons/kodi-circle.png,512×512,146326,images/apple/v2/thumbnails/kodi-circle.png,256×256,38190,沿用已选设计
 苹果风格,阿里云盘,圆角矩形,images/apple/v1/icons/aliyun-drive.png,720×405,215797,images/apple/v1/thumbnails/aliyun-drive.png,320×180,47763,沿用已选设计
 苹果风格,阿里云盘,圆角方形,images/apple/v2/icons/aliyun-drive-square.png,512×512,162369,images/apple/v2/thumbnails/aliyun-drive-square.png,256×256,42970,沿用已选设计
 苹果风格,阿里云盘,圆形,images/apple/v2/icons/aliyun-drive-circle.png,512×512,144166,images/apple/v2/thumbnails/aliyun-drive-circle.png,256×256,39352,沿用已选设计
-苹果风格,百度云盘,圆角矩形,images/apple/v1/icons/baidu-drive.png,720×405,220476,images/apple/v1/thumbnails/baidu-drive.png,320×180,44308,沿用已选设计
+苹果风格,百度云盘,圆角矩形,images/apple/v5/icons/baidu-drive-rectangle.png,720×405,201167,images/apple/v5/thumbnails/baidu-drive-rectangle.png,320×180,39297,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,百度云盘,圆角方形,images/apple/v2/icons/baidu-drive-square.png,512×512,162528,images/apple/v2/thumbnails/baidu-drive-square.png,256×256,41312,沿用已选设计
 苹果风格,百度云盘,圆形,images/apple/v2/icons/baidu-drive-circle.png,512×512,146348,images/apple/v2/thumbnails/baidu-drive-circle.png,256×256,37802,沿用已选设计
 苹果风格,夸克网盘TV,圆角矩形,images/apple/v1/icons/quark-tv.png,720×405,228935,images/apple/v1/thumbnails/quark-tv.png,320×180,48802,沿用已选设计
 苹果风格,夸克网盘TV,圆角方形,images/apple/v2/icons/quark-tv-square.png,512×512,161716,images/apple/v2/thumbnails/quark-tv-square.png,256×256,40288,沿用已选设计
 苹果风格,夸克网盘TV,圆形,images/apple/v2/icons/quark-tv-circle.png,512×512,143608,images/apple/v2/thumbnails/quark-tv-circle.png,256×256,36941,沿用已选设计
-苹果风格,乐播投屏,圆角矩形,images/apple/v1/icons/lebo-cast.png,720×405,208919,images/apple/v1/thumbnails/lebo-cast.png,320×180,43563,沿用已选设计
+苹果风格,乐播投屏,圆角矩形,images/apple/v5/icons/lebo-cast-rectangle.png,720×405,191552,images/apple/v5/thumbnails/lebo-cast-rectangle.png,320×180,38891,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,乐播投屏,圆角方形,images/apple/v2/icons/lebo-cast-square.png,512×512,159299,images/apple/v2/thumbnails/lebo-cast-square.png,256×256,40370,沿用已选设计
 苹果风格,乐播投屏,圆形,images/apple/v2/icons/lebo-cast-circle.png,512×512,140113,images/apple/v2/thumbnails/lebo-cast-circle.png,256×256,36895,沿用已选设计
 苹果风格,短剧之家,圆角矩形,images/apple/v1/icons/shortdrama.png,720×405,213241,images/apple/v1/thumbnails/shortdrama.png,320×180,40765,沿用已选设计
 苹果风格,短剧之家,圆角方形,images/apple/v2/icons/shortdrama-square.png,512×512,151791,images/apple/v2/thumbnails/shortdrama-square.png,256×256,36547,沿用已选设计
 苹果风格,短剧之家,圆形,images/apple/v2/icons/shortdrama-circle.png,512×512,133887,images/apple/v2/thumbnails/shortdrama-circle.png,256×256,32972,沿用已选设计
-苹果风格,Biecuile,圆角矩形,images/apple/v1/icons/biecuile.png,720×405,242467,images/apple/v1/thumbnails/biecuile.png,320×180,50473,沿用已选设计
+苹果风格,Biecuile,圆角矩形,images/apple/v5/icons/biecuile-rectangle.png,720×405,207515,images/apple/v5/thumbnails/biecuile-rectangle.png,320×180,41630,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,Biecuile,圆角方形,images/apple/v2/icons/biecuile-square.png,512×512,181824,images/apple/v2/thumbnails/biecuile-square.png,256×256,46561,沿用已选设计
 苹果风格,Biecuile,圆形,images/apple/v2/icons/biecuile-circle.png,512×512,162189,images/apple/v2/thumbnails/biecuile-circle.png,256×256,42715,沿用已选设计
-苹果风格,网易云音乐,圆角矩形,images/apple/v1/icons/netease-music.png,720×405,219175,images/apple/v1/thumbnails/netease-music.png,320×180,46663,沿用已选设计
+苹果风格,网易云音乐,圆角矩形,images/apple/v5/icons/netease-music-rectangle.png,720×405,208541,images/apple/v5/thumbnails/netease-music-rectangle.png,320×180,43702,沿用已选设计  已统一底板与视觉尺寸
 苹果风格,网易云音乐,圆角方形,images/apple/v2/icons/netease-music-square.png,512×512,189516,images/apple/v2/thumbnails/netease-music-square.png,256×256,50870,沿用已选设计
 苹果风格,网易云音乐,圆形,images/apple/v2/icons/netease-music-circle.png,512×512,168102,images/apple/v2/thumbnails/netease-music-circle.png,256×256,46625,沿用已选设计
 苹果风格,酷狗音乐,圆角矩形,images/apple/v1/icons/kugou.png,720×405,230192,images/apple/v1/thumbnails/kugou.png,320×180,48810,沿用已选设计
