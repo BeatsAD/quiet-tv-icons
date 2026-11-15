@@ -12,7 +12,7 @@ Quiet TV 定制应用图标。当前 65 款苹果风纯图标，每款提供长�
 
 [在线浏览与按需下载](https://beatsad.github.io/quiet-tv-icons/)  [圆角方形](https://beatsad.github.io/quiet-tv-icons/?shape=square)  [圆形](https://beatsad.github.io/quiet-tv-icons/?shape=circle)
 
-网页可切换形状、搜索和逐个下载；网页图片从同一份 `catalog.json` 获取，避免下载链接与客户端目录分离。客户端先读取小型签名目录，只请求可见缩略图和选中的正式图，不预先下载全部形状。已应用图标独立保存，离线可用。目录使用 RSA SHA-256 签名，图片按大小及 SHA-256 校验。应用名称和品牌标识用于识别对应应用，不代表官方出品或背书。
+网页按图标风格分类，当前提供苹果风格；风格选项从目录中已有图标生成。可组合风格、形状、批次和搜索筛选，并逐个下载；链接中的 `style=apple` 与 `shape=square` 等参数可保留风格和形状选择。网页图片从同一份 `catalog.json` 获取，避免下载链接与客户端目录分离。客户端先读取小型签名目录，只请求可见缩略图和选中的正式图，不预先下载全部形状。已应用图标独立保存，离线可用。目录使用 RSA SHA-256 签名，图片按大小及 SHA-256 校验。应用名称和品牌标识用于识别对应应用，不代表官方出品或背书。
 
 下载顺序与 Quiet TV 在线更新一致：ghfast.top、gh-proxy.com、v4.gh-proxy.org，然后 GitHub Pages、GitHub Raw。第三方镜像可能不可用，客户端会依次回退并验证内容。
 
