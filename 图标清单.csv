@@ -182,3 +182,15 @@ QQ音乐,圆形,images/apple/v2/icons/qq-music-circle.png,512×512,155265,images
 喜马拉雅,长方形,images/apple/v1/icons/ximalaya.png,720×405,216946,images/apple/v1/thumbnails/ximalaya.png,320×180,43128,沿用已选设计
 喜马拉雅,圆角方形,images/apple/v2/icons/ximalaya-square.png,512×512,162821,images/apple/v2/thumbnails/ximalaya-square.png,256×256,39524,沿用已选设计
 喜马拉雅,圆形,images/apple/v2/icons/ximalaya-circle.png,512×512,142490,images/apple/v2/thumbnails/ximalaya-circle.png,256×256,35419,沿用已选设计
+天气,长方形,images/apple/v3/icons/weather-rectangle.png,720×405,201803,images/apple/v3/thumbnails/weather-rectangle.png,320×180,41069,新增苹果风通用图标
+天气,圆角方形,images/apple/v3/icons/weather-square.png,512×512,165578,images/apple/v3/thumbnails/weather-square.png,256×256,43717,新增苹果风通用图标
+天气,圆形,images/apple/v3/icons/weather-circle.png,512×512,148075,images/apple/v3/thumbnails/weather-circle.png,256×256,40415,新增苹果风通用图标
+媒体中心,长方形,images/apple/v3/icons/media-center-rectangle.png,720×405,224341,images/apple/v3/thumbnails/media-center-rectangle.png,320×180,46752,新增苹果风通用图标
+媒体中心,圆角方形,images/apple/v3/icons/media-center-square.png,512×512,179277,images/apple/v3/thumbnails/media-center-square.png,256×256,45590,新增苹果风通用图标
+媒体中心,圆形,images/apple/v3/icons/media-center-circle.png,512×512,159463,images/apple/v3/thumbnails/media-center-circle.png,256×256,41982,新增苹果风通用图标
+电信 IPTV,长方形,images/apple/v3/icons/telecom-iptv-rectangle.png,720×405,212175,images/apple/v3/thumbnails/telecom-iptv-rectangle.png,320×180,40779,新增苹果风设计  客户端待核对
+电信 IPTV,圆角方形,images/apple/v3/icons/telecom-iptv-square.png,512×512,171762,images/apple/v3/thumbnails/telecom-iptv-square.png,256×256,44940,新增苹果风设计  客户端待核对
+电信 IPTV,圆形,images/apple/v3/icons/telecom-iptv-circle.png,512×512,150602,images/apple/v3/thumbnails/telecom-iptv-circle.png,256×256,40944,新增苹果风设计  客户端待核对
+文件管理器,长方形,images/apple/v3/icons/file-manager-rectangle.png,720×405,194639,images/apple/v3/thumbnails/file-manager-rectangle.png,320×180,39287,新增苹果风通用图标
+文件管理器,圆角方形,images/apple/v3/icons/file-manager-square.png,512×512,159646,images/apple/v3/thumbnails/file-manager-square.png,256×256,39238,新增苹果风通用图标
+文件管理器,圆形,images/apple/v3/icons/file-manager-circle.png,512×512,142227,images/apple/v3/thumbnails/file-manager-circle.png,256×256,35683,新增苹果风通用图标
