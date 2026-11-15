@@ -143,10 +143,11 @@ function zip(entries) {
   const crc = bytes => { let n = 0xffffffff; for (const b of bytes) n = table[(n ^ b) & 255] ^ (n >>> 8); return (n ^ 0xffffffff) >>> 0; };
   const header = size => { const bytes = new Uint8Array(size); return [bytes, new DataView(bytes.buffer)]; };
   let offset = 0; const local = [], central = [];
+  // ZIP DOS date 33 means 1980-01-01; keep archive timestamps valid and reproducible.
   for (const entry of entries) {
     const name = encoder.encode(entry.name), checksum = crc(entry.bytes), [a, av] = header(30 + name.length), [b, bv] = header(46 + name.length);
-    av.setUint32(0, 0x04034b50, true); av.setUint16(4, 20, true); av.setUint16(6, 0x800, true); av.setUint32(14, checksum, true); av.setUint32(18, entry.bytes.length, true); av.setUint32(22, entry.bytes.length, true); av.setUint16(26, name.length, true); a.set(name, 30);
-    bv.setUint32(0, 0x02014b50, true); bv.setUint16(4, 20, true); bv.setUint16(6, 20, true); bv.setUint16(8, 0x800, true); bv.setUint32(16, checksum, true); bv.setUint32(20, entry.bytes.length, true); bv.setUint32(24, entry.bytes.length, true); bv.setUint16(28, name.length, true); bv.setUint32(42, offset, true); b.set(name, 46);
+    av.setUint32(0, 0x04034b50, true); av.setUint16(4, 20, true); av.setUint16(6, 0x800, true); av.setUint16(12, 33, true); av.setUint32(14, checksum, true); av.setUint32(18, entry.bytes.length, true); av.setUint32(22, entry.bytes.length, true); av.setUint16(26, name.length, true); a.set(name, 30);
+    bv.setUint32(0, 0x02014b50, true); bv.setUint16(4, 20, true); bv.setUint16(6, 20, true); bv.setUint16(8, 0x800, true); bv.setUint16(14, 33, true); bv.setUint32(16, checksum, true); bv.setUint32(20, entry.bytes.length, true); bv.setUint32(24, entry.bytes.length, true); bv.setUint16(28, name.length, true); bv.setUint32(42, offset, true); b.set(name, 46);
     local.push(a, entry.bytes); central.push(b); offset += a.length + entry.bytes.length;
   }
   const centralSize = central.reduce((s, b) => s + b.length, 0), [end, view] = header(22);
