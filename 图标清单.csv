@@ -389,3 +389,12 @@
 拟物风格,文件管理器,圆角矩形,images/skeuo/v1/icons/file-manager-rectangle.png,720×405,376646,images/skeuo/v1/thumbnails/file-manager-rectangle.png,320×180,73333,拟物风格设计稿
 拟物风格,文件管理器,圆角方形,images/skeuo/v1/icons/file-manager-square.png,512×512,419589,images/skeuo/v1/thumbnails/file-manager-square.png,256×256,108537,拟物风格设计稿
 拟物风格,文件管理器,圆形,images/skeuo/v1/icons/file-manager-circle.png,512×512,292008,images/skeuo/v1/thumbnails/file-manager-circle.png,256×256,81312,拟物风格设计稿
+苹果风格,应用助手,圆角矩形,images/apple/v4/icons/app-assistant-rectangle.png,720×405,213539,images/apple/v4/thumbnails/app-assistant-rectangle.png,320×180,37915,以软件安装包与蓝色向下箭头表达 APK 安装，原创通用图标。
+苹果风格,应用助手,圆角方形,images/apple/v4/icons/app-assistant-square.png,512×512,177530,images/apple/v4/thumbnails/app-assistant-square.png,256×256,44478,以软件安装包与蓝色向下箭头表达 APK 安装，原创通用图标。
+苹果风格,应用助手,圆形,images/apple/v4/icons/app-assistant-circle.png,512×512,159292,images/apple/v4/thumbnails/app-assistant-circle.png,256×256,40746,以软件安装包与蓝色向下箭头表达 APK 安装，原创通用图标。
+苹果风格,通知,圆角矩形,images/apple/v4/icons/notifications-rectangle.png,720×405,210497,images/apple/v4/thumbnails/notifications-rectangle.png,320×180,44822,以珍珠白铃铛与红色提醒点表达通知，原创通用图标。
+苹果风格,通知,圆角方形,images/apple/v4/icons/notifications-square.png,512×512,178836,images/apple/v4/thumbnails/notifications-square.png,256×256,49100,以珍珠白铃铛与红色提醒点表达通知，原创通用图标。
+苹果风格,通知,圆形,images/apple/v4/icons/notifications-circle.png,512×512,158757,images/apple/v4/thumbnails/notifications-circle.png,256×256,45331,以珍珠白铃铛与红色提醒点表达通知，原创通用图标。
+苹果风格,天光云影,圆角矩形,images/apple/v4/icons/tianguangyunying-rectangle.png,720×405,209314,images/apple/v4/thumbnails/tianguangyunying-rectangle.png,320×180,42579,参考原作者蓝底光球标识，结合细银边电视轮廓适配苹果风格。
+苹果风格,天光云影,圆角方形,images/apple/v4/icons/tianguangyunying-square.png,512×512,175138,images/apple/v4/thumbnails/tianguangyunying-square.png,256×256,46894,参考原作者蓝底光球标识，结合细银边电视轮廓适配苹果风格。
+苹果风格,天光云影,圆形,images/apple/v4/icons/tianguangyunying-circle.png,512×512,154341,images/apple/v4/thumbnails/tianguangyunying-circle.png,256×256,42636,参考原作者蓝底光球标识，结合细银边电视轮廓适配苹果风格。
