@@ -20,6 +20,8 @@ Quiet TV 定制应用图标。覆盖 68 款应用和通用入口，苹果风格�
 
 验证：`python3 tools/validate.py verify --root .`。CI 验证通过后才部署 GitHub Pages。
 
+新增或修订苹果图标使用[统一导出器](https://beatsad.github.io/quiet-tv-icons/tools/export.html)及[制作与发布规范](tools/design/README.md)：透明主体按六款确认稿标定，背景与三种形状按固定模板导出，每批生成深浅背景和小尺寸对照稿。新资源必须登记视觉复核结果；外轮廓、主体裁切、尺寸、格式或哈希错误阻止签名和发布，主体比例偏差超过 5% 时须填写复核原因。历史 PNG 只允许按固定哈希复用。此检查仅在制作和 CI 阶段运行，不增加电视端下载和运行工作。
+
 签名目录内的 `matches` 同步提供主题别名、核实包名和 `autoMatch` 确认状态，规则 revision 随规则内容变化递增，目录 revision 随任何发布变化递增。新主题必须一同登记匹配规则；身份待核对的项目使用 `autoMatch=false`，客户端不自动勾选。旧客户端可以读取同一目录并忽略新增字段，支持在线匹配规则的客户端优先使用已验签规则。
 
 仅修改规则时使用 `tools/validate.py sign --catalog catalog.json --matches <规则JSON> --key <仓库外私钥> --revision <新目录版本> --output .`，继续复用不可变图片路径。图片、别名和包名记录应逐项核对，不将待核对身份改为自动确认。

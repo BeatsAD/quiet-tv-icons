@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "exporter": "quiettv-design-1",
+  "spanTolerance": 0.05,
+  "centerTolerance": 0.02,
+  "coreAlpha": 192,
+  "clipAlpha": 8,
+  "templates": {
+    "rectangle": {
+      "image": {
+        "path": "tools/design/templates/rectangle-image.png",
+        "width": 720,
+        "height": 405,
+        "sha256": "fb3a2ae12a161528e025d83ece1f38ce20317f5662d5aaa1c19387cd1d26f776"
+      },
+      "thumbnail": {
+        "path": "tools/design/templates/rectangle-thumbnail.png",
+        "width": 320,
+        "height": 180,
+        "sha256": "805c5f25948cc5f5555bad04681786191a7214a35fe7bb976a0236eb27c78fa8"
+      }
+    },
+    "square": {
+      "image": {
+        "path": "tools/design/templates/square-image.png",
+        "width": 512,
+        "height": 512,
+        "sha256": "03dd381707d08015503d65e8ee09125aed42196cf5385d678d009051935cfb1e"
+      },
+      "thumbnail": {
+        "path": "tools/design/templates/square-thumbnail.png",
+        "width": 256,
+        "height": 256,
+        "sha256": "67f9f0145f0bc3defa4d0fbd5229cd0dda4fa584ad34ac4a8d78fc4bf022b7bc"
+      }
+    },
+    "circle": {
+      "image": {
+        "path": "tools/design/templates/circle-image.png",
+        "width": 512,
+        "height": 512,
+        "sha256": "407792a6f95d46d4a648001331d6076f5a1297c0752bc11aa94b996af2832276"
+      },
+      "thumbnail": {
+        "path": "tools/design/templates/circle-thumbnail.png",
+        "width": 256,
+        "height": 256,
+        "sha256": "a4ec1cd1460f88a675f27998ca9f56c8876e0a27573d06e8bd0233cdb563afc6"
+      }
+    }
+  },
+  "references": [
+    {
+      "id": "clash",
+      "name": "Clash",
+      "style": "apple",
+      "variants": {
+        "rectangle": {
+          "path": "images/apple/v5/icons/clash-rectangle.png",
+          "sha256": "4204fdd23695efba248c166d0740da3abb54a0ae14142e7df69fb418a55d1f92",
+          "width": 720,
+          "height": 405,
+          "core": [
+            180,
+            51,
+            506,
+            349
+          ]
+        },
+        "square": {
+          "path": "images/apple/v5/icons/clash-square.png",
+          "sha256": "4d2bd628f8adc0025477d18085c4e5f24a2574a31d2bd062820727f062982451",
+          "width": 512,
+          "height": 512,
+          "core": [
+            62,
+            74,
+            432,
+            412
+          ]
+        },
+        "circle": {
+          "path": "images/apple/v5/icons/clash-circle.png",
+          "sha256": "f61541d5f26bccfdef7ef19b9e6b62d9b96e9eba0f59fa95cbf8b1ee16f4a1be",
+          "width": 512,
+          "height": 512,
+          "core": [
+            62,
+            74,
+            432,
+            412
+          ]
+        }
+      }
+    },
+    {
+      "id": "hongguo",
+      "name": "红果 TV",
+      "style": "apple",
+      "variants": {
+        "rectangle": {
+          "path": "images/apple/v1/icons/hongguo.png",
+          "sha256": "a977a45df5f17f3b64f5249eb451d4c32c69312ee691b31995868eaffd0fdef0",
+          "width": 720,
+          "height": 405,
+          "core": [
+            215,
+            44,
+            495,
+            357
+          ]
+        },
+        "square": {
+          "path": "images/apple/v2/icons/hongguo-square.png",
+          "sha256": "d4a6eb510b3174518e1b8b71396d6cd41636494ef3b4e2a74409ee885a4b0739",
+          "width": 512,
+          "height": 512,
+          "core": [
+            100,
+            77,
+            398,
+            415
+          ]
+        },
+        "circle": {
+          "path": "images/apple/v2/icons/hongguo-circle.png",
+          "sha256": "7fc7ad04f99d0dc55e55324b859fcafeeccbe4809fbee5050084ea7b085a89f5",
+          "width": 512,
+          "height": 512,
+          "core": [
+            100,
+            77,
+            398,
+            415
+          ]
+        }
+      }
+    },
+    {
+      "id": "video-warehouse",
+      "name": "影视仓",
+      "style": "apple",
+      "variants": {
+        "rectangle": {
+          "path": "images/apple/v1/icons/video-warehouse.png",
+          "sha256": "79466ed50a7cb443882c9cba82d98149916f70cdcfefd24c0f9a88716ac94c33",
+          "width": 720,
+          "height": 405,
+          "core": [
+            166,
+            68,
+            550,
+            332
+          ]
+        },
+        "square": {
+          "path": "images/apple/v2/icons/video-warehouse-square.png",
+          "sha256": "0a963e5f4aa31ebb735c1571cb5b1e92544f3d7fe1547d645a6ace48dcc5cfae",
+          "width": 512,
+          "height": 512,
+          "core": [
+            82,
+            120,
+            436,
+            370
+          ]
+        },
+        "circle": {
+          "path": "images/apple/v2/icons/video-warehouse-circle.png",
+          "sha256": "3c661f9329966dc5719c32508a55c70f82c4109e14b05e4276b993d63e0dba44",
+          "width": 512,
+          "height": 512,
+          "core": [
+            82,
+            120,
+            436,
+            370
+          ]
+        }
+      }
+    },
+    {
+      "id": "honey-video",
+      "name": "蜂蜜影视",
+      "style": "apple",
+      "variants": {
+        "rectangle": {
+          "path": "images/apple/v1/icons/honey-video.png",
+          "sha256": "c9a77c76e5a6b52a364cf8fb7b4024604f334b072837591b09b8f4b661316896",
+          "width": 720,
+          "height": 405,
+          "core": [
+            195,
+            50,
+            515,
+            360
+          ]
+        },
+        "square": {
+          "path": "images/apple/v2/icons/honey-video-square.png",
+          "sha256": "d32360c95ff91ef1030d6f44062ff087b4e914305378d55b8b2082693c1d72a1",
+          "width": 512,
+          "height": 512,
+          "core": [
+            86,
+            88,
+            418,
+            414
+          ]
+        },
+        "circle": {
+          "path": "images/apple/v2/icons/honey-video-circle.png",
+          "sha256": "0ec37e1fcdcb5bd0aee34e1191f62497840dc8bd79c8eab63e9cda3aa2bc2554",
+          "width": 512,
+          "height": 512,
+          "core": [
+            86,
+            88,
+            418,
+            414
+          ]
+        }
+      }
+    },
+    {
+      "id": "super-live",
+      "name": "超级直播",
+      "style": "apple",
+      "variants": {
+        "rectangle": {
+          "path": "images/apple/v1/icons/super-live.png",
+          "sha256": "67df6eefde0acdcf7718a5c0dc5a9b95b7db63110c6c785771307f6cce73362e",
+          "width": 720,
+          "height": 405,
+          "core": [
+            196,
+            65,
+            516,
+            341
+          ]
+        },
+        "square": {
+          "path": "images/apple/v2/icons/super-live-square.png",
+          "sha256": "358259c6f6c4724e946a216928845fcf8182964dc36007c999849bda023c6584",
+          "width": 512,
+          "height": 512,
+          "core": [
+            83,
+            106,
+            432,
+            405
+          ]
+        },
+        "circle": {
+          "path": "images/apple/v2/icons/super-live-circle.png",
+          "sha256": "9e2eb9d13571bef411cac69a6ad1ae9d5f71bda4cfb015b2a0e692cba1a7c636",
+          "width": 512,
+          "height": 512,
+          "core": [
+            83,
+            106,
+            432,
+            405
+          ]
+        }
+      }
+    },
+    {
+      "id": "newbox",
+      "name": "New Box／NewBox",
+      "style": "apple",
+      "variants": {
+        "rectangle": {
+          "path": "images/apple/v1/icons/newbox.png",
+          "sha256": "46102ff59f93da99bda1eb8dcf01011565d8e2697e4a9a250039e48d28c08bf6",
+          "width": 720,
+          "height": 405,
+          "core": [
+            194,
+            66,
+            524,
+            331
+          ]
+        },
+        "square": {
+          "path": "images/apple/v2/icons/newbox-square.png",
+          "sha256": "53c3d9f455c2106652022b3d3d00d291576c267807669b82b0263b571deb38fe",
+          "width": 512,
+          "height": 512,
+          "core": [
+            86,
+            108,
+            428,
+            393
+          ]
+        },
+        "circle": {
+          "path": "images/apple/v2/icons/newbox-circle.png",
+          "sha256": "ec1e834eb9946aa12901ac27746737315a0ab414c090702cc9249250a89bb691",
+          "width": 512,
+          "height": 512,
+          "core": [
+            86,
+            108,
+            428,
+            393
+          ]
+        }
+      }
+    }
+  ]
+}

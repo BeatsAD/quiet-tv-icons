@@ -11,6 +11,8 @@ jobs:
     name: Validate
     runs-on: ubuntu-24.04
     timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
@@ -22,3 +24,8 @@ jobs:
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: git diff --exit-code --no-renames --diff-filter=MD "$BASE_SHA" -- images/
+      - name: Preserve historical design exemptions
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: git diff --exit-code --no-renames --diff-filter=MD "$BASE_SHA" -- tools/design/legacy-assets.json

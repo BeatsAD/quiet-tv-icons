@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "your-app",
+      "name": "应用名称",
+      "nameEn": "Your App",
+      "reference": "clash",
+      "rectangle": {
+        "foreground": "your-app-rectangle.png",
+        "background": ["#f9f9fc", "#e7e8f5"],
+        "scale": 1,
+        "offset": [0, 0]
+      },
+      "square": {
+        "foreground": "your-app-square.png",
+        "background": ["#f9f9fc", "#e1e4fc"],
+        "scale": 1,
+        "offset": [0, 0]
+      }
+    }
+  ]
+}

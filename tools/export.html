@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quiet TV 图标统一导出</title>
+<style>
+  :root{color-scheme:dark}body{font:16px/1.6 system-ui;margin:0;background:#17181c;color:#eee}main{max-width:1120px;margin:40px auto;padding:0 24px}h1{font-size:28px}h2{font-size:19px}p{color:#bdbdc6}a{color:#93bcff}fieldset{border:1px solid #454750;border-radius:16px;margin:24px 0;padding:24px}label{display:block;margin:14px 0}input,button{font:inherit}input{max-width:100%}button{padding:10px 20px;border:1px solid #6f768b;border-radius:10px;background:#344d7c;color:white;margin:8px 12px 8px 0;cursor:pointer}button:disabled{opacity:.4;cursor:default}button:focus-visible,input:focus-visible{outline:3px solid #9bc0ff;outline-offset:4px}#status{white-space:pre-wrap}#status.error{color:#ffb8ac}.references,.triplet{display:flex;flex-wrap:wrap;gap:16px}.reference{background:#25262c;border-radius:12px;padding:12px}.reference img{width:160px;height:90px;object-fit:contain}figure{margin:0;text-align:center}figure img{object-fit:contain;max-width:100%;height:auto}figcaption{font-size:14px}.candidate{margin:24px 0;border:1px solid #454750;border-radius:16px;overflow:hidden}.candidate h2{padding:8px 20px}.pair{display:flex;flex-wrap:wrap;gap:20px;padding:24px;align-items:center}.dark{background:#111;color:#eee}.light{background:#eee;color:#222}.metrics{padding:4px 20px;font-size:14px}code{overflow-wrap:anywhere}small{display:block;color:#bdbdc6}
+</style>
+<main>
+  <h1>Quiet TV 图标统一导出</h1>
+  <p>透明主体按确认基准缩放，背景和三种形状使用固定模板。文件只在本浏览器处理。</p>
+  <p><a href="design/README.md">制作与发布说明</a>  <a href="design/example.json" download>下载配方示例</a>  <a href="../">在线图标库</a></p>
+  <div id="references" class="references" aria-label="六款确认基准"></div>
+  <fieldset>
+    <legend>准备本批素材</legend>
+    <label>配方 JSON <input id="recipe" type="file" accept=".json,application/json"></label>
+    <label>透明前景 PNG（可多选） <input id="foregrounds" type="file" accept="image/png" multiple></label>
+    <small>前景宽高至少 1024 px。每个主题提供矩形和方形构图，圆形复用方形主体；前景不绘制外底板。主体阴影应保留透明度。</small>
+    <button id="export" disabled>生成三种形状与对照</button>
+    <button id="download" disabled>下载本批 ZIP</button>
+    <p id="status" role="status" aria-live="polite">正在读取模板…</p>
+  </fieldset>
+  <div id="preview"></div>
+</main>
+<script type="module" src="export.js"></script>
+</html>
