@@ -9,6 +9,7 @@ import re
 import struct
 import subprocess
 import tempfile
+from design_quality import verify as verify_design
 
 KEY_ID = 'quiettv-icons-1'
 PATH = re.compile(r'images/[a-z0-9-]+/v[1-9][0-9]*/(?:icons|thumbnails)/[a-z0-9-]+\.png')
@@ -85,6 +86,8 @@ def validate(root, name='latest.signed.json', artwork=True):
         validate_matches(catalog['matches'], {item['id'] for item in catalog['items']})
     if artwork and (root / 'catalog.json').exists() and json.loads((root / 'catalog.json').read_bytes()) != catalog:
         raise ValueError('Gallery catalog differs from signed catalog')
+    if artwork:
+        verify_design(root, catalog)
     return len(seen), count
 
 
@@ -122,6 +125,7 @@ def publish(catalog, args):
     catalog = dict(catalog, revision=args.revision, matches=json.loads(args.matches.read_bytes()))
     validate_matches(catalog['matches'], {item['id'] for item in catalog['items']})
     payload = encoded(catalog)
+    verify_design(destination, catalog)
     public = subprocess.run(['openssl', 'pkey', '-in', str(args.key), '-pubout', '-outform', 'DER'], check=True, capture_output=True).stdout
     if (destination / 'public-key.der').exists() and (destination / 'public-key.der').read_bytes() != public:
         raise ValueError('Existing icon signing key must not change')
