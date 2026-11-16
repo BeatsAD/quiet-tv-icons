@@ -1,6 +1,6 @@
 # Quiet TV 在线图标库
 
-Quiet TV 定制应用图标。覆盖 68 款应用和通用入口，苹果风格与拟物风格各 68 款。每款提供圆角矩形、圆角方形和圆形，共 408 个形状版本及对应缩略图。全部为 RGBA 8-bit PNG，外轮廓以外透明。
+Quiet TV 定制应用图标。覆盖 69 款应用和通用入口，其中苹果风格 69 款、拟物风格 68 款。每款设计提供圆角矩形、圆角方形和圆形，共 411 个形状版本及对应缩略图。全部为 RGBA 8-bit PNG，外轮廓以外透明。
 
 | 形状 | 正式图 | 缩略图 |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Quiet TV 定制应用图标。覆盖 68 款应用和通用入口，苹果风格�
 
 下载顺序与 Quiet TV 在线更新一致：ghfast.top、gh-proxy.com、v4.gh-proxy.org，然后 GitHub Pages、GitHub Raw。第三方镜像可能不可用，客户端会依次回退并验证内容。
 
-`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物风格三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。新增应用助手、通知、天光云影使用 `images/apple/v4/`。应用助手、通知、天光云影的拟物风格使用 `images/skeuo/v2/`。当前目录 revision 为 9，应用匹配规则 revision 为 3；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
+`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物风格三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。新增应用助手、通知、天光云影使用 `images/apple/v4/`。应用助手、通知、天光云影的拟物风格使用 `images/skeuo/v2/`。当前目录 revision 为 10，应用匹配规则 revision 为 4；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
 
 验证：`python3 tools/validate.py verify --root .`。CI 验证通过后才部署 GitHub Pages。
 
@@ -33,3 +33,5 @@ Quiet TV 定制应用图标。覆盖 68 款应用和通用入口，苹果风格�
 应用助手、通知、天光云影同时提供苹果风格和拟物风格，沿用同一应用标识与匹配规则。拟物风格新增纸纹、陶瓷、搪瓷、拉丝金属、玻璃及皮革材质；三种形状使用同款设计，圆形与圆角方形共用安全区构图。
 
 苹果风格已逐项检查全部 68 款圆角矩形，修正 15 款底板内缩及部分主体偏小的问题；Clash 的圆角方形、圆形同步校准。修正版使用 `images/apple/v5/`，共 17 张正式图及对应缩略图，保持标准像素尺寸、RGBA8 和无损压缩。历史图片路径与字节保留，匹配规则不变。电视已应用的旧图需在图库中重新选择并替换后更新。
+
+新增 QuietTV 苹果风格图标，采用冰蓝、浅天青、雾蓝和蓝灰的乳白磨砂 Q 标识，搭配炭黑底板。三种形状及缩略图使用 `images/apple/v6/`，已通过固定导出、轮廓、比例、尺寸、无损压缩和签名校验；网页归入系统工具。应用匹配核对通用包、独立测试包与酷开包，支持 QuietTV、Quiet TV 及 Quiet TV 2.0 测试名称。当前图库资源发布不替换 APK 内的应用图标。
