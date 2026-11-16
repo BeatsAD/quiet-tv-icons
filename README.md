@@ -12,7 +12,7 @@ Quiet TV 定制应用图标。覆盖 68 款应用和通用入口，苹果风格�
 
 [在线浏览与按需下载](https://beatsad.github.io/quiet-tv-icons/)  [拟物风格](https://beatsad.github.io/quiet-tv-icons/?style=skeuo)  [圆角方形](https://beatsad.github.io/quiet-tv-icons/?shape=square)  [圆形](https://beatsad.github.io/quiet-tv-icons/?shape=circle)
 
-网页按图标风格分类，当前提供苹果风格和拟物风格；风格选项从目录中已有图标生成。可组合风格、形状、批次和搜索筛选，并逐个下载；链接中的 `style=apple` 与 `shape=square` 等参数可保留风格和形状选择。网页图片从同一份 `catalog.json` 获取，避免下载链接与客户端目录分离。客户端先读取小型签名目录，只请求可见缩略图和选中的正式图，不预先下载全部形状。已应用图标独立保存，离线可用。目录使用 RSA SHA-256 签名，图片按大小及 SHA-256 校验。应用名称和品牌标识用于识别对应应用，不代表官方出品或背书。
+网页按应用用途类别分组，提供影视视频、直播应用、综合娱乐、音乐音频、网盘存储、投屏互联、系统工具、游戏娱乐、运动健康和其他应用，不再展示制作批次或身份状态筛选。可组合类别、风格、形状和搜索筛选，并逐个下载；链接中的 `category=video`、`style=apple` 与 `shape=square` 等参数可保留选择，同一主题在不同风格下归类一致。新主题在网页元数据中登记用途类别，功能尚未确认的条目归入其他应用。网页图片从同一份 `catalog.json` 获取，避免下载链接与客户端目录分离。客户端先读取小型签名目录，只请求可见缩略图和选中的正式图，不预先下载全部形状。已应用图标独立保存，离线可用。目录使用 RSA SHA-256 签名，图片按大小及 SHA-256 校验。应用名称和品牌标识用于识别对应应用，不代表官方出品或背书。
 
 下载顺序与 Quiet TV 在线更新一致：ghfast.top、gh-proxy.com、v4.gh-proxy.org，然后 GitHub Pages、GitHub Raw。第三方镜像可能不可用，客户端会依次回退并验证内容。
 
