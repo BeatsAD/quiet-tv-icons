@@ -1,1 +1,188 @@
-{"version":1,"items":[]}
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "quiettv",
+      "name": "QuietTV",
+      "nameEn": "QuietTV",
+      "style": "apple",
+      "form": "icon",
+      "shape": "rectangle",
+      "reference": "super-live",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "foreground-v7.png",
+        "sha256": "7f76239ed092ebfde1c9847c7a90f62d41ce23050ba5adea6c76355b087e3a2e",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          155,
+          252,
+          1088,
+          1015
+        ]
+      },
+      "subject": {
+        "core": [
+          189.6,
+          66.91939978563775,
+          522.4,
+          339.08060021436233
+        ],
+        "paint": [
+          186.74640943193998,
+          63.352411575562726,
+          524.8968917470525,
+          340.15069667738476
+        ],
+        "transform": [
+          134.31168274383708,
+          -22.968703108252924,
+          0.35669882100750266
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 127525,
+        "sha256": "78d994873c7ba61202f60e61000804e5a97c949c0cdc91eacee57b6be6ac17d8",
+        "path": "images/apple/v6/icons/quiettv-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 25735,
+        "sha256": "cb645e752093bdd73165ad53462f8c3c4de17006225ea53c32ca5c15596895ba",
+        "path": "images/apple/v6/thumbnails/quiettv-rectangle.png"
+      },
+      "review": {
+        "note": "用户已确认冰蓝近色磨砂方案。保留 Q 形屏幕、右下尾笔和短底座；浅天青与雾蓝蓝灰形成局部冷色过渡。已查看三种形状、深浅背景和小尺寸对照，主体视觉重量接近超级直播基准，比例与中心无警告，无轮廓裁切或明显杂边。",
+        "deviationNote": ""
+      }
+    },
+    {
+      "id": "quiettv",
+      "name": "QuietTV",
+      "nameEn": "QuietTV",
+      "style": "apple",
+      "form": "icon",
+      "shape": "square",
+      "reference": "super-live",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "foreground-v7.png",
+        "sha256": "7f76239ed092ebfde1c9847c7a90f62d41ce23050ba5adea6c76355b087e3a2e",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          155,
+          252,
+          1088,
+          1015
+        ]
+      },
+      "subject": {
+        "core": [
+          76.02000000000001,
+          107.08709539121114,
+          438.98,
+          403.91290460878884
+        ],
+        "paint": [
+          72.90780278670954,
+          103.19684887459806,
+          441.7031725616291,
+          405.0799785637728
+        ],
+        "transform": [
+          15.721178992497329,
+          9.052883172561621,
+          0.3890246516613076
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 103842,
+        "sha256": "38b216dcb09b2b5be65302d280b709d1c6590d19a96473de794eb74deac5109e",
+        "path": "images/apple/v6/icons/quiettv-square.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 32315,
+        "sha256": "7d31684b5ef085d87577c8a2612886821bc6c87e9bfdbbd1cae42209118075ac",
+        "path": "images/apple/v6/thumbnails/quiettv-square.png"
+      },
+      "review": {
+        "note": "用户已确认冰蓝近色磨砂方案。保留 Q 形屏幕、右下尾笔和短底座；浅天青与雾蓝蓝灰形成局部冷色过渡。已查看三种形状、深浅背景和小尺寸对照，主体视觉重量接近超级直播基准，比例与中心无警告，无轮廓裁切或明显杂边。",
+        "deviationNote": ""
+      }
+    },
+    {
+      "id": "quiettv",
+      "name": "QuietTV",
+      "nameEn": "QuietTV",
+      "style": "apple",
+      "form": "icon",
+      "shape": "circle",
+      "reference": "super-live",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "foreground-v7.png",
+        "sha256": "7f76239ed092ebfde1c9847c7a90f62d41ce23050ba5adea6c76355b087e3a2e",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          155,
+          252,
+          1088,
+          1015
+        ]
+      },
+      "subject": {
+        "core": [
+          76.02000000000001,
+          107.08709539121114,
+          438.98,
+          403.91290460878884
+        ],
+        "paint": [
+          72.90780278670954,
+          103.19684887459806,
+          441.7031725616291,
+          405.0799785637728
+        ],
+        "transform": [
+          15.721178992497329,
+          9.052883172561621,
+          0.3890246516613076
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 104318,
+        "sha256": "87b710c91e5f8e574fa1b8bc9cf8749b874b1cb2046c4b0c7d587e8ff90bdced",
+        "path": "images/apple/v6/icons/quiettv-circle.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 32913,
+        "sha256": "b1bc082dc7fe87b813f527cd2420c2bf74b57bbe507c3eb6530e2ffd5d23b26f",
+        "path": "images/apple/v6/thumbnails/quiettv-circle.png"
+      },
+      "review": {
+        "note": "用户已确认冰蓝近色磨砂方案。保留 Q 形屏幕、右下尾笔和短底座；浅天青与雾蓝蓝灰形成局部冷色过渡。已查看三种形状、深浅背景和小尺寸对照，主体视觉重量接近超级直播基准，比例与中心无警告，无轮廓裁切或明显杂边。",
+        "deviationNote": ""
+      }
+    }
+  ]
+}
