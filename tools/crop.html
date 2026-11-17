@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Quiet TV 图标裁剪工作台</title>
+  <link rel="stylesheet" href="crop.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="../">Quiet TV <span>图标工作台</span></a>
+    <span class="draft">本地样稿</span>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">ICON STUDIO / 01</p><h1>统一轮廓，保留个性。</h1><p class="lede">精确控制尺寸、圆角与构图。原文件保留，结果另行导出。</p></div>
+      <label class="upload button">导入图片<input id="files" type="file" accept="image/png,image/jpeg,image/webp" multiple></label>
+    </section>
+    <div class="workbench">
+      <aside class="sources" aria-label="源图列表">
+        <div class="section-title"><h2>素材</h2><span id="source-count">0</span></div>
+        <button id="samples" class="subtle">载入六款现有图标</button>
+        <div id="source-list" class="source-list"></div>
+      </aside>
+      <section class="workspace" aria-label="处理前后对比">
+        <div class="stage-bar"><div><h2 id="active-name">准备素材</h2><p id="source-meta">选择图片开始</p></div><div class="themes" role="group" aria-label="预览背景"><button data-theme="dark" aria-pressed="true">深色</button><button data-theme="light" aria-pressed="false">浅色</button><button data-theme="checker" aria-pressed="false">透明</button></div></div>
+        <div class="comparison" data-theme="dark">
+          <figure><figcaption>处理前 <span>原始轮廓</span></figcaption><div class="artboard"><canvas id="before" width="720" height="405" aria-label="处理前图标"></canvas></div></figure>
+          <figure><figcaption>处理后 <span id="after-label">统一模板</span></figcaption><div class="artboard"><canvas id="after" width="720" height="405" aria-label="处理后图标"></canvas></div></figure>
+        </div>
+        <div class="output-info"><span id="output-meta">—</span><span id="mask-check">—</span></div>
+        <div class="small-preview"><div><h3>缩略图</h3><p id="thumb-meta">—</p></div><div class="thumb-board"><canvas id="thumbnail" width="320" height="180" aria-label="处理后缩略图"></canvas></div></div>
+        <div class="stage-footer"><p id="status" role="status" aria-live="polite">正在读取固定轮廓模板…</p><button id="download-current" class="button secondary" disabled>导出当前图标</button></div>
+      </section>
+      <form id="settings" class="inspector">
+        <h2>裁剪参数</h2>
+        <label>输出形状<select id="shape"><option value="rectangle">圆角矩形 16:9</option><option value="square">圆角方形 1:1</option><option value="circle">圆形 1:1</option></select></label>
+        <div class="field-pair"><label>宽度 px<input id="width" type="number" min="64" max="2048" step="1" value="720" required></label><label>高度 px<input id="height" type="number" min="64" max="2048" step="1" value="405" required></label></div>
+        <p class="hint">宽高保持所选比例，图案等比缩放。</p>
+        <label>轮廓规则<select id="curve"><option value="template">图库固定模板</option><option value="continuous">连续圆角（自定义）</option><option value="round">普通圆角（自定义）</option><option value="sharp">直角</option></select></label>
+        <label id="radius-field" hidden>圆角半径 px<input id="radius" type="number" min="0" max="202.5" step="0.1" value="89.1" disabled></label>
+        <p id="radius-note" class="hint">固定模板包含完整曲线，不由生图决定。</p>
+        <div class="divider"></div>
+        <label>背景处理<select id="background"><option value="extend">补齐旧底板</option><option value="solid">使用纯色底板</option><option value="transparent">保留透明背景</option></select></label>
+        <label id="color-field" hidden>底板颜色<input id="color" type="color" value="#202329"></label>
+        <label class="check"><input id="trim" type="checkbox" checked>去除外部透明留白</label>
+        <p class="hint">透明主体请选择“保留透明背景”。补齐旧底板会填充原有透明区域，需检查补边。</p>
+        <div class="divider"></div>
+        <label class="range-label">图案缩放 <output id="scale-value">100%</output><input id="scale" type="range" min="60" max="140" step="1" value="100"></label>
+        <div class="field-pair"><label>水平偏移 px<input id="offset-x" type="number" min="-1024" max="1024" value="0" step="1" required></label><label>垂直偏移 px<input id="offset-y" type="number" min="-1024" max="1024" value="0" step="1" required></label></div>
+        <label>缩略图宽度 px<input id="thumb-width" type="number" min="16" max="512" step="1" value="320" required></label>
+        <button id="reset" type="button" class="subtle">恢复当前形状默认参数</button>
+      </form>
+    </div>
+    <section class="review-section">
+      <div class="review-heading"><div><p class="eyebrow">CONTACT SHEET</p><h2>同一规则，逐款对照。</h2><p>以下对照随参数更新。所有结果均为待确认样稿。</p></div><button id="download-review" class="button" disabled>下载样稿与对比图</button></div>
+      <div id="review-grid" class="review-grid" data-theme="dark"></div>
+    </section>
+    <footer>仅在本浏览器处理图片。此工具不会修改图库清单，也不会发布线上素材。<a href="CROP.md">使用说明</a></footer>
+  </main>
+  <script type="module" src="crop.js"></script>
+</body>
+</html>
