@@ -204,6 +204,43 @@ def prepared_profile(root):
     return rules, fingerprint
 
 
+def check_normalization(row, root, rules, fingerprint, legacy):
+    """Historical finished artwork uses a separate, strict post-processing record."""
+    require(row['exporter'] == 'quiettv-crop-1' and row['profileSha256'] == fingerprint and SHA.fullmatch(row['engineSha256']), 'Unknown normalization engine or profile')
+    require(ID.fullmatch(row['id']) and row['style'] in ('apple', 'skeuo') and row['shape'] in SHAPES and row['form'] == 'icon', 'Invalid normalization identity')
+    require(isinstance(row['reviewNote'], str) and row['reviewNote'].strip(), 'Normalization approval is missing')
+    shape = row['shape']
+    spec = rules['templates'][shape]['image']
+    expected = dict(shape=shape, width=spec['width'], height=spec['height'], curve='template', radius=89.1 if shape == 'rectangle' else 112.6, background='extend', color='#202329', trim=True, scale=1, x=0, y=0, thumbWidth=rules['templates'][shape]['thumbnail']['width'])
+    require(row['settings'] == expected, 'Normalization differs from approved settings')
+    for role in ('image', 'thumbnail'):
+        asset, source, template = row[role], row['source'][role], rules['templates'][shape][role]
+        require(re.fullmatch(r'images/' + row['style'] + r'/v[1-9][0-9]*/' + ('icons' if role == 'image' else 'thumbnails') + '/' + row['id'] + '-' + shape + r'\.png', asset['path']), 'Invalid normalized artwork path')
+        data = local(root, asset['path']).read_bytes()
+        require(asset['bytes'] == len(data) and asset['sha256'] == digest(data) and len(data) <= (1024 * 1024 if role == 'image' else 256 * 1024), 'Normalized artwork bytes or hash differ')
+        w, h, alpha, _ = png(data, alpha_only=True)
+        require((w, h) == (asset['width'], asset['height']) == (template['width'], template['height']), 'Normalized artwork dimensions differ')
+        require(alpha == rules['_alpha'][(shape, role)], 'Normalized artwork contour differs')
+        require(source['path'] in legacy and source['sha256'] == legacy[source['path']] and source['path'].startswith('images/' + row['style'] + '/'), 'Normalization source is not immutable historical artwork')
+        require(re.fullmatch(r'images/' + row['style'] + r'/v[1-9][0-9]*/' + ('icons' if role == 'image' else 'thumbnails') + '/' + row['id'] + '(?:-' + shape + r')?\.png', source['path']), 'Normalization source identity differs')
+        original = local(root, source['path']).read_bytes()
+        require(len(original) == source['bytes'] and digest(original) == source['sha256'] and struct.unpack('>II', original[16:24]) == (source['width'], source['height']) == (w, h), 'Normalization source descriptor differs')
+    require(row['image']['path'].split('/icons/')[0] == row['thumbnail']['path'].split('/thumbnails/')[0], 'Normalization resource versions differ')
+    source = row['source']['image']
+    w, h, alpha, _ = png(local(root, source['path']).read_bytes(), alpha_only=True)
+    binary = alpha.translate(bytes(int(n >= 128) for n in range(256)))
+    left, top, right, bottom = w, h, 0, 0
+    for y in range(h):
+        line = binary[y * w:(y + 1) * w]
+        start = line.find(b'\1')
+        if start >= 0:
+            left, top = min(left, start), min(top, y)
+            right, bottom = max(right, line.rfind(b'\1') + 1), y + 1
+    require(left < right and top < bottom and row['sourceBounds'] == [left, top, right, bottom], 'Normalization trim bounds differ')
+    scale = min(w / (right - left), h / (bottom - top))
+    require(type(row['renderScale']) in (int, float) and abs(row['renderScale'] - scale) < 1e-9 and row['cropped'] is False, 'Normalization changes composition or clips source')
+
+
 def verify(root, catalog):
     rules, fingerprint = prepared_profile(root)
     legacy = load(root / 'tools/design/legacy-assets.json')
@@ -223,6 +260,14 @@ def verify(root, catalog):
             covered[asset['path']] = row, role
     for rows in batches.values():
         complete_shapes(rows)
+    normalizations = load(root / 'tools/design/normalizations.json')
+    require(normalizations['version'] == 1, 'Unknown normalization registry')
+    for row in normalizations['items']:
+        check_normalization(row, root, rules, fingerprint, legacy)
+        for role in ('image', 'thumbnail'):
+            path = row[role]['path']
+            require(path not in covered and path not in legacy, 'Repeated normalization approval')
+            covered[path] = row, role
     for path in (root / 'images').rglob('*.png'):
         name = path.relative_to(root).as_posix()
         require(name in legacy or name in covered, f'New artwork needs template export and review: {name}')
@@ -232,6 +277,9 @@ def verify(root, catalog):
                 asset = variant[role]
                 if asset['path'] in legacy:
                     require(asset['sha256'] == legacy[asset['path']], 'Historical descriptor differs')
+                    if catalog['revision'] >= 11 and item['style'] in ('apple', 'skeuo') and variant['form'] == 'icon':
+                        _, _, alpha, _ = png(local(root, asset['path']).read_bytes(), alpha_only=True)
+                        require(alpha == rules['_alpha'][(variant['shape'], role)], 'Catalog reintroduces a historical nonstandard contour')
                 else:
                     require(asset['path'] in covered, 'Design review is missing')
                     row, registered_role = covered[asset['path']]

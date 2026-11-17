@@ -16,7 +16,10 @@ Quiet TV 定制应用图标。覆盖 69 款应用和通用入口，其中苹果�
 
 下载顺序与 Quiet TV 在线更新一致：ghfast.top、gh-proxy.com、v4.gh-proxy.org，然后 GitHub Pages、GitHub Raw。第三方镜像可能不可用，客户端会依次回退并验证内容。
 
-`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物风格三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。新增应用助手、通知、天光云影使用 `images/apple/v4/`。应用助手、通知、天光云影的拟物风格使用 `images/skeuo/v2/`。当前目录 revision 为 10，应用匹配规则 revision 为 4；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
+`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物风格三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。新增应用助手、通知、天光云影使用 `images/apple/v4/`。应用助手、通知、天光云影的拟物风格使用 `images/skeuo/v2/`。当前目录 revision 为 11，应用匹配规则 revision 为 4；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
+
+苹果和拟物风格共 137 个条目、411 个形状版本的正式图与缩略图均使用统一尺寸和固定轮廓。历史成品标准化新增资源位于 `images/apple/v7/`、`images/skeuo/v3/`，共迁移 241 个形状版本；其余 170 个已符合模板的版本复用原文件。主体与配色沿用原设计，只调整外部留白、补齐旧底板并应用统一轮廓；原有图片路径和字节全部保留。处理和复核规则见[裁剪工作台说明](tools/CROP.md)。
+
 
 验证：`python3 tools/validate.py verify --root .`。CI 验证通过后才部署 GitHub Pages。
 
