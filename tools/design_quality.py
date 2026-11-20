@@ -261,6 +261,29 @@ def verify_web_macos(root, rules, catalog, covered, legacy):
         key = row['id'], row['shape']
         require(key not in registered, 'Duplicate Apple Native review')
         registered[key] = row
+    def verify_assets(ident, shape, variant, review):
+        for role, directory in (('image', 'icons'), ('thumbnail', 'thumbnails')):
+            asset = variant[role]
+            name = asset['path']
+            pattern = r'images/macos-original/v[1-9][0-9]*/' + directory + '/' + ident + '-' + shape + r'\.png'
+            require(re.fullmatch(pattern, name)
+                    and name not in covered and name not in legacy and review[role] == asset,
+                    'Apple Native asset path/review differs')
+            content = local(root, name).read_bytes()
+            require(len(content) == asset['bytes']
+                    and 33 <= len(content) <= (256 * 1024 if role == 'thumbnail' else 1024 * 1024)
+                    and digest(content) == asset['sha256'], 'Apple Native asset size or SHA-256 differs')
+            width, height, alpha, _ = png(content, alpha_only=True)
+            if shape == 'rectangle':
+                expected = (320, 180) if role == 'thumbnail' else (720, 405)
+            else:
+                expected = (256, 256) if role == 'thumbnail' else (512, 512)
+            require((width, height) == (asset['width'], asset['height']) == expected
+                    and alpha == rules['_alpha'][(shape, role)], 'Apple Native asset contour differs')
+            if role == 'image' and shape != 'square':
+                require(asset['sha256'] == review['sourceSha256'], 'Approved Apple Native image bytes changed')
+            covered[name] = review, role
+
     seen = set()
     for row in web['items']:
         ident = row['id']
@@ -280,28 +303,25 @@ def verify_web_macos(root, rules, catalog, covered, legacy):
             require(review and review['style'] == style and review['review'].strip()
                     and SHA.fullmatch(review['sourceSha256']) and review['method'] == method
                     and review['form'] == variant['form'] == 'icon', 'Invalid Apple Native adaptation review')
-            for role, directory in (('image', 'icons'), ('thumbnail', 'thumbnails')):
-                asset = variant[role]
-                name = asset['path']
-                pattern = r'images/macos-original/v[1-9][0-9]*/' + directory + '/' + ident + '-' + shape + r'\.png'
-                require(re.fullmatch(pattern, name)
-                        and name not in covered and name not in legacy and review[role] == asset,
-                        'Apple Native asset path/review differs')
-                content = local(root, name).read_bytes()
-                require(len(content) == asset['bytes']
-                        and 33 <= len(content) <= (256 * 1024 if role == 'thumbnail' else 1024 * 1024)
-                        and digest(content) == asset['sha256'], 'Apple Native asset size or SHA-256 differs')
-                width, height, alpha, _ = png(content, alpha_only=True)
-                if shape == 'rectangle':
-                    expected = (320, 180) if role == 'thumbnail' else (720, 405)
-                else:
-                    expected = (256, 256) if role == 'thumbnail' else (512, 512)
-                require((width, height) == (asset['width'], asset['height']) == expected
-                        and alpha == rules['_alpha'][(shape, role)], 'Apple Native asset contour differs')
-                if role == 'image' and shape != 'square':
-                    require(asset['sha256'] == review['sourceSha256'], 'Approved Apple Native image bytes changed')
-                covered[name] = review, role
+            verify_assets(ident, shape, variant, review)
     require(seen and not registered, 'Empty catalog or unused Apple Native adaptation review')
+
+    active = {(item['id'], variant['shape']): variant
+              for item in web['items'] for variant in item['variants']}
+    version = re.compile(r'images/macos-original/v([1-9][0-9]*)/')
+    for row in registry.get('superseded', []):
+        ident, shape = row['id'], row['shape']
+        current = active.get((ident, shape))
+        require(current is not None and shape == 'rectangle' and row['style'] == style
+                and row['form'] == 'icon' and row['method'] == 'approved-png-exact'
+                and row['review'].strip() and SHA.fullmatch(row['sourceSha256']),
+                'Invalid superseded Apple Native review')
+        for role in ('image', 'thumbnail'):
+            prior = version.match(row[role]['path'])
+            latest = version.match(current[role]['path'])
+            require(prior and latest and int(prior[1]) < int(latest[1]),
+                    'Superseded Apple Native path is not an older version')
+        verify_assets(ident, shape, row, row)
 
 
 def verify(root, catalog):

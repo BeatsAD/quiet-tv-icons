@@ -1044,20 +1044,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 65931,
-        "sha256": "6470104b7b3a7ddbaed1c95cc52651e0d0ee85383e32c033f0e6e9b7b848653d",
-        "path": "images/macos-original/v1/icons/macos-font-book-rectangle.png"
+        "bytes": 23304,
+        "sha256": "967b0db45eadd28df1fb1219325b265a39b31915d3451a3a3be0e7070e1a5746",
+        "path": "images/macos-original/v2/icons/macos-font-book-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 24422,
-        "sha256": "c2accf6edcfa40aaeaaa28d9c13d835127d3f90bde5e6992b20ba0c12235e31a",
-        "path": "images/macos-original/v1/thumbnails/macos-font-book-rectangle.png"
+        "bytes": 13769,
+        "sha256": "9dfebdb3ae8cc09e64fef7583a5b0d3e11849176e9ed5da5be9b3c5d8345f847",
+        "path": "images/macos-original/v2/thumbnails/macos-font-book-rectangle.png"
       },
-      "sourceSha256": "6470104b7b3a7ddbaed1c95cc52651e0d0ee85383e32c033f0e6e9b7b848653d",
+      "sourceSha256": "967b0db45eadd28df1fb1219325b265a39b31915d3451a3a3be0e7070e1a5746",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "采用定稿 V6 清晰钢蓝封面。"
     },
     {
       "id": "macos-font-book",
@@ -1113,20 +1113,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 86316,
-        "sha256": "6dfc13b425f48c6b6e64f74e1557242dcf7594546a413bcab723fc60e80dab9a",
-        "path": "images/macos-original/v1/icons/macos-freeform-rectangle.png"
+        "bytes": 73771,
+        "sha256": "cff2922e8797068928241e4ef2d8fbf61403f3962712727427c68d2a21452ce7",
+        "path": "images/macos-original/v2/icons/macos-freeform-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 31439,
-        "sha256": "0735f890d33330f1f5a80dcf771a22b83c7bd2099148a918ecd57790bba0bd36",
-        "path": "images/macos-original/v1/thumbnails/macos-freeform-rectangle.png"
+        "bytes": 25525,
+        "sha256": "045dc447572c5597903a28da3a5287f59288af76f6ae501f415fb00ec8dee1db",
+        "path": "images/macos-original/v2/thumbnails/macos-freeform-rectangle.png"
       },
-      "sourceSha256": "6dfc13b425f48c6b6e64f74e1557242dcf7594546a413bcab723fc60e80dab9a",
+      "sourceSha256": "cff2922e8797068928241e4ef2d8fbf61403f3962712727427c68d2a21452ce7",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "采用定稿 V4 原生青色横向延展。"
     },
     {
       "id": "macos-freeform",
@@ -1803,20 +1803,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 94709,
-        "sha256": "99ae1948e50c54ce3ed8212593e8901a186363a8272f1b08694e5cabfe4d7023",
-        "path": "images/macos-original/v1/icons/macos-maps-rectangle.png"
+        "bytes": 107781,
+        "sha256": "53212ab39cd10ab1d10a1f2a2ce8057933c9e5d73f722aa399346d0f414607d0",
+        "path": "images/macos-original/v2/icons/macos-maps-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 35652,
-        "sha256": "4312ca330a7d410cca74400a634a6134a844ca0c0380a0d65ac84a48b3a0d47e",
-        "path": "images/macos-original/v1/thumbnails/macos-maps-rectangle.png"
+        "bytes": 39509,
+        "sha256": "438b2b3b0f462413347dae4ae133a1119049eafd2fc3cec26cda5f021c935f7a",
+        "path": "images/macos-original/v2/thumbnails/macos-maps-rectangle.png"
       },
-      "sourceSha256": "99ae1948e50c54ce3ed8212593e8901a186363a8272f1b08694e5cabfe4d7023",
+      "sourceSha256": "53212ab39cd10ab1d10a1f2a2ce8057933c9e5d73f722aa399346d0f414607d0",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "采用定稿 V4 原生地图横向延展。"
     },
     {
       "id": "macos-maps",
@@ -5173,6 +5173,77 @@
         "path": "images/macos-original/v1/thumbnails/macos-xcode-circle.png"
       },
       "sourceSha256": "37a1f8b5ebe9f3eb2fcfd251a590e57f18f28e2d512dcd69c5c11e868af179d0",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    }
+  ],
+  "superseded": [
+    {
+      "id": "macos-font-book",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 65931,
+        "sha256": "6470104b7b3a7ddbaed1c95cc52651e0d0ee85383e32c033f0e6e9b7b848653d",
+        "path": "images/macos-original/v1/icons/macos-font-book-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 24422,
+        "sha256": "c2accf6edcfa40aaeaaa28d9c13d835127d3f90bde5e6992b20ba0c12235e31a",
+        "path": "images/macos-original/v1/thumbnails/macos-font-book-rectangle.png"
+      },
+      "sourceSha256": "6470104b7b3a7ddbaed1c95cc52651e0d0ee85383e32c033f0e6e9b7b848653d",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-freeform",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 86316,
+        "sha256": "6dfc13b425f48c6b6e64f74e1557242dcf7594546a413bcab723fc60e80dab9a",
+        "path": "images/macos-original/v1/icons/macos-freeform-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 31439,
+        "sha256": "0735f890d33330f1f5a80dcf771a22b83c7bd2099148a918ecd57790bba0bd36",
+        "path": "images/macos-original/v1/thumbnails/macos-freeform-rectangle.png"
+      },
+      "sourceSha256": "6dfc13b425f48c6b6e64f74e1557242dcf7594546a413bcab723fc60e80dab9a",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-maps",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 94709,
+        "sha256": "99ae1948e50c54ce3ed8212593e8901a186363a8272f1b08694e5cabfe4d7023",
+        "path": "images/macos-original/v1/icons/macos-maps-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 35652,
+        "sha256": "4312ca330a7d410cca74400a634a6134a844ca0c0380a0d65ac84a48b3a0d47e",
+        "path": "images/macos-original/v1/thumbnails/macos-maps-rectangle.png"
+      },
+      "sourceSha256": "99ae1948e50c54ce3ed8212593e8901a186363a8272f1b08694e5cabfe4d7023",
       "method": "approved-png-exact",
       "review": "定稿原字节，核对正式尺寸和缩略图。"
     }
