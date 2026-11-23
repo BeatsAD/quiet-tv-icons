@@ -45,6 +45,8 @@ Quiet TV 定制应用图标。覆盖 72 款应用和通用入口，其中苹果�
 
 ### Apple 原生图标（网页专区）
 
-[浏览 Apple 原生图标](https://beatsad.github.io/quiet-tv-icons/?style=macos-original)。共 75 款 macOS 图标，每款有圆角长方形、圆角正方形和圆形，均可下载 PNG。苹果图标取自 macOS 并适配 Quiet TV 的外框和比例；圆形沿用已复核的去高光边版本，十款采用修订长方形样稿。商标与原图标权利归 Apple 或相应权利人；本专区为第三方适配，不是 Apple 官方发布或背书。
+[浏览 Apple 原生图标](https://beatsad.github.io/quiet-tv-icons/?style=macos-original)。共 75 款 macOS 图标，每款有圆角矩形、圆角正方形和圆形，均可下载 PNG。图案根据 macOS 图标适配 Quiet TV 的外框和比例，圆形沿用已复核的去高光边版本。商标与原图标权利归 Apple 或相应权利人；本专区为第三方适配，不是 Apple 官方发布或背书。
+
+国际象棋、归档实用工具、图像捕捉、无线诊断、自动操作、脚本编辑器和 Siri AI 的新版圆角矩形使用 `images/macos-original/v3/`。旧版图片可通过原链接下载。
 
 专区使用独立的 `macos-original.web.json`，无需加入电视签名目录。专区不推送至电视图标库，也不自动匹配安卓应用。可在网页下载 PNG 后，以电视端的自定义图标功能手动上传。
