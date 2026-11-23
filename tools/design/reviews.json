@@ -183,6 +183,1104 @@
         "note": "用户已确认冰蓝近色磨砂方案。保留 Q 形屏幕、右下尾笔和短底座；浅天青与雾蓝蓝灰形成局部冷色过渡。已查看三种形状、深浅背景和小尺寸对照，主体视觉重量接近超级直播基准，比例与中心无警告，无轮廓裁切或明显杂边。",
         "deviationNote": ""
       }
+    },
+    {
+      "id": "calendar",
+      "name": "日历",
+      "nameEn": "Calendar",
+      "style": "apple",
+      "form": "icon",
+      "shape": "rectangle",
+      "reference": "honey-video",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "calendar.png",
+        "sha256": "1c131da526d3c0db5c95fa7e821a3f168fd7225f0feaf2afe4df682f1b72ecbc",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          183,
+          202,
+          1065,
+          1058
+        ]
+      },
+      "subject": {
+        "core": [
+          195,
+          49.71655328798188,
+          515,
+          360.28344671201813
+        ],
+        "paint": [
+          194.27437641723355,
+          48.990929705215436,
+          515.3628117913833,
+          360.6462585034014
+        ],
+        "transform": [
+          128.60544217687075,
+          -23.571428571428555,
+          0.36281179138321995
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 124160,
+        "sha256": "fe1e702fd5f829765a17d6ea7569eb69c6091c9db824fe01a585b451e23b9e94",
+        "path": "images/apple/v8/icons/calendar-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 25080,
+        "sha256": "6ac1a6293b0fec47d6e071b3d1f9d5936ca99d215d8ca5458b2d1d390c78740b",
+        "path": "images/apple/v8/thumbnails/calendar-rectangle.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "calendar",
+      "name": "日历",
+      "nameEn": "Calendar",
+      "style": "apple",
+      "form": "icon",
+      "shape": "square",
+      "reference": "honey-video",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "calendar.png",
+        "sha256": "1c131da526d3c0db5c95fa7e821a3f168fd7225f0feaf2afe4df682f1b72ecbc",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          183,
+          202,
+          1065,
+          1058
+        ]
+      },
+      "subject": {
+        "core": [
+          86,
+          89.89342403628119,
+          418,
+          412.1065759637188
+        ],
+        "paint": [
+          85.24716553287982,
+          89.14058956916101,
+          418.3764172335601,
+          412.4829931972789
+        ],
+        "transform": [
+          17.115646258503403,
+          13.857142857142861,
+          0.3764172335600907
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 97910,
+        "sha256": "7264be9bedbdf69e0f0d003fa2aa29d9f66c5882a509f94713edfc39288d5c2b",
+        "path": "images/apple/v8/icons/calendar-square.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 27732,
+        "sha256": "bb95ae0fd20ccdabfeb8fc336f4ad5c4fbf2280b05c6728abba6060f6105243e",
+        "path": "images/apple/v8/thumbnails/calendar-square.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "calendar",
+      "name": "日历",
+      "nameEn": "Calendar",
+      "style": "apple",
+      "form": "icon",
+      "shape": "circle",
+      "reference": "honey-video",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "calendar.png",
+        "sha256": "1c131da526d3c0db5c95fa7e821a3f168fd7225f0feaf2afe4df682f1b72ecbc",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          183,
+          202,
+          1065,
+          1058
+        ]
+      },
+      "subject": {
+        "core": [
+          86,
+          89.89342403628119,
+          418,
+          412.1065759637188
+        ],
+        "paint": [
+          85.24716553287982,
+          89.14058956916101,
+          418.3764172335601,
+          412.4829931972789
+        ],
+        "transform": [
+          17.115646258503403,
+          13.857142857142861,
+          0.3764172335600907
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 97619,
+        "sha256": "01690245453ca881edf54ef5cf52dddfcc60ef12178cb0e6ca5fd05965beead8",
+        "path": "images/apple/v8/icons/calendar-circle.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 28494,
+        "sha256": "198a4adb9778c13e556f9253a6cc5aafb1a31aa80cd67b553a87c187676e66cb",
+        "path": "images/apple/v8/thumbnails/calendar-circle.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "screen-cast",
+      "name": "投屏",
+      "nameEn": "Screen Cast",
+      "style": "apple",
+      "form": "icon",
+      "shape": "rectangle",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "screen-cast.png",
+        "sha256": "87d626a47916255fb3358cb5d89dd97e9df515af5d15de44eaf95d362845cab7",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          131,
+          314,
+          1109,
+          977
+        ]
+      },
+      "subject": {
+        "core": [
+          166,
+          69.84049079754601,
+          550,
+          330.15950920245405
+        ],
+        "paint": [
+          165.21472392638034,
+          69.4478527607362,
+          550.7852760736196,
+          330.9447852760736
+        ],
+        "transform": [
+          114.5644171779141,
+          -53.4478527607362,
+          0.39263803680981596
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 142476,
+        "sha256": "660615642572d6b9754a51cd7906b805d98b07afc884d4cf9d8ef562e48aff85",
+        "path": "images/apple/v8/icons/screen-cast-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 27698,
+        "sha256": "8258b3b007ec75f1e39c3dc0547ceb299b463be805060ed0c13d0d6b668f7ffc",
+        "path": "images/apple/v8/thumbnails/screen-cast-rectangle.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "screen-cast",
+      "name": "投屏",
+      "nameEn": "Screen Cast",
+      "style": "apple",
+      "form": "icon",
+      "shape": "square",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "screen-cast.png",
+        "sha256": "87d626a47916255fb3358cb5d89dd97e9df515af5d15de44eaf95d362845cab7",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          131,
+          314,
+          1109,
+          977
+        ]
+      },
+      "subject": {
+        "core": [
+          81.99999999999997,
+          125.00920245398773,
+          436,
+          364.99079754601223
+        ],
+        "paint": [
+          81.27607361963189,
+          124.64723926380367,
+          436.7239263803681,
+          365.7147239263803
+        ],
+        "transform": [
+          34.582822085889546,
+          11.352760736196302,
+          0.3619631901840491
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 85029,
+        "sha256": "5df3c341b963d5598f660da20ca815f88e7d887ffba327c495d37aedcadd45a6",
+        "path": "images/apple/v8/icons/screen-cast-square.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 25267,
+        "sha256": "dc3114e18235cf98a97759b8a7dbf825222871a9ef6ca4b02889b4a13d9e4f7a",
+        "path": "images/apple/v8/thumbnails/screen-cast-square.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "screen-cast",
+      "name": "投屏",
+      "nameEn": "Screen Cast",
+      "style": "apple",
+      "form": "icon",
+      "shape": "circle",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "screen-cast.png",
+        "sha256": "87d626a47916255fb3358cb5d89dd97e9df515af5d15de44eaf95d362845cab7",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          131,
+          314,
+          1109,
+          977
+        ]
+      },
+      "subject": {
+        "core": [
+          81.99999999999997,
+          125.00920245398773,
+          436,
+          364.99079754601223
+        ],
+        "paint": [
+          81.27607361963189,
+          124.64723926380367,
+          436.7239263803681,
+          365.7147239263803
+        ],
+        "transform": [
+          34.582822085889546,
+          11.352760736196302,
+          0.3619631901840491
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 85648,
+        "sha256": "79213116f3d611e70f5609567234c70eabbf2314ef08ce377b772b110f247a25",
+        "path": "images/apple/v8/icons/screen-cast-circle.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 25915,
+        "sha256": "38b84759da49ba908746793fb365c60280170e041599ff286498aba475ddd860",
+        "path": "images/apple/v8/thumbnails/screen-cast-circle.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "tv-manager",
+      "name": "电视管家",
+      "nameEn": "TV Manager",
+      "style": "apple",
+      "form": "icon",
+      "shape": "rectangle",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "tv-manager.png",
+        "sha256": "e73ed58d13667191ae6db5b22812cb05d881b7461764344523aca7c6920f0e46",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          157,
+          379,
+          1098,
+          1015
+        ]
+      },
+      "subject": {
+        "core": [
+          146.8,
+          57.25483528161527,
+          569.2,
+          342.7451647183847
+        ],
+        "paint": [
+          145.90223166843782,
+          56.805951115834205,
+          570.0977683315622,
+          343.64293304994686
+        ],
+        "transform": [
+          76.32518597236981,
+          -112.87226354941555,
+          0.448884165781084
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 170556,
+        "sha256": "a1f401c041707430988f20b3ad4f8eb3523e1f84f2200efa56f2e8590bfe897b",
+        "path": "images/apple/v8/icons/tv-manager-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 35885,
+        "sha256": "fe393db079dd6e52e761d8a35e2176a07f81487b22b3d46847ad3a64feef877c",
+        "path": "images/apple/v8/thumbnails/tv-manager-rectangle.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "tv-manager",
+      "name": "电视管家",
+      "nameEn": "TV Manager",
+      "style": "apple",
+      "form": "icon",
+      "shape": "square",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "tv-manager.png",
+        "sha256": "e73ed58d13667191ae6db5b22812cb05d881b7461764344523aca7c6920f0e46",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          157,
+          379,
+          1098,
+          1015
+        ]
+      },
+      "subject": {
+        "core": [
+          74.91999999999997,
+          120.58461211477152,
+          443.08,
+          369.4153878852285
+        ],
+        "paint": [
+          74.13751328374067,
+          120.19336875664186,
+          443.8624867162593,
+          370.1978746014878
+        ],
+        "transform": [
+          13.494792773645031,
+          -27.69662061636558,
+          0.39124335812964933
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 94955,
+        "sha256": "175d7d70dae93540ba8daa78168165a9d55ec9d06ac364b85ac98527f1d9b232",
+        "path": "images/apple/v8/icons/tv-manager-square.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 29841,
+        "sha256": "51721a28cfefa93ef852aeae49926865e16ead017abc5261ede6ea89667d092a",
+        "path": "images/apple/v8/thumbnails/tv-manager-square.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "tv-manager",
+      "name": "电视管家",
+      "nameEn": "TV Manager",
+      "style": "apple",
+      "form": "icon",
+      "shape": "circle",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "tv-manager.png",
+        "sha256": "e73ed58d13667191ae6db5b22812cb05d881b7461764344523aca7c6920f0e46",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          157,
+          379,
+          1098,
+          1015
+        ]
+      },
+      "subject": {
+        "core": [
+          74.91999999999997,
+          120.58461211477152,
+          443.08,
+          369.4153878852285
+        ],
+        "paint": [
+          74.13751328374067,
+          120.19336875664186,
+          443.8624867162593,
+          370.1978746014878
+        ],
+        "transform": [
+          13.494792773645031,
+          -27.69662061636558,
+          0.39124335812964933
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 95540,
+        "sha256": "0b3fac3e26459d3be7978e0e81c7371b071e986b50208c2f1b22df160aa66014",
+        "path": "images/apple/v8/icons/tv-manager-circle.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 30453,
+        "sha256": "af746e54d707f37f30a4eeaafed7d2714f2c2b078c391df8b6ffe35003219b5b",
+        "path": "images/apple/v8/thumbnails/tv-manager-circle.png"
+      },
+      "review": {
+        "note": "逐项在深浅底核对三种外轮廓，160×90 可辨日期、投屏波纹和清洁刷，96×96 方形及圆形保留完整主体和安全留白。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，让电视与金色清洁刷保持确认稿的视觉重量。已检查 160×90 缩略图与四边留白。"
+      }
+    },
+    {
+      "id": "calendar",
+      "name": "日历",
+      "nameEn": "Calendar",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "rectangle",
+      "reference": "honey-video",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "calendar.png",
+        "sha256": "4fdaaac6145c6e74b9e27873d160e7f9ac1f72a724da66eb1224f3951c74bbfb",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          141,
+          92,
+          1094,
+          1139
+        ]
+      },
+      "subject": {
+        "core": [
+          209.36485195797513,
+          44.99999999999999,
+          500.63514804202487,
+          365
+        ],
+        "paint": [
+          208.7535816618911,
+          44.69436485195797,
+          500.9407831900669,
+          365.61127029608406
+        ],
+        "transform": [
+          166.27029608404965,
+          16.881566380133705,
+          0.30563514804202485
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 234120,
+        "sha256": "cd7ca38ea59a683e25b0cfc439fe1798b9c919bbd3c3156f9688222394d69806",
+        "path": "images/skeuo/v4/icons/calendar-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 38965,
+        "sha256": "6a44770754064a380e16ac7c995d1a54cb4180e9d6547317d3c9dd9a562e34b9",
+        "path": "images/skeuo/v4/thumbnails/calendar-rectangle.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
+    },
+    {
+      "id": "calendar",
+      "name": "日历",
+      "nameEn": "Calendar",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "square",
+      "reference": "honey-video",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "calendar.png",
+        "sha256": "4fdaaac6145c6e74b9e27873d160e7f9ac1f72a724da66eb1224f3951c74bbfb",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          141,
+          92,
+          1094,
+          1139
+        ]
+      },
+      "subject": {
+        "core": [
+          100.90353390639925,
+          85.00000000000001,
+          403.0964660936007,
+          417
+        ],
+        "paint": [
+          100.26934097421204,
+          84.68290353390641,
+          403.41356255969436,
+          417.63419293218726
+        ],
+        "transform": [
+          56.192932187201535,
+          55.82712511938874,
+          0.31709646609360076
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 165412,
+        "sha256": "a8f8699762a776abeaac82e9b1ff9925adce709e6d9eaa30af43d4d0237fa5fc",
+        "path": "images/skeuo/v4/icons/calendar-square.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 45013,
+        "sha256": "6a6facd5554f8722e9316b82eb7d9c76f97dc8f23538219726e08091d5c91fd5",
+        "path": "images/skeuo/v4/thumbnails/calendar-square.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
+    },
+    {
+      "id": "calendar",
+      "name": "日历",
+      "nameEn": "Calendar",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "circle",
+      "reference": "honey-video",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "calendar.png",
+        "sha256": "4fdaaac6145c6e74b9e27873d160e7f9ac1f72a724da66eb1224f3951c74bbfb",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          141,
+          92,
+          1094,
+          1139
+        ]
+      },
+      "subject": {
+        "core": [
+          100.90353390639925,
+          85.00000000000001,
+          403.0964660936007,
+          417
+        ],
+        "paint": [
+          100.26934097421204,
+          84.68290353390641,
+          403.41356255969436,
+          417.63419293218726
+        ],
+        "transform": [
+          56.192932187201535,
+          55.82712511938874,
+          0.31709646609360076
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 165570,
+        "sha256": "f3141035fb34c9d161b01639985442934301e93ef16bee4e4c801d6691112434",
+        "path": "images/skeuo/v4/icons/calendar-circle.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 45548,
+        "sha256": "6786963c94d5f97708251b34206ab3bda73ccab8ef9b622deb52ff701cfcd3c4",
+        "path": "images/skeuo/v4/thumbnails/calendar-circle.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
+    },
+    {
+      "id": "screen-cast",
+      "name": "投屏",
+      "nameEn": "Screen Cast",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "rectangle",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "screen-cast.png",
+        "sha256": "f49c80c389ed7ae6ef77564dcc01409e0c473284f03a8c7fdef734bb9e73d931",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          61,
+          257,
+          1195,
+          1024
+        ]
+      },
+      "subject": {
+        "core": [
+          166,
+          70.13756613756614,
+          550,
+          329.8624338624338
+        ],
+        "paint": [
+          164.984126984127,
+          69.46031746031746,
+          550.6772486772486,
+          330.53968253968253
+        ],
+        "transform": [
+          145.34391534391534,
+          -16.888888888888886,
+          0.3386243386243386
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 134988,
+        "sha256": "1f8f380b6b7d27d3640bb110c5f67b037e99670178157f96757c5b6840eadcc5",
+        "path": "images/skeuo/v4/icons/screen-cast-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 33844,
+        "sha256": "90ddaadd76bbd657c9712e36a872f5c49544fcf9265fac7f028614be654249c6",
+        "path": "images/skeuo/v4/thumbnails/screen-cast-rectangle.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
+    },
+    {
+      "id": "screen-cast",
+      "name": "投屏",
+      "nameEn": "Screen Cast",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "square",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "screen-cast.png",
+        "sha256": "f49c80c389ed7ae6ef77564dcc01409e0c473284f03a8c7fdef734bb9e73d931",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          61,
+          257,
+          1195,
+          1024
+        ]
+      },
+      "subject": {
+        "core": [
+          82.00000000000001,
+          125.2830687830688,
+          436,
+          364.71693121693124
+        ],
+        "paint": [
+          81.06349206349208,
+          124.65873015873017,
+          436.62433862433863,
+          365.3412698412699
+        ],
+        "transform": [
+          62.95767195767198,
+          45.05555555555557,
+          0.31216931216931215
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 105648,
+        "sha256": "3d05801da422f7d1453099134f42c942637f9a113dedc97047920c3a132255fe",
+        "path": "images/skeuo/v4/icons/screen-cast-square.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 33162,
+        "sha256": "d7eb7ccf7abd885486f2dbd5873483a97dcd11e7c32fc307034cb6051fb9336b",
+        "path": "images/skeuo/v4/thumbnails/screen-cast-square.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
+    },
+    {
+      "id": "screen-cast",
+      "name": "投屏",
+      "nameEn": "Screen Cast",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "circle",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "screen-cast.png",
+        "sha256": "f49c80c389ed7ae6ef77564dcc01409e0c473284f03a8c7fdef734bb9e73d931",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          61,
+          257,
+          1195,
+          1024
+        ]
+      },
+      "subject": {
+        "core": [
+          82.00000000000001,
+          125.2830687830688,
+          436,
+          364.71693121693124
+        ],
+        "paint": [
+          81.06349206349208,
+          124.65873015873017,
+          436.62433862433863,
+          365.3412698412699
+        ],
+        "transform": [
+          62.95767195767198,
+          45.05555555555557,
+          0.31216931216931215
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 106966,
+        "sha256": "6bcfe23baa66ddb7a147609cc6cae77d9e81a2af985e184850b6f56fc5f5ea64",
+        "path": "images/skeuo/v4/icons/screen-cast-circle.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 34169,
+        "sha256": "a318538e8caca3a5803ae99e4458733703015504c1f4cc254dfb97c02b71ea06",
+        "path": "images/skeuo/v4/thumbnails/screen-cast-circle.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
+    },
+    {
+      "id": "tv-manager",
+      "name": "电视管家",
+      "nameEn": "TV Manager",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "rectangle",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "tv-manager.png",
+        "sha256": "14f40a5c5d2e8554bad6902b906cbee1de9890d4d9937cab0dcd89c613e75236",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          100,
+          327,
+          1177,
+          1029
+        ]
+      },
+      "subject": {
+        "core": [
+          146.79999999999998,
+          62.337604456824494,
+          569.2,
+          337.66239554317553
+        ],
+        "paint": [
+          145.6233983286908,
+          61.553203342618374,
+          569.9844011142061,
+          338.44679665738164
+        ],
+        "transform": [
+          107.57994428969357,
+          -65.91197771587747,
+          0.3922005571030641
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 221489,
+        "sha256": "de16b090118cd5cb3521940b86ffb84cd9fc3860abf4be188664bff21550af31",
+        "path": "images/skeuo/v4/icons/tv-manager-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 46112,
+        "sha256": "893fab5a560e137d8d26ae730f6f21e02d58b82c00e49001edeb8bcac8703272",
+        "path": "images/skeuo/v4/thumbnails/tv-manager-rectangle.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
+    },
+    {
+      "id": "tv-manager",
+      "name": "电视管家",
+      "nameEn": "TV Manager",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "square",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "tv-manager.png",
+        "sha256": "14f40a5c5d2e8554bad6902b906cbee1de9890d4d9937cab0dcd89c613e75236",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          100,
+          327,
+          1177,
+          1029
+        ]
+      },
+      "subject": {
+        "core": [
+          74.92000000000002,
+          125.01470752089135,
+          443.08,
+          364.9852924791086
+        ],
+        "paint": [
+          73.89448467966574,
+          124.33103064066852,
+          443.7636768802229,
+          365.6689693593314
+        ],
+        "transform": [
+          40.736155988857945,
+          13.233537604456814,
+          0.3418384401114206
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 130919,
+        "sha256": "87c526c4c220e14dc490890c1b12e5979803bc4c603b86a6efe5a3c9e9ae58d2",
+        "path": "images/skeuo/v4/icons/tv-manager-square.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 38682,
+        "sha256": "d2cc3432b320fd3c8ed88968f1d5840af962fef0a709fbb4fc71bfce49d6ef44",
+        "path": "images/skeuo/v4/thumbnails/tv-manager-square.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
+    },
+    {
+      "id": "tv-manager",
+      "name": "电视管家",
+      "nameEn": "TV Manager",
+      "style": "skeuo",
+      "form": "icon",
+      "shape": "circle",
+      "reference": "video-warehouse",
+      "exporter": "quiettv-design-1",
+      "profileSha256": "0abc5aa78cafe02d7fb946f34f44eec2a46366d100939a73d62c7fdf365270f3",
+      "foreground": {
+        "file": "tv-manager.png",
+        "sha256": "14f40a5c5d2e8554bad6902b906cbee1de9890d4d9937cab0dcd89c613e75236",
+        "width": 1254,
+        "height": 1254,
+        "core": [
+          100,
+          327,
+          1177,
+          1029
+        ]
+      },
+      "subject": {
+        "core": [
+          74.92000000000002,
+          125.01470752089135,
+          443.08,
+          364.9852924791086
+        ],
+        "paint": [
+          73.89448467966574,
+          124.33103064066852,
+          443.7636768802229,
+          365.6689693593314
+        ],
+        "transform": [
+          40.736155988857945,
+          13.233537604456814,
+          0.3418384401114206
+        ],
+        "clippedPixels": 0
+      },
+      "image": {
+        "width": 512,
+        "height": 512,
+        "bytes": 131511,
+        "sha256": "1bd19024847a8c8d5d702321103e3860606e0ebb4f7fb5090bf3dca7a814c7f5",
+        "path": "images/skeuo/v4/icons/tv-manager-circle.png"
+      },
+      "thumbnail": {
+        "width": 256,
+        "height": 256,
+        "bytes": 39403,
+        "sha256": "eabdc7298a6ebb44b9f312cbe54221a6ec8971740638e66dbfcf3c4aa8a87b50",
+        "path": "images/skeuo/v4/thumbnails/tv-manager-circle.png"
+      },
+      "review": {
+        "note": "深浅底下核对独立主体和外轮廓，160×90 仍可辨装订环、屏内投屏符号和刷头，96×96 方形及圆形保留支架、波纹与刷柄。",
+        "deviationNote": "电视管家横版相对影视仓基准增宽 10%，保留电视与前置刷头的相对尺度。已检查 160×90 缩略图和外缘。"
+      }
     }
   ]
 }

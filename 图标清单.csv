@@ -410,3 +410,21 @@
 苹果风格,QuietTV,圆角矩形,images/apple/v6/icons/quiettv-rectangle.png,720×405,127525,images/apple/v6/thumbnails/quiettv-rectangle.png,320×180,25735,已确认，冰蓝近色乳白磨砂 Q 标识与炭黑底板。
 苹果风格,QuietTV,圆角方形,images/apple/v6/icons/quiettv-square.png,512×512,103842,images/apple/v6/thumbnails/quiettv-square.png,256×256,32315,已确认，冰蓝近色乳白磨砂 Q 标识与炭黑底板。
 苹果风格,QuietTV,圆形,images/apple/v6/icons/quiettv-circle.png,512×512,104318,images/apple/v6/thumbnails/quiettv-circle.png,256×256,32913,已确认，冰蓝近色乳白磨砂 Q 标识与炭黑底板。
+苹果风格,日历,圆角矩形,images/apple/v8/icons/calendar-rectangle.png,720×405,124160,images/apple/v8/thumbnails/calendar-rectangle.png,320×180,25080,已完成三形状视觉复核
+苹果风格,日历,圆角正方形,images/apple/v8/icons/calendar-square.png,512×512,97910,images/apple/v8/thumbnails/calendar-square.png,256×256,27732,已完成三形状视觉复核
+苹果风格,日历,圆形,images/apple/v8/icons/calendar-circle.png,512×512,97619,images/apple/v8/thumbnails/calendar-circle.png,256×256,28494,已完成三形状视觉复核
+苹果风格,投屏,圆角矩形,images/apple/v8/icons/screen-cast-rectangle.png,720×405,142476,images/apple/v8/thumbnails/screen-cast-rectangle.png,320×180,27698,已完成三形状视觉复核
+苹果风格,投屏,圆角正方形,images/apple/v8/icons/screen-cast-square.png,512×512,85029,images/apple/v8/thumbnails/screen-cast-square.png,256×256,25267,已完成三形状视觉复核
+苹果风格,投屏,圆形,images/apple/v8/icons/screen-cast-circle.png,512×512,85648,images/apple/v8/thumbnails/screen-cast-circle.png,256×256,25915,已完成三形状视觉复核
+苹果风格,电视管家,圆角矩形,images/apple/v8/icons/tv-manager-rectangle.png,720×405,170556,images/apple/v8/thumbnails/tv-manager-rectangle.png,320×180,35885,已完成三形状视觉复核
+苹果风格,电视管家,圆角正方形,images/apple/v8/icons/tv-manager-square.png,512×512,94955,images/apple/v8/thumbnails/tv-manager-square.png,256×256,29841,已完成三形状视觉复核
+苹果风格,电视管家,圆形,images/apple/v8/icons/tv-manager-circle.png,512×512,95540,images/apple/v8/thumbnails/tv-manager-circle.png,256×256,30453,已完成三形状视觉复核
+拟物化,日历,圆角矩形,images/skeuo/v4/icons/calendar-rectangle.png,720×405,234120,images/skeuo/v4/thumbnails/calendar-rectangle.png,320×180,38965,已完成三形状视觉复核
+拟物化,日历,圆角正方形,images/skeuo/v4/icons/calendar-square.png,512×512,165412,images/skeuo/v4/thumbnails/calendar-square.png,256×256,45013,已完成三形状视觉复核
+拟物化,日历,圆形,images/skeuo/v4/icons/calendar-circle.png,512×512,165570,images/skeuo/v4/thumbnails/calendar-circle.png,256×256,45548,已完成三形状视觉复核
+拟物化,投屏,圆角矩形,images/skeuo/v4/icons/screen-cast-rectangle.png,720×405,134988,images/skeuo/v4/thumbnails/screen-cast-rectangle.png,320×180,33844,已完成三形状视觉复核
+拟物化,投屏,圆角正方形,images/skeuo/v4/icons/screen-cast-square.png,512×512,105648,images/skeuo/v4/thumbnails/screen-cast-square.png,256×256,33162,已完成三形状视觉复核
+拟物化,投屏,圆形,images/skeuo/v4/icons/screen-cast-circle.png,512×512,106966,images/skeuo/v4/thumbnails/screen-cast-circle.png,256×256,34169,已完成三形状视觉复核
+拟物化,电视管家,圆角矩形,images/skeuo/v4/icons/tv-manager-rectangle.png,720×405,221489,images/skeuo/v4/thumbnails/tv-manager-rectangle.png,320×180,46112,已完成三形状视觉复核
+拟物化,电视管家,圆角正方形,images/skeuo/v4/icons/tv-manager-square.png,512×512,130919,images/skeuo/v4/thumbnails/tv-manager-square.png,256×256,38682,已完成三形状视觉复核
+拟物化,电视管家,圆形,images/skeuo/v4/icons/tv-manager-circle.png,512×512,131511,images/skeuo/v4/thumbnails/tv-manager-circle.png,256×256,39403,已完成三形状视觉复核

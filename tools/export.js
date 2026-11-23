@@ -111,6 +111,8 @@ function preview(row, reference, bytes) {
 
 async function generate(recipe, files) {
   assert(recipe.version === 1 && Array.isArray(recipe.items) && recipe.items.length > 0, '配方版本或条目无效');
+  const style = recipe.style === undefined ? 'apple' : recipe.style;
+  assert(['apple', 'skeuo'].includes(style), '风格须为 apple 或 skeuo');
   const seen = new Set(), entries = [], rows = [];
   for (const item of recipe.items) {
     assert(/^[a-z][a-z0-9-]{0,47}$/.test(item.id) && !seen.has(item.id), '应用 ID 无效或重复'); seen.add(item.id);
@@ -121,7 +123,7 @@ async function generate(recipe, files) {
       const source = await foreground(files.get(layout.foreground));
       for (const shape of (construction === 'rectangle' ? ['rectangle'] : ['square', 'circle'])) {
         const reference = ref.variants[shape], {base, subject} = render(source, layout, reference, shape);
-        const row = {id: item.id, name: item.name, nameEn: item.nameEn, style: 'apple', form: 'icon', shape, reference: item.reference, exporter: profile.exporter, profileSha256: profileHash, foreground: source.metadata, subject};
+        const row = {id: item.id, name: item.name, nameEn: item.nameEn, style, form: 'icon', shape, reference: item.reference, exporter: profile.exporter, profileSha256: profileHash, foreground: source.metadata, subject};
         for (const role of ['image', 'thumbnail']) {
           const spec = profile.templates[shape][role], bytes = await pngBytes(masked(base, shape, role));
           assert(bytes.length <= (role === 'image' ? 1024 * 1024 : 256 * 1024), '导出 PNG 超出体积上限');
