@@ -428,3 +428,228 @@
 拟物化,电视管家,圆角矩形,images/skeuo/v4/icons/tv-manager-rectangle.png,720×405,221489,images/skeuo/v4/thumbnails/tv-manager-rectangle.png,320×180,46112,已完成三形状视觉复核
 拟物化,电视管家,圆角正方形,images/skeuo/v4/icons/tv-manager-square.png,512×512,130919,images/skeuo/v4/thumbnails/tv-manager-square.png,256×256,38682,已完成三形状视觉复核
 拟物化,电视管家,圆形,images/skeuo/v4/icons/tv-manager-circle.png,512×512,131511,images/skeuo/v4/thumbnails/tv-manager-circle.png,256×256,39403,已完成三形状视觉复核
+Apple 原生,辅助功能阅读器,圆角矩形,images/macos-original/v1/icons/macos-accessibility-reader-rectangle.png,720×405,50652,images/macos-original/v1/thumbnails/macos-accessibility-reader-rectangle.png,320×180,17029,已复核
+Apple 原生,辅助功能阅读器,圆角正方形,images/macos-original/v1/icons/macos-accessibility-reader-square.png,512×512,125922,images/macos-original/v1/thumbnails/macos-accessibility-reader-square.png,256×256,41734,已复核
+Apple 原生,辅助功能阅读器,圆形,images/macos-original/v1/icons/macos-accessibility-reader-circle.png,512×512,99968,images/macos-original/v1/thumbnails/macos-accessibility-reader-circle.png,256×256,30626,已复核
+Apple 原生,App Store,圆角矩形,images/macos-original/v1/icons/macos-app-store-rectangle.png,720×405,74791,images/macos-original/v1/thumbnails/macos-app-store-rectangle.png,320×180,25479,已复核
+Apple 原生,App Store,圆角正方形,images/macos-original/v1/icons/macos-app-store-square.png,512×512,158567,images/macos-original/v1/thumbnails/macos-app-store-square.png,256×256,52861,已复核
+Apple 原生,App Store,圆形,images/macos-original/v1/icons/macos-app-store-circle.png,512×512,148554,images/macos-original/v1/thumbnails/macos-app-store-circle.png,256×256,49093,已复核
+Apple 原生,应用,圆角矩形,images/macos-original/v1/icons/macos-apps-rectangle.png,720×405,73090,images/macos-original/v1/thumbnails/macos-apps-rectangle.png,320×180,22833,已复核
+Apple 原生,应用,圆角正方形,images/macos-original/v1/icons/macos-apps-square.png,512×512,175671,images/macos-original/v1/thumbnails/macos-apps-square.png,256×256,53155,已复核
+Apple 原生,应用,圆形,images/macos-original/v1/icons/macos-apps-circle.png,512×512,172022,images/macos-original/v1/thumbnails/macos-apps-circle.png,256×256,50562,已复核
+Apple 原生,归档实用工具,圆角矩形,images/macos-original/v3/icons/macos-archive-utility-rectangle.png,720×405,271615,images/macos-original/v3/thumbnails/macos-archive-utility-rectangle.png,320×180,51395,已复核
+Apple 原生,归档实用工具,圆角正方形,images/macos-original/v1/icons/macos-archive-utility-square.png,512×512,157001,images/macos-original/v1/thumbnails/macos-archive-utility-square.png,256×256,52581,已复核
+Apple 原生,归档实用工具,圆形,images/macos-original/v1/icons/macos-archive-utility-circle.png,512×512,134888,images/macos-original/v1/thumbnails/macos-archive-utility-circle.png,256×256,47807,已复核
+Apple 原生,自动操作,圆角矩形,images/macos-original/v3/icons/macos-automator-rectangle.png,720×405,288055,images/macos-original/v3/thumbnails/macos-automator-rectangle.png,320×180,55857,已复核
+Apple 原生,自动操作,圆角正方形,images/macos-original/v1/icons/macos-automator-square.png,512×512,131404,images/macos-original/v1/thumbnails/macos-automator-square.png,256×256,45216,已复核
+Apple 原生,自动操作,圆形,images/macos-original/v1/icons/macos-automator-circle.png,512×512,124319,images/macos-original/v1/thumbnails/macos-automator-circle.png,256×256,41556,已复核
+Apple 原生,图书,圆角矩形,images/macos-original/v1/icons/macos-books-rectangle.png,720×405,67342,images/macos-original/v1/thumbnails/macos-books-rectangle.png,320×180,21275,已复核
+Apple 原生,图书,圆角正方形,images/macos-original/v1/icons/macos-books-square.png,512×512,170561,images/macos-original/v1/thumbnails/macos-books-square.png,256×256,52850,已复核
+Apple 原生,图书,圆形,images/macos-original/v1/icons/macos-books-circle.png,512×512,161719,images/macos-original/v1/thumbnails/macos-books-circle.png,256×256,47223,已复核
+Apple 原生,计算器,圆角矩形,images/macos-original/v1/icons/macos-calculator-rectangle.png,720×405,66660,images/macos-original/v1/thumbnails/macos-calculator-rectangle.png,320×180,24981,已复核
+Apple 原生,计算器,圆角正方形,images/macos-original/v1/icons/macos-calculator-square.png,512×512,141735,images/macos-original/v1/thumbnails/macos-calculator-square.png,256×256,49588,已复核
+Apple 原生,计算器,圆形,images/macos-original/v1/icons/macos-calculator-circle.png,512×512,125987,images/macos-original/v1/thumbnails/macos-calculator-circle.png,256×256,43850,已复核
+Apple 原生,日历,圆角矩形,images/macos-original/v1/icons/macos-calendar-rectangle.png,720×405,15012,images/macos-original/v1/thumbnails/macos-calendar-rectangle.png,320×180,15137,已复核
+Apple 原生,日历,圆角正方形,images/macos-original/v1/icons/macos-calendar-square.png,512×512,158051,images/macos-original/v1/thumbnails/macos-calendar-square.png,256×256,54437,已复核
+Apple 原生,日历,圆形,images/macos-original/v1/icons/macos-calendar-circle.png,512×512,149179,images/macos-original/v1/thumbnails/macos-calendar-circle.png,256×256,51918,已复核
+Apple 原生,国际象棋,圆角矩形,images/macos-original/v3/icons/macos-chess-rectangle.png,720×405,341385,images/macos-original/v3/thumbnails/macos-chess-rectangle.png,320×180,64478,已复核
+Apple 原生,国际象棋,圆角正方形,images/macos-original/v1/icons/macos-chess-square.png,512×512,253573,images/macos-original/v1/thumbnails/macos-chess-square.png,256×256,75902,已复核
+Apple 原生,国际象棋,圆形,images/macos-original/v1/icons/macos-chess-circle.png,512×512,237978,images/macos-original/v1/thumbnails/macos-chess-circle.png,256×256,70461,已复核
+Apple 原生,时钟,圆角矩形,images/macos-original/v1/icons/macos-clock-rectangle.png,720×405,47621,images/macos-original/v1/thumbnails/macos-clock-rectangle.png,320×180,22316,已复核
+Apple 原生,时钟,圆角正方形,images/macos-original/v1/icons/macos-clock-square.png,512×512,225973,images/macos-original/v1/thumbnails/macos-clock-square.png,256×256,76049,已复核
+Apple 原生,时钟,圆形,images/macos-original/v1/icons/macos-clock-circle.png,512×512,230746,images/macos-original/v1/thumbnails/macos-clock-circle.png,256×256,67509,已复核
+Apple 原生,通讯录,圆角矩形,images/macos-original/v1/icons/macos-contacts-rectangle.png,720×405,199087,images/macos-original/v1/thumbnails/macos-contacts-rectangle.png,320×180,46851,已复核
+Apple 原生,通讯录,圆角正方形,images/macos-original/v1/icons/macos-contacts-square.png,512×512,160465,images/macos-original/v1/thumbnails/macos-contacts-square.png,256×256,50190,已复核
+Apple 原生,通讯录,圆形,images/macos-original/v1/icons/macos-contacts-circle.png,512×512,151718,images/macos-original/v1/thumbnails/macos-contacts-circle.png,256×256,45926,已复核
+Apple 原生,词典,圆角矩形,images/macos-original/v1/icons/macos-dictionary-rectangle.png,720×405,219342,images/macos-original/v1/thumbnails/macos-dictionary-rectangle.png,320×180,49462,已复核
+Apple 原生,词典,圆角正方形,images/macos-original/v1/icons/macos-dictionary-square.png,512×512,159784,images/macos-original/v1/thumbnails/macos-dictionary-square.png,256×256,54858,已复核
+Apple 原生,词典,圆形,images/macos-original/v1/icons/macos-dictionary-circle.png,512×512,140389,images/macos-original/v1/thumbnails/macos-dictionary-circle.png,256×256,49622,已复核
+Apple 原生,FaceTime 通话,圆角矩形,images/macos-original/v1/icons/macos-facetime-rectangle.png,720×405,58205,images/macos-original/v1/thumbnails/macos-facetime-rectangle.png,320×180,21394,已复核
+Apple 原生,FaceTime 通话,圆角正方形,images/macos-original/v1/icons/macos-facetime-square.png,512×512,132405,images/macos-original/v1/thumbnails/macos-facetime-square.png,256×256,45037,已复核
+Apple 原生,FaceTime 通话,圆形,images/macos-original/v1/icons/macos-facetime-circle.png,512×512,115007,images/macos-original/v1/thumbnails/macos-facetime-circle.png,256×256,38148,已复核
+Apple 原生,访达,圆角矩形,images/macos-original/v1/icons/macos-finder-rectangle.png,720×405,29879,images/macos-original/v1/thumbnails/macos-finder-rectangle.png,320×180,16277,已复核
+Apple 原生,访达,圆角正方形,images/macos-original/v1/icons/macos-finder-square.png,512×512,106160,images/macos-original/v1/thumbnails/macos-finder-square.png,256×256,35091,已复核
+Apple 原生,访达,圆形,images/macos-original/v1/icons/macos-finder-circle.png,512×512,101411,images/macos-original/v1/thumbnails/macos-finder-circle.png,256×256,31854,已复核
+Apple 原生,查找,圆角矩形,images/macos-original/v1/icons/macos-find-my-rectangle.png,720×405,68113,images/macos-original/v1/thumbnails/macos-find-my-rectangle.png,320×180,26890,已复核
+Apple 原生,查找,圆角正方形,images/macos-original/v1/icons/macos-find-my-square.png,512×512,153940,images/macos-original/v1/thumbnails/macos-find-my-square.png,256×256,52032,已复核
+Apple 原生,查找,圆形,images/macos-original/v1/icons/macos-find-my-circle.png,512×512,144586,images/macos-original/v1/thumbnails/macos-find-my-circle.png,256×256,46596,已复核
+Apple 原生,字体册,圆角矩形,images/macos-original/v2/icons/macos-font-book-rectangle.png,720×405,23304,images/macos-original/v2/thumbnails/macos-font-book-rectangle.png,320×180,13769,已复核
+Apple 原生,字体册,圆角正方形,images/macos-original/v1/icons/macos-font-book-square.png,512×512,139094,images/macos-original/v1/thumbnails/macos-font-book-square.png,256×256,45079,已复核
+Apple 原生,字体册,圆形,images/macos-original/v1/icons/macos-font-book-circle.png,512×512,130751,images/macos-original/v1/thumbnails/macos-font-book-circle.png,256×256,42581,已复核
+Apple 原生,无边记,圆角矩形,images/macos-original/v2/icons/macos-freeform-rectangle.png,720×405,73771,images/macos-original/v2/thumbnails/macos-freeform-rectangle.png,320×180,25525,已复核
+Apple 原生,无边记,圆角正方形,images/macos-original/v1/icons/macos-freeform-square.png,512×512,159937,images/macos-original/v1/thumbnails/macos-freeform-square.png,256×256,53100,已复核
+Apple 原生,无边记,圆形,images/macos-original/v1/icons/macos-freeform-circle.png,512×512,149312,images/macos-original/v1/thumbnails/macos-freeform-circle.png,256×256,48931,已复核
+Apple 原生,游戏,圆角矩形,images/macos-original/v1/icons/macos-games-rectangle.png,720×405,85367,images/macos-original/v1/thumbnails/macos-games-rectangle.png,320×180,27471,已复核
+Apple 原生,游戏,圆角正方形,images/macos-original/v1/icons/macos-games-square.png,512×512,195145,images/macos-original/v1/thumbnails/macos-games-square.png,256×256,63458,已复核
+Apple 原生,游戏,圆形,images/macos-original/v1/icons/macos-games-circle.png,512×512,184757,images/macos-original/v1/thumbnails/macos-games-circle.png,256×256,58899,已复核
+Apple 原生,家庭,圆角矩形,images/macos-original/v1/icons/macos-home-rectangle.png,720×405,57219,images/macos-original/v1/thumbnails/macos-home-rectangle.png,320×180,20368,已复核
+Apple 原生,家庭,圆角正方形,images/macos-original/v1/icons/macos-home-square.png,512×512,123140,images/macos-original/v1/thumbnails/macos-home-square.png,256×256,41811,已复核
+Apple 原生,家庭,圆形,images/macos-original/v1/icons/macos-home-circle.png,512×512,118288,images/macos-original/v1/thumbnails/macos-home-circle.png,256×256,39611,已复核
+Apple 原生,图像捕捉,圆角矩形,images/macos-original/v3/icons/macos-image-capture-rectangle.png,720×405,326065,images/macos-original/v3/thumbnails/macos-image-capture-rectangle.png,320×180,66945,已复核
+Apple 原生,图像捕捉,圆角正方形,images/macos-original/v1/icons/macos-image-capture-square.png,512×512,239706,images/macos-original/v1/thumbnails/macos-image-capture-square.png,256×256,75083,已复核
+Apple 原生,图像捕捉,圆形,images/macos-original/v1/icons/macos-image-capture-circle.png,512×512,244117,images/macos-original/v1/thumbnails/macos-image-capture-circle.png,256×256,72886,已复核
+Apple 原生,图乐园,圆角矩形,images/macos-original/v1/icons/macos-image-playground-rectangle.png,720×405,106440,images/macos-original/v1/thumbnails/macos-image-playground-rectangle.png,320×180,32112,已复核
+Apple 原生,图乐园,圆角正方形,images/macos-original/v1/icons/macos-image-playground-square.png,512×512,247532,images/macos-original/v1/thumbnails/macos-image-playground-square.png,256×256,76709,已复核
+Apple 原生,图乐园,圆形,images/macos-original/v1/icons/macos-image-playground-circle.png,512×512,238915,images/macos-original/v1/thumbnails/macos-image-playground-circle.png,256×256,70027,已复核
+Apple 原生,安装器,圆角矩形,images/macos-original/v1/icons/macos-installer-rectangle.png,720×405,68767,images/macos-original/v1/thumbnails/macos-installer-rectangle.png,320×180,19534,已复核
+Apple 原生,安装器,圆角正方形,images/macos-original/v1/icons/macos-installer-square.png,512×512,171199,images/macos-original/v1/thumbnails/macos-installer-square.png,256×256,49264,已复核
+Apple 原生,安装器,圆形,images/macos-original/v1/icons/macos-installer-circle.png,512×512,161197,images/macos-original/v1/thumbnails/macos-installer-circle.png,256×256,46429,已复核
+Apple 原生,iPhone 镜像,圆角矩形,images/macos-original/v1/icons/macos-iphone-mirroring-rectangle.png,720×405,62106,images/macos-original/v1/thumbnails/macos-iphone-mirroring-rectangle.png,320×180,20165,已复核
+Apple 原生,iPhone 镜像,圆角正方形,images/macos-original/v1/icons/macos-iphone-mirroring-square.png,512×512,147056,images/macos-original/v1/thumbnails/macos-iphone-mirroring-square.png,256×256,47443,已复核
+Apple 原生,iPhone 镜像,圆形,images/macos-original/v1/icons/macos-iphone-mirroring-circle.png,512×512,132962,images/macos-original/v1/thumbnails/macos-iphone-mirroring-circle.png,256×256,43557,已复核
+Apple 原生,手记,圆角矩形,images/macos-original/v1/icons/macos-journal-rectangle.png,720×405,83631,images/macos-original/v1/thumbnails/macos-journal-rectangle.png,320×180,27310,已复核
+Apple 原生,手记,圆角正方形,images/macos-original/v1/icons/macos-journal-square.png,512×512,191473,images/macos-original/v1/thumbnails/macos-journal-square.png,256×256,61091,已复核
+Apple 原生,手记,圆形,images/macos-original/v1/icons/macos-journal-circle.png,512×512,180326,images/macos-original/v1/thumbnails/macos-journal-circle.png,256×256,55540,已复核
+Apple 原生,钥匙串访问,圆角矩形,images/macos-original/v1/icons/macos-keychain-access-rectangle.png,720×405,74829,images/macos-original/v1/thumbnails/macos-keychain-access-rectangle.png,320×180,26915,已复核
+Apple 原生,钥匙串访问,圆角正方形,images/macos-original/v1/icons/macos-keychain-access-square.png,512×512,170566,images/macos-original/v1/thumbnails/macos-keychain-access-square.png,256×256,58651,已复核
+Apple 原生,钥匙串访问,圆形,images/macos-original/v1/icons/macos-keychain-access-circle.png,512×512,155965,images/macos-original/v1/thumbnails/macos-keychain-access-circle.png,256×256,53289,已复核
+Apple 原生,邮件,圆角矩形,images/macos-original/v1/icons/macos-mail-rectangle.png,720×405,46463,images/macos-original/v1/thumbnails/macos-mail-rectangle.png,320×180,19166,已复核
+Apple 原生,邮件,圆角正方形,images/macos-original/v1/icons/macos-mail-square.png,512×512,93442,images/macos-original/v1/thumbnails/macos-mail-square.png,256×256,33164,已复核
+Apple 原生,邮件,圆形,images/macos-original/v1/icons/macos-mail-circle.png,512×512,88493,images/macos-original/v1/thumbnails/macos-mail-circle.png,256×256,30629,已复核
+Apple 原生,地图,圆角矩形,images/macos-original/v2/icons/macos-maps-rectangle.png,720×405,107781,images/macos-original/v2/thumbnails/macos-maps-rectangle.png,320×180,39509,已复核
+Apple 原生,地图,圆角正方形,images/macos-original/v1/icons/macos-maps-square.png,512×512,170274,images/macos-original/v1/thumbnails/macos-maps-square.png,256×256,59418,已复核
+Apple 原生,地图,圆形,images/macos-original/v1/icons/macos-maps-circle.png,512×512,166710,images/macos-original/v1/thumbnails/macos-maps-circle.png,256×256,52233,已复核
+Apple 原生,信息,圆角矩形,images/macos-original/v1/icons/macos-messages-rectangle.png,720×405,64879,images/macos-original/v1/thumbnails/macos-messages-rectangle.png,320×180,23035,已复核
+Apple 原生,信息,圆角正方形,images/macos-original/v1/icons/macos-messages-square.png,512×512,155200,images/macos-original/v1/thumbnails/macos-messages-square.png,256×256,49967,已复核
+Apple 原生,信息,圆形,images/macos-original/v1/icons/macos-messages-circle.png,512×512,135718,images/macos-original/v1/thumbnails/macos-messages-circle.png,256×256,42194,已复核
+Apple 原生,调度中心,圆角矩形,images/macos-original/v1/icons/macos-mission-control-rectangle.png,720×405,49729,images/macos-original/v1/thumbnails/macos-mission-control-rectangle.png,320×180,16499,已复核
+Apple 原生,调度中心,圆角正方形,images/macos-original/v1/icons/macos-mission-control-square.png,512×512,125718,images/macos-original/v1/thumbnails/macos-mission-control-square.png,256×256,41182,已复核
+Apple 原生,调度中心,圆形,images/macos-original/v1/icons/macos-mission-control-circle.png,512×512,103478,images/macos-original/v1/thumbnails/macos-mission-control-circle.png,256×256,30404,已复核
+Apple 原生,音乐,圆角矩形,images/macos-original/v1/icons/macos-music-rectangle.png,720×405,71424,images/macos-original/v1/thumbnails/macos-music-rectangle.png,320×180,20540,已复核
+Apple 原生,音乐,圆角正方形,images/macos-original/v1/icons/macos-music-square.png,512×512,174173,images/macos-original/v1/thumbnails/macos-music-square.png,256×256,52390,已复核
+Apple 原生,音乐,圆形,images/macos-original/v1/icons/macos-music-circle.png,512×512,168235,images/macos-original/v1/thumbnails/macos-music-circle.png,256×256,50072,已复核
+Apple 原生,新闻,圆角矩形,images/macos-original/v1/icons/macos-news-rectangle.png,720×405,78814,images/macos-original/v1/thumbnails/macos-news-rectangle.png,320×180,24458,已复核
+Apple 原生,新闻,圆角正方形,images/macos-original/v1/icons/macos-news-square.png,512×512,180482,images/macos-original/v1/thumbnails/macos-news-square.png,256×256,52951,已复核
+Apple 原生,新闻,圆形,images/macos-original/v1/icons/macos-news-circle.png,512×512,178495,images/macos-original/v1/thumbnails/macos-news-circle.png,256×256,51130,已复核
+Apple 原生,备忘录,圆角矩形,images/macos-original/v1/icons/macos-notes-rectangle.png,720×405,14480,images/macos-original/v1/thumbnails/macos-notes-rectangle.png,320×180,11918,已复核
+Apple 原生,备忘录,圆角正方形,images/macos-original/v1/icons/macos-notes-square.png,512×512,134420,images/macos-original/v1/thumbnails/macos-notes-square.png,256×256,47541,已复核
+Apple 原生,备忘录,圆形,images/macos-original/v1/icons/macos-notes-circle.png,512×512,123341,images/macos-original/v1/thumbnails/macos-notes-circle.png,256×256,44479,已复核
+Apple 原生,密码,圆角矩形,images/macos-original/v1/icons/macos-passwords-rectangle.png,720×405,74571,images/macos-original/v1/thumbnails/macos-passwords-rectangle.png,320×180,24465,已复核
+Apple 原生,密码,圆角正方形,images/macos-original/v1/icons/macos-passwords-square.png,512×512,183830,images/macos-original/v1/thumbnails/macos-passwords-square.png,256×256,57150,已复核
+Apple 原生,密码,圆形,images/macos-original/v1/icons/macos-passwords-circle.png,512×512,165593,images/macos-original/v1/thumbnails/macos-passwords-circle.png,256×256,47717,已复核
+Apple 原生,电话,圆角矩形,images/macos-original/v1/icons/macos-phone-rectangle.png,720×405,72399,images/macos-original/v1/thumbnails/macos-phone-rectangle.png,320×180,24355,已复核
+Apple 原生,电话,圆角正方形,images/macos-original/v1/icons/macos-phone-square.png,512×512,172426,images/macos-original/v1/thumbnails/macos-phone-square.png,256×256,56855,已复核
+Apple 原生,电话,圆形,images/macos-original/v1/icons/macos-phone-circle.png,512×512,154428,images/macos-original/v1/thumbnails/macos-phone-circle.png,256×256,51388,已复核
+Apple 原生,照片亭,圆角矩形,images/macos-original/v1/icons/macos-photo-booth-rectangle.png,720×405,55798,images/macos-original/v1/thumbnails/macos-photo-booth-rectangle.png,320×180,24038,已复核
+Apple 原生,照片亭,圆角正方形,images/macos-original/v1/icons/macos-photo-booth-square.png,512×512,139701,images/macos-original/v1/thumbnails/macos-photo-booth-square.png,256×256,43812,已复核
+Apple 原生,照片亭,圆形,images/macos-original/v1/icons/macos-photo-booth-circle.png,512×512,119282,images/macos-original/v1/thumbnails/macos-photo-booth-circle.png,256×256,33373,已复核
+Apple 原生,照片,圆角矩形,images/macos-original/v1/icons/macos-photos-rectangle.png,720×405,82941,images/macos-original/v1/thumbnails/macos-photos-rectangle.png,320×180,26270,已复核
+Apple 原生,照片,圆角正方形,images/macos-original/v1/icons/macos-photos-square.png,512×512,193549,images/macos-original/v1/thumbnails/macos-photos-square.png,256×256,61052,已复核
+Apple 原生,照片,圆形,images/macos-original/v1/icons/macos-photos-circle.png,512×512,193949,images/macos-original/v1/thumbnails/macos-photos-circle.png,256×256,58688,已复核
+Apple 原生,播客,圆角矩形,images/macos-original/v1/icons/macos-podcasts-rectangle.png,720×405,86866,images/macos-original/v1/thumbnails/macos-podcasts-rectangle.png,320×180,28530,已复核
+Apple 原生,播客,圆角正方形,images/macos-original/v1/icons/macos-podcasts-square.png,512×512,204541,images/macos-original/v1/thumbnails/macos-podcasts-square.png,256×256,62580,已复核
+Apple 原生,播客,圆形,images/macos-original/v1/icons/macos-podcasts-circle.png,512×512,195790,images/macos-original/v1/thumbnails/macos-podcasts-circle.png,256×256,59716,已复核
+Apple 原生,预览,圆角矩形,images/macos-original/v1/icons/macos-preview-rectangle.png,720×405,105676,images/macos-original/v1/thumbnails/macos-preview-rectangle.png,320×180,33611,已复核
+Apple 原生,预览,圆角正方形,images/macos-original/v1/icons/macos-preview-square.png,512×512,218993,images/macos-original/v1/thumbnails/macos-preview-square.png,256×256,73252,已复核
+Apple 原生,预览,圆形,images/macos-original/v1/icons/macos-preview-circle.png,512×512,223334,images/macos-original/v1/thumbnails/macos-preview-circle.png,256×256,71564,已复核
+Apple 原生,QuickTime Player,圆角矩形,images/macos-original/v1/icons/macos-quicktime-player-rectangle.png,720×405,87837,images/macos-original/v1/thumbnails/macos-quicktime-player-rectangle.png,320×180,27309,已复核
+Apple 原生,QuickTime Player,圆角正方形,images/macos-original/v1/icons/macos-quicktime-player-square.png,512×512,217995,images/macos-original/v1/thumbnails/macos-quicktime-player-square.png,256×256,62856,已复核
+Apple 原生,QuickTime Player,圆形,images/macos-original/v1/icons/macos-quicktime-player-circle.png,512×512,221038,images/macos-original/v1/thumbnails/macos-quicktime-player-circle.png,256×256,60954,已复核
+Apple 原生,提醒事项,圆角矩形,images/macos-original/v1/icons/macos-reminders-rectangle.png,720×405,62127,images/macos-original/v1/thumbnails/macos-reminders-rectangle.png,320×180,22021,已复核
+Apple 原生,提醒事项,圆角正方形,images/macos-original/v1/icons/macos-reminders-square.png,512×512,145753,images/macos-original/v1/thumbnails/macos-reminders-square.png,256×256,50489,已复核
+Apple 原生,提醒事项,圆形,images/macos-original/v1/icons/macos-reminders-circle.png,512×512,144509,images/macos-original/v1/thumbnails/macos-reminders-circle.png,256×256,48544,已复核
+Apple 原生,Safari 浏览器,圆角矩形,images/macos-original/v1/icons/macos-safari-rectangle.png,720×405,70889,images/macos-original/v1/thumbnails/macos-safari-rectangle.png,320×180,26186,已复核
+Apple 原生,Safari 浏览器,圆角正方形,images/macos-original/v1/icons/macos-safari-square.png,512×512,125722,images/macos-original/v1/thumbnails/macos-safari-square.png,256×256,44896,已复核
+Apple 原生,Safari 浏览器,圆形,images/macos-original/v1/icons/macos-safari-circle.png,512×512,141833,images/macos-original/v1/thumbnails/macos-safari-circle.png,256×256,49427,已复核
+Apple 原生,快捷指令,圆角矩形,images/macos-original/v1/icons/macos-shortcuts-rectangle.png,720×405,84672,images/macos-original/v1/thumbnails/macos-shortcuts-rectangle.png,320×180,27673,已复核
+Apple 原生,快捷指令,圆角正方形,images/macos-original/v1/icons/macos-shortcuts-square.png,512×512,199067,images/macos-original/v1/thumbnails/macos-shortcuts-square.png,256×256,62533,已复核
+Apple 原生,快捷指令,圆形,images/macos-original/v1/icons/macos-shortcuts-circle.png,512×512,184294,images/macos-original/v1/thumbnails/macos-shortcuts-circle.png,256×256,56674,已复核
+Apple 原生,Siri AI,圆角矩形,images/macos-original/v3/icons/macos-siri-ai-rectangle.png,720×405,274667,images/macos-original/v3/thumbnails/macos-siri-ai-rectangle.png,320×180,55192,已复核
+Apple 原生,Siri AI,圆角正方形,images/macos-original/v1/icons/macos-siri-ai-square.png,512×512,225160,images/macos-original/v1/thumbnails/macos-siri-ai-square.png,256×256,68695,已复核
+Apple 原生,Siri AI,圆形,images/macos-original/v1/icons/macos-siri-ai-circle.png,512×512,229390,images/macos-original/v1/thumbnails/macos-siri-ai-circle.png,256×256,67531,已复核
+Apple 原生,Siri,圆角矩形,images/macos-original/v1/icons/macos-siri-rectangle.png,720×405,150218,images/macos-original/v1/thumbnails/macos-siri-rectangle.png,320×180,44992,已复核
+Apple 原生,Siri,圆角正方形,images/macos-original/v1/icons/macos-siri-square.png,512×512,249200,images/macos-original/v1/thumbnails/macos-siri-square.png,256×256,83512,已复核
+Apple 原生,Siri,圆形,images/macos-original/v1/icons/macos-siri-circle.png,512×512,250744,images/macos-original/v1/thumbnails/macos-siri-circle.png,256×256,77873,已复核
+Apple 原生,便笺,圆角矩形,images/macos-original/v1/icons/macos-stickies-rectangle.png,720×405,73365,images/macos-original/v1/thumbnails/macos-stickies-rectangle.png,320×180,21730,已复核
+Apple 原生,便笺,圆角正方形,images/macos-original/v1/icons/macos-stickies-square.png,512×512,186508,images/macos-original/v1/thumbnails/macos-stickies-square.png,256×256,53403,已复核
+Apple 原生,便笺,圆形,images/macos-original/v1/icons/macos-stickies-circle.png,512×512,181640,images/macos-original/v1/thumbnails/macos-stickies-circle.png,256×256,52266,已复核
+Apple 原生,股市,圆角矩形,images/macos-original/v1/icons/macos-stocks-rectangle.png,720×405,41721,images/macos-original/v1/thumbnails/macos-stocks-rectangle.png,320×180,26615,已复核
+Apple 原生,股市,圆角正方形,images/macos-original/v1/icons/macos-stocks-square.png,512×512,159843,images/macos-original/v1/thumbnails/macos-stocks-square.png,256×256,56425,已复核
+Apple 原生,股市,圆形,images/macos-original/v1/icons/macos-stocks-circle.png,512×512,147490,images/macos-original/v1/thumbnails/macos-stocks-circle.png,256×256,49921,已复核
+Apple 原生,系统设置,圆角矩形,images/macos-original/v1/icons/macos-system-settings-rectangle.png,720×405,149161,images/macos-original/v1/thumbnails/macos-system-settings-rectangle.png,320×180,43100,已复核
+Apple 原生,系统设置,圆角正方形,images/macos-original/v1/icons/macos-system-settings-square.png,512×512,260133,images/macos-original/v1/thumbnails/macos-system-settings-square.png,256×256,85217,已复核
+Apple 原生,系统设置,圆形,images/macos-original/v1/icons/macos-system-settings-circle.png,512×512,259554,images/macos-original/v1/thumbnails/macos-system-settings-circle.png,256×256,83092,已复核
+Apple 原生,文本编辑,圆角矩形,images/macos-original/v1/icons/macos-textedit-rectangle.png,720×405,13933,images/macos-original/v1/thumbnails/macos-textedit-rectangle.png,320×180,10150,已复核
+Apple 原生,文本编辑,圆角正方形,images/macos-original/v1/icons/macos-textedit-square.png,512×512,128809,images/macos-original/v1/thumbnails/macos-textedit-square.png,256×256,44760,已复核
+Apple 原生,文本编辑,圆形,images/macos-original/v1/icons/macos-textedit-circle.png,512×512,121223,images/macos-original/v1/thumbnails/macos-textedit-circle.png,256×256,41833,已复核
+Apple 原生,时间机器,圆角矩形,images/macos-original/v1/icons/macos-time-machine-rectangle.png,720×405,81772,images/macos-original/v1/thumbnails/macos-time-machine-rectangle.png,320×180,28233,已复核
+Apple 原生,时间机器,圆角正方形,images/macos-original/v1/icons/macos-time-machine-square.png,512×512,194053,images/macos-original/v1/thumbnails/macos-time-machine-square.png,256×256,61082,已复核
+Apple 原生,时间机器,圆形,images/macos-original/v1/icons/macos-time-machine-circle.png,512×512,194828,images/macos-original/v1/thumbnails/macos-time-machine-circle.png,256×256,58716,已复核
+Apple 原生,提示,圆角矩形,images/macos-original/v1/icons/macos-tips-rectangle.png,720×405,54929,images/macos-original/v1/thumbnails/macos-tips-rectangle.png,320×180,19458,已复核
+Apple 原生,提示,圆角正方形,images/macos-original/v1/icons/macos-tips-square.png,512×512,121536,images/macos-original/v1/thumbnails/macos-tips-square.png,256×256,40354,已复核
+Apple 原生,提示,圆形,images/macos-original/v1/icons/macos-tips-circle.png,512×512,110749,images/macos-original/v1/thumbnails/macos-tips-circle.png,256×256,37117,已复核
+Apple 原生,电视,圆角矩形,images/macos-original/v4/icons/macos-tv-rectangle.png,720×405,249956,images/macos-original/v4/thumbnails/macos-tv-rectangle.png,320×180,48119,已复核
+Apple 原生,电视,圆角正方形,images/macos-original/v1/icons/macos-tv-square.png,512×512,191215,images/macos-original/v1/thumbnails/macos-tv-square.png,256×256,62565,已复核
+Apple 原生,电视,圆形,images/macos-original/v1/icons/macos-tv-circle.png,512×512,173929,images/macos-original/v1/thumbnails/macos-tv-circle.png,256×256,55023,已复核
+Apple 原生,语音备忘录,圆角矩形,images/macos-original/v1/icons/macos-voice-memos-rectangle.png,720×405,27290,images/macos-original/v1/thumbnails/macos-voice-memos-rectangle.png,320×180,13848,已复核
+Apple 原生,语音备忘录,圆角正方形,images/macos-original/v1/icons/macos-voice-memos-square.png,512×512,151554,images/macos-original/v1/thumbnails/macos-voice-memos-square.png,256×256,49880,已复核
+Apple 原生,语音备忘录,圆形,images/macos-original/v1/icons/macos-voice-memos-circle.png,512×512,130343,images/macos-original/v1/thumbnails/macos-voice-memos-circle.png,256×256,41292,已复核
+Apple 原生,天气,圆角矩形,images/macos-original/v1/icons/macos-weather-rectangle.png,720×405,73508,images/macos-original/v1/thumbnails/macos-weather-rectangle.png,320×180,24287,已复核
+Apple 原生,天气,圆角正方形,images/macos-original/v1/icons/macos-weather-square.png,512×512,168873,images/macos-original/v1/thumbnails/macos-weather-square.png,256×256,55466,已复核
+Apple 原生,天气,圆形,images/macos-original/v1/icons/macos-weather-circle.png,512×512,154190,images/macos-original/v1/thumbnails/macos-weather-circle.png,256×256,51567,已复核
+Apple 原生,无线诊断,圆角矩形,images/macos-original/v3/icons/macos-wireless-diagnostics-rectangle.png,720×405,292803,images/macos-original/v3/thumbnails/macos-wireless-diagnostics-rectangle.png,320×180,59155,已复核
+Apple 原生,无线诊断,圆角正方形,images/macos-original/v1/icons/macos-wireless-diagnostics-square.png,512×512,153110,images/macos-original/v1/thumbnails/macos-wireless-diagnostics-square.png,256×256,55159,已复核
+Apple 原生,无线诊断,圆形,images/macos-original/v1/icons/macos-wireless-diagnostics-circle.png,512×512,146119,images/macos-original/v1/thumbnails/macos-wireless-diagnostics-circle.png,256×256,50164,已复核
+Apple 原生,活动监视器,圆角矩形,images/macos-original/v1/icons/macos-activity-monitor-rectangle.png,720×405,52664,images/macos-original/v1/thumbnails/macos-activity-monitor-rectangle.png,320×180,29415,已复核
+Apple 原生,活动监视器,圆角正方形,images/macos-original/v1/icons/macos-activity-monitor-square.png,512×512,146825,images/macos-original/v1/thumbnails/macos-activity-monitor-square.png,256×256,51074,已复核
+Apple 原生,活动监视器,圆形,images/macos-original/v1/icons/macos-activity-monitor-circle.png,512×512,135780,images/macos-original/v1/thumbnails/macos-activity-monitor-circle.png,256×256,43968,已复核
+Apple 原生,AirPort 实用工具,圆角矩形,images/macos-original/v1/icons/macos-airport-utility-rectangle.png,720×405,74981,images/macos-original/v1/thumbnails/macos-airport-utility-rectangle.png,320×180,23259,已复核
+Apple 原生,AirPort 实用工具,圆角正方形,images/macos-original/v1/icons/macos-airport-utility-square.png,512×512,177336,images/macos-original/v1/thumbnails/macos-airport-utility-square.png,256×256,56829,已复核
+Apple 原生,AirPort 实用工具,圆形,images/macos-original/v1/icons/macos-airport-utility-circle.png,512×512,172699,images/macos-original/v1/thumbnails/macos-airport-utility-circle.png,256×256,54883,已复核
+Apple 原生,音频 MIDI 设置,圆角矩形,images/macos-original/v1/icons/macos-audio-midi-setup-rectangle.png,720×405,72234,images/macos-original/v1/thumbnails/macos-audio-midi-setup-rectangle.png,320×180,25060,已复核
+Apple 原生,音频 MIDI 设置,圆角正方形,images/macos-original/v1/icons/macos-audio-midi-setup-square.png,512×512,176837,images/macos-original/v1/thumbnails/macos-audio-midi-setup-square.png,256×256,57363,已复核
+Apple 原生,音频 MIDI 设置,圆形,images/macos-original/v1/icons/macos-audio-midi-setup-circle.png,512×512,162425,images/macos-original/v1/thumbnails/macos-audio-midi-setup-circle.png,256×256,46933,已复核
+Apple 原生,蓝牙文件交换,圆角矩形,images/macos-original/v1/icons/macos-bluetooth-file-exchange-rectangle.png,720×405,79853,images/macos-original/v1/thumbnails/macos-bluetooth-file-exchange-rectangle.png,320×180,25874,已复核
+Apple 原生,蓝牙文件交换,圆角正方形,images/macos-original/v1/icons/macos-bluetooth-file-exchange-square.png,512×512,188198,images/macos-original/v1/thumbnails/macos-bluetooth-file-exchange-square.png,256×256,60770,已复核
+Apple 原生,蓝牙文件交换,圆形,images/macos-original/v1/icons/macos-bluetooth-file-exchange-circle.png,512×512,170505,images/macos-original/v1/thumbnails/macos-bluetooth-file-exchange-circle.png,256×256,55645,已复核
+Apple 原生,ColorSync 实用工具,圆角矩形,images/macos-original/v1/icons/macos-colorsync-utility-rectangle.png,720×405,88217,images/macos-original/v1/thumbnails/macos-colorsync-utility-rectangle.png,320×180,27339,已复核
+Apple 原生,ColorSync 实用工具,圆角正方形,images/macos-original/v1/icons/macos-colorsync-utility-square.png,512×512,195947,images/macos-original/v1/thumbnails/macos-colorsync-utility-square.png,256×256,64929,已复核
+Apple 原生,ColorSync 实用工具,圆形,images/macos-original/v1/icons/macos-colorsync-utility-circle.png,512×512,182233,images/macos-original/v1/thumbnails/macos-colorsync-utility-circle.png,256×256,56527,已复核
+Apple 原生,控制台,圆角矩形,images/macos-original/v1/icons/macos-console-rectangle.png,720×405,49013,images/macos-original/v1/thumbnails/macos-console-rectangle.png,320×180,25968,已复核
+Apple 原生,控制台,圆角正方形,images/macos-original/v1/icons/macos-console-square.png,512×512,219105,images/macos-original/v1/thumbnails/macos-console-square.png,256×256,73262,已复核
+Apple 原生,控制台,圆形,images/macos-original/v1/icons/macos-console-circle.png,512×512,208143,images/macos-original/v1/thumbnails/macos-console-circle.png,256×256,65610,已复核
+Apple 原生,数码测色计,圆角矩形,images/macos-original/v1/icons/macos-digital-color-meter-rectangle.png,720×405,84599,images/macos-original/v1/thumbnails/macos-digital-color-meter-rectangle.png,320×180,28767,已复核
+Apple 原生,数码测色计,圆角正方形,images/macos-original/v1/icons/macos-digital-color-meter-square.png,512×512,195536,images/macos-original/v1/thumbnails/macos-digital-color-meter-square.png,256×256,61526,已复核
+Apple 原生,数码测色计,圆形,images/macos-original/v1/icons/macos-digital-color-meter-circle.png,512×512,196438,images/macos-original/v1/thumbnails/macos-digital-color-meter-circle.png,256×256,58672,已复核
+Apple 原生,磁盘工具,圆角矩形,images/macos-original/v1/icons/macos-disk-utility-rectangle.png,720×405,64241,images/macos-original/v1/thumbnails/macos-disk-utility-rectangle.png,320×180,24225,已复核
+Apple 原生,磁盘工具,圆角正方形,images/macos-original/v1/icons/macos-disk-utility-square.png,512×512,145113,images/macos-original/v1/thumbnails/macos-disk-utility-square.png,256×256,48496,已复核
+Apple 原生,磁盘工具,圆形,images/macos-original/v1/icons/macos-disk-utility-circle.png,512×512,130614,images/macos-original/v1/thumbnails/macos-disk-utility-circle.png,256×256,40539,已复核
+Apple 原生,绘图器,圆角矩形,images/macos-original/v1/icons/macos-grapher-rectangle.png,720×405,155180,images/macos-original/v1/thumbnails/macos-grapher-rectangle.png,320×180,53428,已复核
+Apple 原生,绘图器,圆角正方形,images/macos-original/v1/icons/macos-grapher-square.png,512×512,237085,images/macos-original/v1/thumbnails/macos-grapher-square.png,256×256,79371,已复核
+Apple 原生,绘图器,圆形,images/macos-original/v1/icons/macos-grapher-circle.png,512×512,234812,images/macos-original/v1/thumbnails/macos-grapher-circle.png,256×256,72990,已复核
+Apple 原生,放大器,圆角矩形,images/macos-original/v1/icons/macos-magnifier-rectangle.png,720×405,62823,images/macos-original/v1/thumbnails/macos-magnifier-rectangle.png,320×180,22357,已复核
+Apple 原生,放大器,圆角正方形,images/macos-original/v1/icons/macos-magnifier-square.png,512×512,146075,images/macos-original/v1/thumbnails/macos-magnifier-square.png,256×256,52164,已复核
+Apple 原生,放大器,圆形,images/macos-original/v1/icons/macos-magnifier-circle.png,512×512,126946,images/macos-original/v1/thumbnails/macos-magnifier-circle.png,256×256,43803,已复核
+Apple 原生,迁移助理,圆角矩形,images/macos-original/v1/icons/macos-migration-assistant-rectangle.png,720×405,86420,images/macos-original/v1/thumbnails/macos-migration-assistant-rectangle.png,320×180,26295,已复核
+Apple 原生,迁移助理,圆角正方形,images/macos-original/v1/icons/macos-migration-assistant-square.png,512×512,203437,images/macos-original/v1/thumbnails/macos-migration-assistant-square.png,256×256,59054,已复核
+Apple 原生,迁移助理,圆形,images/macos-original/v1/icons/macos-migration-assistant-circle.png,512×512,205497,images/macos-original/v1/thumbnails/macos-migration-assistant-circle.png,256×256,58583,已复核
+Apple 原生,打印中心,圆角矩形,images/macos-original/v1/icons/macos-print-center-rectangle.png,720×405,67054,images/macos-original/v1/thumbnails/macos-print-center-rectangle.png,320×180,23190,已复核
+Apple 原生,打印中心,圆角正方形,images/macos-original/v1/icons/macos-print-center-square.png,512×512,152027,images/macos-original/v1/thumbnails/macos-print-center-square.png,256×256,50156,已复核
+Apple 原生,打印中心,圆形,images/macos-original/v1/icons/macos-print-center-circle.png,512×512,139415,images/macos-original/v1/thumbnails/macos-print-center-circle.png,256×256,45395,已复核
+Apple 原生,屏幕共享,圆角矩形,images/macos-original/v1/icons/macos-screen-sharing-rectangle.png,720×405,70597,images/macos-original/v1/thumbnails/macos-screen-sharing-rectangle.png,320×180,23450,已复核
+Apple 原生,屏幕共享,圆角正方形,images/macos-original/v1/icons/macos-screen-sharing-square.png,512×512,181278,images/macos-original/v1/thumbnails/macos-screen-sharing-square.png,256×256,55365,已复核
+Apple 原生,屏幕共享,圆形,images/macos-original/v1/icons/macos-screen-sharing-circle.png,512×512,174051,images/macos-original/v1/thumbnails/macos-screen-sharing-circle.png,256×256,50838,已复核
+Apple 原生,截屏,圆角矩形,images/macos-original/v1/icons/macos-screenshot-rectangle.png,720×405,68933,images/macos-original/v1/thumbnails/macos-screenshot-rectangle.png,320×180,22761,已复核
+Apple 原生,截屏,圆角正方形,images/macos-original/v1/icons/macos-screenshot-square.png,512×512,160682,images/macos-original/v1/thumbnails/macos-screenshot-square.png,256×256,50973,已复核
+Apple 原生,截屏,圆形,images/macos-original/v1/icons/macos-screenshot-circle.png,512×512,158682,images/macos-original/v1/thumbnails/macos-screenshot-circle.png,256×256,48233,已复核
+Apple 原生,脚本编辑器,圆角矩形,images/macos-original/v3/icons/macos-script-editor-rectangle.png,720×405,241411,images/macos-original/v3/thumbnails/macos-script-editor-rectangle.png,320×180,49158,已复核
+Apple 原生,脚本编辑器,圆角正方形,images/macos-original/v1/icons/macos-script-editor-square.png,512×512,184267,images/macos-original/v1/thumbnails/macos-script-editor-square.png,256×256,56015,已复核
+Apple 原生,脚本编辑器,圆形,images/macos-original/v1/icons/macos-script-editor-circle.png,512×512,176024,images/macos-original/v1/thumbnails/macos-script-editor-circle.png,256×256,54276,已复核
+Apple 原生,系统信息,圆角矩形,images/macos-original/v1/icons/macos-system-information-rectangle.png,720×405,74013,images/macos-original/v1/thumbnails/macos-system-information-rectangle.png,320×180,24979,已复核
+Apple 原生,系统信息,圆角正方形,images/macos-original/v1/icons/macos-system-information-square.png,512×512,171911,images/macos-original/v1/thumbnails/macos-system-information-square.png,256×256,55468,已复核
+Apple 原生,系统信息,圆形,images/macos-original/v1/icons/macos-system-information-circle.png,512×512,165215,images/macos-original/v1/thumbnails/macos-system-information-circle.png,256×256,54051,已复核
+Apple 原生,终端,圆角矩形,images/macos-original/v1/icons/macos-terminal-rectangle.png,720×405,33438,images/macos-original/v1/thumbnails/macos-terminal-rectangle.png,320×180,14377,已复核
+Apple 原生,终端,圆角正方形,images/macos-original/v1/icons/macos-terminal-square.png,512×512,136040,images/macos-original/v1/thumbnails/macos-terminal-square.png,256×256,49635,已复核
+Apple 原生,终端,圆形,images/macos-original/v1/icons/macos-terminal-circle.png,512×512,111457,images/macos-original/v1/thumbnails/macos-terminal-circle.png,256×256,40867,已复核
+Apple 原生,旁白实用工具,圆角矩形,images/macos-original/v1/icons/macos-voiceover-utility-rectangle.png,720×405,88748,images/macos-original/v1/thumbnails/macos-voiceover-utility-rectangle.png,320×180,30882,已复核
+Apple 原生,旁白实用工具,圆角正方形,images/macos-original/v1/icons/macos-voiceover-utility-square.png,512×512,187970,images/macos-original/v1/thumbnails/macos-voiceover-utility-square.png,256×256,62970,已复核
+Apple 原生,旁白实用工具,圆形,images/macos-original/v1/icons/macos-voiceover-utility-circle.png,512×512,181637,images/macos-original/v1/thumbnails/macos-voiceover-utility-circle.png,256×256,58174,已复核
+Apple 原生,Apple Developer,圆角矩形,images/macos-original/v1/icons/macos-apple-developer-rectangle.png,720×405,79246,images/macos-original/v1/thumbnails/macos-apple-developer-rectangle.png,320×180,27308,已复核
+Apple 原生,Apple Developer,圆角正方形,images/macos-original/v1/icons/macos-apple-developer-square.png,512×512,182228,images/macos-original/v1/thumbnails/macos-apple-developer-square.png,256×256,58707,已复核
+Apple 原生,Apple Developer,圆形,images/macos-original/v1/icons/macos-apple-developer-circle.png,512×512,177014,images/macos-original/v1/thumbnails/macos-apple-developer-circle.png,256×256,54775,已复核
+Apple 原生,TestFlight,圆角矩形,images/macos-original/v1/icons/macos-testflight-rectangle.png,720×405,87814,images/macos-original/v1/thumbnails/macos-testflight-rectangle.png,320×180,27629,已复核
+Apple 原生,TestFlight,圆角正方形,images/macos-original/v1/icons/macos-testflight-square.png,512×512,212410,images/macos-original/v1/thumbnails/macos-testflight-square.png,256×256,64104,已复核
+Apple 原生,TestFlight,圆形,images/macos-original/v1/icons/macos-testflight-circle.png,512×512,205279,images/macos-original/v1/thumbnails/macos-testflight-circle.png,256×256,59299,已复核
+Apple 原生,Xcode,圆角矩形,images/macos-original/v1/icons/macos-xcode-rectangle.png,720×405,87396,images/macos-original/v1/thumbnails/macos-xcode-rectangle.png,320×180,27076,已复核
+Apple 原生,Xcode,圆角正方形,images/macos-original/v1/icons/macos-xcode-square.png,512×512,208440,images/macos-original/v1/thumbnails/macos-xcode-square.png,256×256,65358,已复核
+Apple 原生,Xcode,圆形,images/macos-original/v1/icons/macos-xcode-circle.png,512×512,196950,images/macos-original/v1/thumbnails/macos-xcode-circle.png,256×256,60569,已复核
