@@ -3459,20 +3459,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 79020,
-        "sha256": "818b5a756850033838a0c3496d1d6743499e8248f6b102212bac5c709bdc0535",
-        "path": "images/macos-original/v1/icons/macos-tv-rectangle.png"
+        "bytes": 249956,
+        "sha256": "6ed1fcb5763305ed9fcd5fd3bc4122292f41589a0b1ac51251203133008271e6",
+        "path": "images/macos-original/v4/icons/macos-tv-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 24407,
-        "sha256": "524c8a2955bad09ee430ff998eda7f0f2bf399faa1bb01d67cac1133f6e0a3d3",
-        "path": "images/macos-original/v1/thumbnails/macos-tv-rectangle.png"
+        "bytes": 48119,
+        "sha256": "56fcbf97ee1924717a01c4aeabe90b2d5e74d7e0202ff83a3198a6b3a05242ba",
+        "path": "images/macos-original/v4/thumbnails/macos-tv-rectangle.png"
       },
-      "sourceSha256": "818b5a756850033838a0c3496d1d6743499e8248f6b102212bac5c709bdc0535",
+      "sourceSha256": "6ed1fcb5763305ed9fcd5fd3bc4122292f41589a0b1ac51251203133008271e6",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "确认稿保留彩色 Apple TV 标志，以连续黑灰渐变统一整幅底板。已复核视觉对照、缩略图与固定轮廓。"
     },
     {
       "id": "macos-tv",
@@ -5405,6 +5405,29 @@
         "path": "images/macos-original/v1/thumbnails/macos-script-editor-rectangle.png"
       },
       "sourceSha256": "4116480857e02a841c4ae73fc98d83e3e6b8c3050023e939efdc2bf79ddc7dd8",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-tv",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 79020,
+        "sha256": "818b5a756850033838a0c3496d1d6743499e8248f6b102212bac5c709bdc0535",
+        "path": "images/macos-original/v1/icons/macos-tv-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 24407,
+        "sha256": "524c8a2955bad09ee430ff998eda7f0f2bf399faa1bb01d67cac1133f6e0a3d3",
+        "path": "images/macos-original/v1/thumbnails/macos-tv-rectangle.png"
+      },
+      "sourceSha256": "818b5a756850033838a0c3496d1d6743499e8248f6b102212bac5c709bdc0535",
       "method": "approved-png-exact",
       "review": "定稿原字节，核对正式尺寸和缩略图。"
     }
