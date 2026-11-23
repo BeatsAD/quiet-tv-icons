@@ -216,20 +216,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 64497,
-        "sha256": "8a4ef14dfc915cfb58376a3accde20e62ea26f545264fa0b58bd131c3a79c0fc",
-        "path": "images/macos-original/v1/icons/macos-archive-utility-rectangle.png"
+        "bytes": 271615,
+        "sha256": "23bcfa0e22e959af96bb2281187cb06cc0d3d29731266cce33396f17dc7f9d3c",
+        "path": "images/macos-original/v3/icons/macos-archive-utility-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 22989,
-        "sha256": "8cabe35b950bbf6b2cd34daeeb26434c1cb122bc4dc3d705dc8a728ae50a13c7",
-        "path": "images/macos-original/v1/thumbnails/macos-archive-utility-rectangle.png"
+        "bytes": 51395,
+        "sha256": "9d9f47ae48a3d2f13f95d01dcbe3410ae117f4cb6112e115d5be6ee69cb9b340",
+        "path": "images/macos-original/v3/thumbnails/macos-archive-utility-rectangle.png"
       },
-      "sourceSha256": "8a4ef14dfc915cfb58376a3accde20e62ea26f545264fa0b58bd131c3a79c0fc",
+      "sourceSha256": "23bcfa0e22e959af96bb2281187cb06cc0d3d29731266cce33396f17dc7f9d3c",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "拉链头和齿带完整，加宽主体以提高缩略图辨识度。 已复核 160×90 缩略效果及固定轮廓。"
     },
     {
       "id": "macos-archive-utility",
@@ -285,20 +285,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 65298,
-        "sha256": "b1eed24695c172255479d7cce551a8c46d51c5952e572f0795e085cefa44a281",
-        "path": "images/macos-original/v1/icons/macos-automator-rectangle.png"
+        "bytes": 288055,
+        "sha256": "b154b039079896f373ea6a2db16ec740b5e6cee0935624ba96e87f0cc498b544",
+        "path": "images/macos-original/v3/icons/macos-automator-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 24041,
-        "sha256": "7fe3034882122259cc75794843900eb2558d56ae3989d2875850810a8c207ea1",
-        "path": "images/macos-original/v1/thumbnails/macos-automator-rectangle.png"
+        "bytes": 55857,
+        "sha256": "74f47f7f1996a025018ea7e9f76acc8f8003fbf228732b04e5f845fb26801f81",
+        "path": "images/macos-original/v3/thumbnails/macos-automator-rectangle.png"
       },
-      "sourceSha256": "b1eed24695c172255479d7cce551a8c46d51c5952e572f0795e085cefa44a281",
+      "sourceSha256": "b154b039079896f373ea6a2db16ec740b5e6cee0935624ba96e87f0cc498b544",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "机器人蓝色面罩和底座边缘清晰。 已复核 160×90 缩略效果及固定轮廓。"
     },
     {
       "id": "macos-automator",
@@ -561,20 +561,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 109966,
-        "sha256": "967c485f614331c08b8a6567674705dc15ae282eea74690e08547979bea232f6",
-        "path": "images/macos-original/v1/icons/macos-chess-rectangle.png"
+        "bytes": 341385,
+        "sha256": "9474e717f7cfa6b700363fff8509459130a9bbd49491f52003ec29a70af17a84",
+        "path": "images/macos-original/v3/icons/macos-chess-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 31870,
-        "sha256": "320824232d1f8d57dd98fe3f60874bb279e512fcabf736dcde9a9bb66442e1c4",
-        "path": "images/macos-original/v1/thumbnails/macos-chess-rectangle.png"
+        "bytes": 64478,
+        "sha256": "cb09585bdef3830fad6acd1a5b1d324ad43aed4fdecac07f0f2c784da6f2c959",
+        "path": "images/macos-original/v3/thumbnails/macos-chess-rectangle.png"
       },
-      "sourceSha256": "967c485f614331c08b8a6567674705dc15ae282eea74690e08547979bea232f6",
+      "sourceSha256": "9474e717f7cfa6b700363fff8509459130a9bbd49491f52003ec29a70af17a84",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "棋盘贯穿整张横版，银色棋子轮廓完整。 已复核 160×90 缩略效果及固定轮廓。"
     },
     {
       "id": "macos-chess",
@@ -1320,20 +1320,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 114794,
-        "sha256": "908e0313b0bfc176592de90ccdc34c4660eac2e7fdf580d5809a3395213076dc",
-        "path": "images/macos-original/v1/icons/macos-image-capture-rectangle.png"
+        "bytes": 326065,
+        "sha256": "f960e3aef8492fd2532d8475d979f4842ceaa077fb588aad1f7cc974a10985ac",
+        "path": "images/macos-original/v3/icons/macos-image-capture-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 34324,
-        "sha256": "38fba17dbbdb43c9fc60f92793dd863f2fcad66eb80f48ef9f65121ac8fa233e",
-        "path": "images/macos-original/v1/thumbnails/macos-image-capture-rectangle.png"
+        "bytes": 66945,
+        "sha256": "159d21794baa1d45cbddc364c9d69929689dfc2b69352ebed48104d83f76963c",
+        "path": "images/macos-original/v3/thumbnails/macos-image-capture-rectangle.png"
       },
-      "sourceSha256": "908e0313b0bfc176592de90ccdc34c4660eac2e7fdf580d5809a3395213076dc",
+      "sourceSha256": "f960e3aef8492fd2532d8475d979f4842ceaa077fb588aad1f7cc974a10985ac",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "彩虹照片和导入箭头保留，去掉悬浮亮带。 已复核 160×90 缩略效果及固定轮廓。"
     },
     {
       "id": "macos-image-capture",
@@ -2907,20 +2907,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 113979,
-        "sha256": "c9a8ebd855a82db0f59bd0ae1bef765cef113c3721ac183a4ac3770a65c87115",
-        "path": "images/macos-original/v1/icons/macos-siri-ai-rectangle.png"
+        "bytes": 274667,
+        "sha256": "a9d8cc2c7ec99c35d0b9b699d6a1eac9ae8cd8473ea6cebb2e972d8b189bcedb",
+        "path": "images/macos-original/v3/icons/macos-siri-ai-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 32125,
-        "sha256": "980525aba05df3f935934c4dab236672d61a1d484a0973e21b76895871a27586",
-        "path": "images/macos-original/v1/thumbnails/macos-siri-ai-rectangle.png"
+        "bytes": 55192,
+        "sha256": "40a67f8ea7be5361c788e3070dc9882ccc8d200ecfc778e2022490e1c48ceb3c",
+        "path": "images/macos-original/v3/thumbnails/macos-siri-ai-rectangle.png"
       },
-      "sourceSha256": "c9a8ebd855a82db0f59bd0ae1bef765cef113c3721ac183a4ac3770a65c87115",
+      "sourceSha256": "a9d8cc2c7ec99c35d0b9b699d6a1eac9ae8cd8473ea6cebb2e972d8b189bcedb",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "增加球体外缘亮线，保留内部冷色光带。 已复核 160×90 缩略效果及固定轮廓。"
     },
     {
       "id": "macos-siri-ai",
@@ -3666,20 +3666,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 75079,
-        "sha256": "c367c2defa3c3ca26f59920222338f80ac88238a8fbfeb828ad0c4c86b881749",
-        "path": "images/macos-original/v1/icons/macos-wireless-diagnostics-rectangle.png"
+        "bytes": 292803,
+        "sha256": "448e48c3c03c54a44dc36b7e2a5e89fd18762bf9583a9c8fec6a94e379125e6f",
+        "path": "images/macos-original/v3/icons/macos-wireless-diagnostics-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 27463,
-        "sha256": "99fa8440c4afa20b40f87face200584fc26d34668736f6a67948d607e2cadc1d",
-        "path": "images/macos-original/v1/thumbnails/macos-wireless-diagnostics-rectangle.png"
+        "bytes": 59155,
+        "sha256": "241cde05807da654279d9ff82b3f201abea8d9332efe6c6fef9b391bb243aa07",
+        "path": "images/macos-original/v3/thumbnails/macos-wireless-diagnostics-rectangle.png"
       },
-      "sourceSha256": "c367c2defa3c3ca26f59920222338f80ac88238a8fbfeb828ad0c4c86b881749",
+      "sourceSha256": "448e48c3c03c54a44dc36b7e2a5e89fd18762bf9583a9c8fec6a94e379125e6f",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "Wi-Fi 标识和扳手手柄完整。 已复核 160×90 缩略效果及固定轮廓。"
     },
     {
       "id": "macos-wireless-diagnostics",
@@ -4701,20 +4701,20 @@
       "image": {
         "width": 720,
         "height": 405,
-        "bytes": 78820,
-        "sha256": "4116480857e02a841c4ae73fc98d83e3e6b8c3050023e939efdc2bf79ddc7dd8",
-        "path": "images/macos-original/v1/icons/macos-script-editor-rectangle.png"
+        "bytes": 241411,
+        "sha256": "b4dd5a270cb27f759f8bbfd770b91c58e4276220ad4c82bc54ec8036bb9f96eb",
+        "path": "images/macos-original/v3/icons/macos-script-editor-rectangle.png"
       },
       "thumbnail": {
         "width": 320,
         "height": 180,
-        "bytes": 23640,
-        "sha256": "27e1741f8eb6ca85453fe79dc7ca2a0e57ff281765df7e60ff54b7843c8f4484",
-        "path": "images/macos-original/v1/thumbnails/macos-script-editor-rectangle.png"
+        "bytes": 49158,
+        "sha256": "442abc7e69350736c400dcb27688e35c0511cc40fb43e6399123ca3fe2a304d1",
+        "path": "images/macos-original/v3/thumbnails/macos-script-editor-rectangle.png"
       },
-      "sourceSha256": "4116480857e02a841c4ae73fc98d83e3e6b8c3050023e939efdc2bf79ddc7dd8",
+      "sourceSha256": "b4dd5a270cb27f759f8bbfd770b91c58e4276220ad4c82bc54ec8036bb9f96eb",
       "method": "approved-png-exact",
-      "review": "定稿原字节，核对正式尺寸和缩略图。"
+      "review": "强化卷轴折边与浅蓝灰底板之间的对比度。 已复核 160×90 缩略效果及固定轮廓。"
     },
     {
       "id": "macos-script-editor",
@@ -5244,6 +5244,167 @@
         "path": "images/macos-original/v1/thumbnails/macos-maps-rectangle.png"
       },
       "sourceSha256": "99ae1948e50c54ce3ed8212593e8901a186363a8272f1b08694e5cabfe4d7023",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-archive-utility",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 64497,
+        "sha256": "8a4ef14dfc915cfb58376a3accde20e62ea26f545264fa0b58bd131c3a79c0fc",
+        "path": "images/macos-original/v1/icons/macos-archive-utility-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 22989,
+        "sha256": "8cabe35b950bbf6b2cd34daeeb26434c1cb122bc4dc3d705dc8a728ae50a13c7",
+        "path": "images/macos-original/v1/thumbnails/macos-archive-utility-rectangle.png"
+      },
+      "sourceSha256": "8a4ef14dfc915cfb58376a3accde20e62ea26f545264fa0b58bd131c3a79c0fc",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-automator",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 65298,
+        "sha256": "b1eed24695c172255479d7cce551a8c46d51c5952e572f0795e085cefa44a281",
+        "path": "images/macos-original/v1/icons/macos-automator-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 24041,
+        "sha256": "7fe3034882122259cc75794843900eb2558d56ae3989d2875850810a8c207ea1",
+        "path": "images/macos-original/v1/thumbnails/macos-automator-rectangle.png"
+      },
+      "sourceSha256": "b1eed24695c172255479d7cce551a8c46d51c5952e572f0795e085cefa44a281",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-chess",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 109966,
+        "sha256": "967c485f614331c08b8a6567674705dc15ae282eea74690e08547979bea232f6",
+        "path": "images/macos-original/v1/icons/macos-chess-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 31870,
+        "sha256": "320824232d1f8d57dd98fe3f60874bb279e512fcabf736dcde9a9bb66442e1c4",
+        "path": "images/macos-original/v1/thumbnails/macos-chess-rectangle.png"
+      },
+      "sourceSha256": "967c485f614331c08b8a6567674705dc15ae282eea74690e08547979bea232f6",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-image-capture",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 114794,
+        "sha256": "908e0313b0bfc176592de90ccdc34c4660eac2e7fdf580d5809a3395213076dc",
+        "path": "images/macos-original/v1/icons/macos-image-capture-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 34324,
+        "sha256": "38fba17dbbdb43c9fc60f92793dd863f2fcad66eb80f48ef9f65121ac8fa233e",
+        "path": "images/macos-original/v1/thumbnails/macos-image-capture-rectangle.png"
+      },
+      "sourceSha256": "908e0313b0bfc176592de90ccdc34c4660eac2e7fdf580d5809a3395213076dc",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-siri-ai",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 113979,
+        "sha256": "c9a8ebd855a82db0f59bd0ae1bef765cef113c3721ac183a4ac3770a65c87115",
+        "path": "images/macos-original/v1/icons/macos-siri-ai-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 32125,
+        "sha256": "980525aba05df3f935934c4dab236672d61a1d484a0973e21b76895871a27586",
+        "path": "images/macos-original/v1/thumbnails/macos-siri-ai-rectangle.png"
+      },
+      "sourceSha256": "c9a8ebd855a82db0f59bd0ae1bef765cef113c3721ac183a4ac3770a65c87115",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-wireless-diagnostics",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 75079,
+        "sha256": "c367c2defa3c3ca26f59920222338f80ac88238a8fbfeb828ad0c4c86b881749",
+        "path": "images/macos-original/v1/icons/macos-wireless-diagnostics-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 27463,
+        "sha256": "99fa8440c4afa20b40f87face200584fc26d34668736f6a67948d607e2cadc1d",
+        "path": "images/macos-original/v1/thumbnails/macos-wireless-diagnostics-rectangle.png"
+      },
+      "sourceSha256": "c367c2defa3c3ca26f59920222338f80ac88238a8fbfeb828ad0c4c86b881749",
+      "method": "approved-png-exact",
+      "review": "定稿原字节，核对正式尺寸和缩略图。"
+    },
+    {
+      "id": "macos-script-editor",
+      "style": "macos-original",
+      "shape": "rectangle",
+      "form": "icon",
+      "image": {
+        "width": 720,
+        "height": 405,
+        "bytes": 78820,
+        "sha256": "4116480857e02a841c4ae73fc98d83e3e6b8c3050023e939efdc2bf79ddc7dd8",
+        "path": "images/macos-original/v1/icons/macos-script-editor-rectangle.png"
+      },
+      "thumbnail": {
+        "width": 320,
+        "height": 180,
+        "bytes": 23640,
+        "sha256": "27e1741f8eb6ca85453fe79dc7ca2a0e57ff281765df7e60ff54b7843c8f4484",
+        "path": "images/macos-original/v1/thumbnails/macos-script-editor-rectangle.png"
+      },
+      "sourceSha256": "4116480857e02a841c4ae73fc98d83e3e6b8c3050023e939efdc2bf79ddc7dd8",
       "method": "approved-png-exact",
       "review": "定稿原字节，核对正式尺寸和缩略图。"
     }
