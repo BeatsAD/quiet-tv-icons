@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate template exports, prepare review sheets, and stage reviewed Apple icons."""
+"""Validate template exports, prepare review sheets, and stage reviewed icons."""
 import argparse
 import base64
 import binascii
@@ -13,6 +13,7 @@ import struct
 import zlib
 
 SHAPES = ('rectangle', 'square', 'circle')
+STYLES = ('apple', 'skeuo')
 ID = re.compile(r'[a-z][a-z0-9-]{0,47}')
 SHA = re.compile(r'[a-f0-9]{64}')
 
@@ -140,7 +141,7 @@ def warnings(row, reference, rules):
 
 def check_row(row, directory, rules, profile_hash, published=False):
     require(row['exporter'] == rules['exporter'] and row['profileSha256'] == profile_hash, 'Export profile differs; export again')
-    require(ID.fullmatch(row['id']) and row['style'] == 'apple' and row['form'] == 'icon' and row['shape'] in SHAPES, 'Unsupported design identity')
+    require(ID.fullmatch(row['id']) and row['style'] in STYLES and row['form'] == 'icon' and row['shape'] in SHAPES, 'Unsupported design identity')
     references = {r['id']: r for r in rules['references']}
     require(row['reference'] in references, 'Unknown visual reference')
     reference = references[row['reference']]['variants'][row['shape']]
@@ -149,7 +150,7 @@ def check_row(row, directory, rules, profile_hash, published=False):
         key = 'path' if published else 'file'
         path = local(directory, asset[key])
         if published:
-            require(re.fullmatch(r"images/apple/v[1-9][0-9]*/" + ('icons' if role == 'image' else 'thumbnails') + '/' + row['id'] + '-' + row['shape'] + r'\.png', asset[key]), 'Unexpected published design path')
+            require(re.fullmatch(fr"images/{row['style']}/v[1-9][0-9]*/" + ('icons' if role == 'image' else 'thumbnails') + '/' + row['id'] + '-' + row['shape'] + r'\.png', asset[key]), 'Unexpected published design path')
         else:
             require(asset[key] == f"{'icons' if role == 'image' else 'thumbnails'}/{row['id']}-{row['shape']}.png", 'Unexpected export filename')
         data = path.read_bytes()
@@ -177,7 +178,7 @@ def check_row(row, directory, rules, profile_hash, published=False):
 
 def complete_shapes(rows):
     require(len(rows) == 3 and {r['shape'] for r in rows} == set(SHAPES), 'Each export must include three shapes')
-    require(len({(r['name'], r['nameEn'], r['reference']) for r in rows}) == 1, 'Shape identities or visual references differ')
+    require(len({(r['name'], r['nameEn'], r['style'], r['reference']) for r in rows}) == 1, 'Shape identities or visual references differ')
     square = next(r for r in rows if r['shape'] == 'square')
     circle = next(r for r in rows if r['shape'] == 'circle')
     require(square['foreground'] == circle['foreground'], 'Square and circle must reuse the same foreground')
@@ -351,11 +352,11 @@ def stage(args):
         require(not flags or args.deviation_note.strip(), f'{row["id"]} {row["shape"]} needs deviation review: {flags}')
         registered = json.loads(json.dumps(row))
         registered['review'] = dict(note=args.review_note, deviationNote=args.deviation_note)
-        item = items.setdefault(row['id'], dict(id=row['id'], style='apple', name=row['name'], nameEn=row['nameEn'], source='Quiet TV custom icon design', variants=[]))
+        item = items.setdefault(row['id'], dict(id=row['id'], style=row['style'], name=row['name'], nameEn=row['nameEn'], source='Quiet TV custom icon design', variants=[]))
         variant = dict(shape=row['shape'], form='icon')
         for role in ('image', 'thumbnail'):
             asset = registered[role]
-            relative = f"images/apple/v{args.resource_version}/{'icons' if role == 'image' else 'thumbnails'}/{row['id']}-{row['shape']}.png"
+            relative = f"images/{row['style']}/v{args.resource_version}/{'icons' if role == 'image' else 'thumbnails'}/{row['id']}-{row['shape']}.png"
             target = local(args.root, relative)
             require(not target.exists(), f'Immutable path already exists: {relative}')
             writes.append((target, local(args.export, asset.pop('file')).read_bytes()))

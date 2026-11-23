@@ -1,6 +1,6 @@
 # Quiet TV 在线图标库
 
-Quiet TV 定制应用图标。覆盖 69 款应用和通用入口，其中苹果风格 69 款、拟物化 68 款。每款设计提供圆角矩形、圆角正方形和圆形，共 411 个形状版本及对应缩略图。全部为 RGBA 8-bit PNG，外轮廓以外透明。
+Quiet TV 定制应用图标。覆盖 72 款应用和通用入口，其中苹果风格 72 款、拟物化 71 款。每款设计提供圆角矩形、圆角正方形和圆形，共 429 个形状版本及对应缩略图。全部为 RGBA 8-bit PNG，外轮廓以外透明。
 
 | 形状 | 正式图 | 缩略图 |
 | --- | --- | --- |
@@ -16,14 +16,16 @@ Quiet TV 定制应用图标。覆盖 69 款应用和通用入口，其中苹果�
 
 下载顺序与 Quiet TV 在线更新一致：ghfast.top、gh-proxy.com、v4.gh-proxy.org，然后 GitHub Pages、GitHub Raw。第三方镜像可能不可用，客户端会依次回退并验证内容。
 
-`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物化三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。新增应用助手、通知、天光云影使用 `images/apple/v4/`。应用助手、通知、天光云影的拟物化使用 `images/skeuo/v2/`。当前目录 revision 为 12，应用匹配规则 revision 为 4；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
+`latest.signed.json` 为客户端目录，`catalog.json` 为网页目录，`public-key.der` 为公开验签密钥。原长方形图片路径 `images/apple/v1/` 保持不变，新增两种形状使用 `images/apple/v2/`，文件名分别为 `<id>-square.png` 和 `<id>-circle.png`。本批天气、媒体中心、电信 IPTV、文件管理器三种形状使用 `images/apple/v3/`。拟物化三种形状使用独立路径 `images/skeuo/v1/`，文件名为 `<id>-rectangle.png`、`<id>-square.png` 和 `<id>-circle.png`。原有苹果风格资源保持原路径和原字节。新增应用助手、通知、天光云影使用 `images/apple/v4/`。应用助手、通知、天光云影的拟物化使用 `images/skeuo/v2/`。当前目录 revision 为 13，应用匹配规则 revision 为 5；新增或修订使用新版本路径并递增目录 revision。私钥只保存在维护者本地。
 
 苹果和拟物化共 137 个条目、411 个形状版本的正式图与缩略图均使用统一尺寸和固定轮廓。历史成品标准化新增资源位于 `images/apple/v7/`、`images/skeuo/v3/`，共迁移 241 个形状版本；其余 170 个已符合模板的版本复用原文件。主体与配色沿用原设计，只调整外部留白、补齐旧底板并应用统一轮廓；原有图片路径和字节全部保留。处理和复核规则见[裁剪工作台说明](tools/CROP.md)。
 
 
 验证：`python3 tools/validate.py verify --root .`。CI 验证通过后才部署 GitHub Pages。
 
-新增或修订苹果图标使用[统一导出器](https://beatsad.github.io/quiet-tv-icons/tools/export.html)及[制作与发布规范](tools/design/README.md)：透明主体按六款确认稿标定，背景与三种形状按固定模板导出，每批生成深浅背景和小尺寸对照稿。新资源必须登记视觉复核结果；外轮廓、主体裁切、尺寸、格式或哈希错误阻止签名和发布，主体比例偏差超过 5% 时须填写复核原因。历史 PNG 只允许按固定哈希复用。此检查仅在制作和 CI 阶段运行，不增加电视端下载和运行工作。
+新增或修订的苹果风格和拟物化图标使用[统一导出器](https://beatsad.github.io/quiet-tv-icons/tools/export.html)及[制作与发布规范](tools/design/README.md)：透明主体按六款确认稿标定，背景与三种形状按固定模板导出，每批生成深浅背景和小尺寸对照稿。新资源必须登记视觉复核结果；外轮廓、主体裁切、尺寸、格式或哈希错误阻止签名和发布，主体比例偏差超过 5% 时须填写复核原因。历史 PNG 只允许按固定哈希复用。此检查仅在制作和 CI 阶段运行，不增加电视端下载和运行工作。
+
+新增日历、通用投屏和电视管家，提供苹果风格与拟物化的三种形状。日历、电视管家归入系统工具，投屏归入投屏互联；三项均可手动选择，批量替换时须确认匹配。资源分别位于 `images/apple/v8/` 和 `images/skeuo/v4/`。本批签名目录超过 Quiet TV 2.0.0 和 2.0.1 的 256 KiB 上限，电视端读取本批在线目录需使用 2.0.2 或更新版本。
 
 签名目录内的 `matches` 同步提供主题别名、核实包名和 `autoMatch` 确认状态，规则 revision 随规则内容变化递增，目录 revision 随任何发布变化递增。新主题必须一同登记匹配规则；身份待核对的项目使用 `autoMatch=false`，客户端不自动勾选。旧客户端可以读取同一目录并忽略新增字段，支持在线匹配规则的客户端优先使用已验签规则。
 
